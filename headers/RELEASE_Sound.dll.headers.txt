@@ -1,0 +1,1496 @@
+RELEASE_Sound.dll
+MZ header
+	lfanew=110
+	dos entrypoint = 0000:0000
+	dos stack = 0000:00B8
+PE header
+	Machine=14C
+	Number of sections=4
+	Time/Date =1181602884
+	SymbolTable at 0
+	Symbolcount = 0
+	OptionalHeader size = E0
+	Characteristics = 210E (Executable, No line numbers, No local symbols, 32-bit, DLL)
+	-----optional-----
+	Optional magic number = 10B 
+	Major linker version = 6 
+	Minor linker version = 0 
+	Size of code = 4000 (16384) 
+	Size of initialized data = 5000 (20480)
+	Size of uninitialized data = 0 (0) 
+	Entry point = 00004C3D 
+	Base of code = 00001000 
+	Base of data = 00005000 
+	Prefered imagebase = 10000000 
+	Section allignment = 1000 
+	File Alignment = 1000 
+	Major Operating System Version = 4 
+	Major Image Version = 0 
+	Minor Image Version = 0 
+	Major Subsystem Version = 4 
+	Minor Subsystem Version = 0 
+	Win32 Version Value = 0 
+	Size Of Image = A000 
+	Size Of Headers = 1000 
+	CheckSum = 0 
+	Subsystem = 2 
+	Dll Characteristics = 0 
+	Size Of Stack Reserve = 100000 
+	Size Of Stack Commit = 1000 
+	Size Of Heap Reserve = 100000 
+	Size Of Heap Commit = 1000 
+	Loader Flags = 0 
+	Number Of Rva And Sizes = 16 
+		0832CA20 - 00005CB0 - 934 (Export table)
+			Characteristics=0 (should be 0)
+			Time datastamp=466DD443
+			Major version=0
+			Minor version=0
+			Name = 5F30 (RELEASE_Sound.dll)
+			Base = 1
+			NumberOfFunctions = 60
+			NumberOfNames = 60
+			AddressOfFunctions = 5CD8
+				2BA0
+				1000
+				2990
+				2E47
+				2F06
+				2D96
+				10E9
+				2FC9
+				2C40
+				2A60
+				51CC
+				3AE0
+				397D
+				1FF7
+				325D
+				3519
+				2181
+				2190
+				2960
+				3A54
+				3CF4
+				3C17
+				2D8C
+				2056
+				1180
+				39CE
+				392A
+				2970
+				3235
+				2B90
+				137B
+				1FC4
+				36F7
+				1EEB
+				18F3
+				35C3
+				17E4
+				3250
+				3177
+				38BF
+				20C8
+				3025
+				20E0
+				37A4
+				1D75
+				3669
+				1E2C
+				1C8F
+				3038
+				7154
+				7034
+				7024
+				7020
+				7158
+				7130
+				7150
+				714C
+				711C
+				7120
+				7118
+			AddressOfNames = 5DC8
+				??0CMidi@@QAE@ABV0@@Z
+				??0CMidi@@QAE@XZ
+				??0CWave@@QAE@ABV0@@Z
+				??0CWave@@QAE@ABVCString@@@Z
+				??0CWave@@QAE@IPAUHINSTANCE__@@@Z
+				??0CWave@@QAE@XZ
+				??1CMidi@@QAE@XZ
+				??1CWave@@UAE@XZ
+				??4CMidi@@QAEAAV0@ABV0@@Z
+				??4CWave@@QAEAAV0@ABV0@@Z
+				??_7CWave@@6B@
+				?CheckFormat@CWave@@IAEHXZ
+				?CleanupDirectSound@CWave@@IAEXXZ
+				?Continue@CMidi@@QAEHXZ
+				?Create@CWave@@QAEHABVCString@@@Z
+				?Create@CWave@@QAEHIPAUHINSTANCE__@@@Z
+				?Disable@CMidi@@SAXXZ
+				?Enable@CMidi@@SAXXZ
+				?Enable@CWave@@SAX_N@Z
+				?Free@CWave@@IAEHXZ
+				?GetData@CWave@@IBEKAAPAEK@Z
+				?GetDataLen@CWave@@IBEKXZ
+				?GetHWND@CWave@@SAPAUHWND__@@XZ
+				?GetVolume@CMidi@@QAEKXZ
+				?Init@CMidi@@QAEHXZ
+				?InitDSBuffer@CWave@@IAEHXZ
+				?InitDirectSound@CWave@@IAEHXZ
+				?IsValid@CWave@@IBEHXZ
+				?LoadAudio@CWave@@IAEXXZ
+				?LoadConsistentDSSounds@CMidi@@QAEXXZ
+				?LoadSong@CMidi@@QAEHPBD@Z
+				?Pause@CMidi@@QAEHXZ
+				?Pause@CWave@@QAEHXZ
+				?PauseAll@CMidi@@SAX_N@Z
+				?Play@CMidi@@QAEHHKII@Z
+				?Play@CWave@@QAEHJJH@Z
+				?ReadyThisObjectForPlay@CMidi@@QAEHXZ
+				?RegisterWindow@CWave@@SAXQAUHWND__@@@Z
+				?ReloadBuffer@CWave@@AAEHXZ
+				?SetCooperativeLevel@CWave@@IAEXXZ
+				?SetDefaultVolume@CMidi@@SAXK@Z
+				?SetIgnoreList@CWave@@SAXABV?$LIST@VCString@@@@@Z
+				?SetVolume@CMidi@@QAEHK@Z
+				?Start@CWave@@IAEHJJH@Z
+				?Stop@CMidi@@QAEHXZ
+				?Stop@CWave@@QAEHXZ
+				?StopAll@CMidi@@SAXXZ
+				?UnInit@CMidi@@QAEXXZ
+				?ZeroBuffer@CWave@@AAEHXZ
+				?m_CooperativeLevelSet@CWave@@0HA
+				?m_bEnableSound@CWave@@0_NA
+				?m_bEnabled@CMidi@@0HA
+				?m_dwDefaultVolume@CMidi@@0KA
+				?m_hwnd@CWave@@0PAUHWND__@@A
+				?m_lstDisabledSounds@CWave@@0V?$LIST@VCString@@@@A
+				?m_nDirectSoundReferences@CWave@@0HA
+				?m_pDirectSound@CWave@@0PAUIDirectSound@@A
+				?m_pPerformance@CMidi@@0PAUIDirectMusicPerformance@@A
+				?m_pPerformanceRefCount@CMidi@@0IA
+				?plstAllSounds@CMidi@@0PAV?$LIST@PAVCMidi@@@@A
+			AddressOfNameOrdinals = 5EB8
+		0832C4D8 - 00005768 - B4 (Import table)
+			Import 0 : WINMM.dll
+				Characteristics/OriginalFirstThunk=5984
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=59D4 : WINMM.dll
+				FirstThunk=5168
+				imports:
+					7105F6F0 (832BED8) - WINMM.mmioOpenA
+					7105F730 (832BEDC) - WINMM.mmioRead
+					7105F650 (832BEE0) - WINMM.mmioDescend
+					7105F5F0 (832BEE4) - WINMM.mmioAscend
+			Import 1 : DSOUND.dll
+				Characteristics/OriginalFirstThunk=581C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=59DE : DSOUND.dll
+				FirstThunk=5000
+				imports:
+					654BBFA0 (832BD70) - DSOUND.DirectSoundCreate
+			Import 2 : RELEASE_Common.dll
+				Characteristics/OriginalFirstThunk=5968
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=5A88 : RELEASE_Common.dll
+				FirstThunk=514C
+				imports:
+					A3361C (832BEBC) - RELEASE_Common.ExtractDirectory
+					A35071 (832BEC0) - RELEASE_Common.STRING::toupper
+					A35140 (832BEC4) - RELEASE_Common.STRING::strtok
+					A33531 (832BEC8) - RELEASE_Common.ExtractFileName
+			Import 3 : MFC42.DLL
+				Characteristics/OriginalFirstThunk=585C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=5A9C : MFC42.DLL
+				FirstThunk=5040
+				imports:
+					6C3C4132 (832BDB0) - MFC42.Ordinal4129
+					6C3C46AF (832BDB4) - MFC42.Ordinal6282
+					6C373941 (832BDB8) - MFC42.Ordinal537
+					6C3738C4 (832BDBC) - MFC42.Ordinal860
+					6C3CA573 (832BDC0) - MFC42.Ordinal3663
+					6C38A2FF (832BDC4) - MFC42.Ordinal5450
+					6C38A0E4 (832BDC8) - MFC42.Ordinal6394
+					6C371904 (832BDCC) - MFC42.Ordinal2841
+					6C373856 (832BDD0) - MFC42.Ordinal2107
+					6C374208 (832BDD4) - MFC42.Ordinal5440
+					6C373F94 (832BDD8) - MFC42.Ordinal6383
+					6C373876 (832BDDC) - MFC42.Ordinal825
+					6C37382D (832BDE0) - MFC42.Ordinal823
+					6C373EB0 (832BDE4) - MFC42.Ordinal535
+					6C38065E (832BDE8) - MFC42.Ordinal5442
+					6C37403B (832BDEC) - MFC42.Ordinal858
+					6C3C40AD (832BDF0) - MFC42.Ordinal5710
+					6C376D6C (832BDF4) - MFC42.Ordinal3318
+					6C376C18 (832BDF8) - MFC42.Ordinal665
+					6C380352 (832BDFC) - MFC42.Ordinal5186
+					6C377331 (832BE00) - MFC42.Ordinal354
+					6C38A37E (832BE04) - MFC42.Ordinal924
+					6C382060 (832BE08) - MFC42.Ordinal2763
+					6C3D07F4 (832BE0C) - MFC42.Ordinal1271
+					6C3C4732 (832BE10) - MFC42.Ordinal2448
+					6C3CEF98 (832BE14) - MFC42.Ordinal5834
+					6C3C4703 (832BE18) - MFC42.Ordinal2044
+					6C37654D (832BE1C) - MFC42.Ordinal826
+					6C37B44B (832BE20) - MFC42.Ordinal269
+					6C371BD1 (832BE24) - MFC42.Ordinal1578
+					6C371B5A (832BE28) - MFC42.Ordinal6467
+					6C380273 (832BE2C) - MFC42.Ordinal1255
+					6C387796 (832BE30) - MFC42.Ordinal1253
+					6C373F15 (832BE34) - MFC42.Ordinal922
+					6C37198E (832BE38) - MFC42.Ordinal540
+					6C37191C (832BE3C) - MFC42.Ordinal800
+					6C3729E6 (832BE40) - MFC42.Ordinal1570
+					6C3729DD (832BE44) - MFC42.Ordinal1197
+					6C375FDA (832BE48) - MFC42.Ordinal1243
+					6C37B38F (832BE4C) - MFC42.Ordinal342
+					6C37B0FD (832BE50) - MFC42.Ordinal1182
+					6C3874D7 (832BE54) - MFC42.Ordinal1577
+					6C371083 (832BE58) - MFC42.Ordinal1168
+					6C37B13F (832BE5C) - MFC42.Ordinal1575
+					6C371738 (832BE60) - MFC42.Ordinal1176
+					6C3CBDD2 (832BE64) - MFC42.Ordinal4204
+					6C3E9A22 (832BE68) - MFC42.Ordinal1116
+					6C387978 (832BE6C) - MFC42.Ordinal600
+			Import 4 : MSVCRT.dll
+				Characteristics/OriginalFirstThunk=5920
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=5B0A : MSVCRT.dll
+				FirstThunk=5104
+				imports:
+					75F16BE4 (832BE74) - MSVCRT.adjust_fdiv
+					75EA74F0 (832BE78) - MSVCRT.malloc
+					75EC6460 (832BE7C) - MSVCRT.initterm
+					75EA7310 (832BE80) - MSVCRT.free
+					75EB6DF0 (832BE84) - MSVCRT.onexit
+					75EB6D10 (832BE88) - MSVCRT._dllonexit
+					75E9A620 (832BE8C) - MSVCRT.terminate
+					75EB8124 (832BE90) - MSVCRT.except_handler3
+					75EA0E80 (832BE94) - MSVCRT.type_info::~type_info
+					75EE96A0 (832BE98) - MSVCRT.strcmp
+					75EE8CF0 (832BE9C) - MSVCRT.memcpy
+					75EFAC20 (832BEA0) - MSVCRT.ftol
+					75EE6780 (832BEA4) - MSVCRT.mbscpy
+					75EE94D0 (832BEA8) - MSVCRT.memset
+					75EEA170 (832BEAC) - MSVCRT.wcscpy
+					75E9A6B0 (832BEB0) - MSVCRT.CxxThrowException
+					75E9AFB0 (832BEB4) - MSVCRT._CxxFrameHandler3
+			Import 5 : KERNEL32.dll
+				Characteristics/OriginalFirstThunk=5824
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=5C68 : KERNEL32.dll
+				FirstThunk=5008
+				imports:
+					75CCE840 (832BD78) - KERNEL32.LoadResource
+					75CD0480 (832BD7C) - KERNEL32.SizeofResource
+					75CCF340 (832BD80) - KERNEL32.LockResource
+					75CD05F0 (832BD84) - KERNEL32.GlobalAlloc
+					75CCE180 (832BD88) - KERNEL32.GlobalLock
+					75CC2EB0 (832BD8C) - KERNEL32.FindResourceA
+					75CCFFC0 (832BD90) - KERNEL32.GlobalFree
+					75CCE0D0 (832BD94) - KERNEL32.GlobalUnlock
+					75CC7DE0 (832BD98) - KERNEL32.GlobalHandle
+					75CD23A0 (832BD9C) - KERNEL32.GetTickCount
+					75CCF530 (832BDA0) - KERNEL32.LocalFree
+					75CD0460 (832BDA4) - KERNEL32.LocalAlloc
+					75CCDF80 (832BDA8) - KERNEL32.MultiByteToWideChar
+			Import 6 : USER32.dll
+				Characteristics/OriginalFirstThunk=597C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=5C84 : USER32.dll
+				FirstThunk=5160
+				imports:
+					7665EE90 (832BED0) - USER32.MessageBoxA
+			Import 7 : ole32.dll
+				Characteristics/OriginalFirstThunk=5998
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=5CA4 : ole32.dll
+				FirstThunk=517C
+				imports:
+					7625DD90 (832BEEC) - combase.CoCreateInstance
+		08326D70 - 00000000 - 0 (Resource table)
+		08326D70 - 00000000 - 0 (Exception table)
+		08326D70 - 00000000 - 0 (Certificate table)
+		0832FD70 - 00009000 - 3DC (Base-Relocation table)
+			Virtual address base: 00001000 (size=E8 (232))
+				006 : 3
+				07B : 3
+				0B8 : 3
+				0C8 : 3
+				0EF : 3
+				11A : 3
+				125 : 3
+				134 : 3
+				186 : 3
+				1A7 : 3
+				1D8 : 3
+				1E4 : 3
+				1E9 : 3
+				1F2 : 3
+				1F8 : 3
+				208 : 3
+				232 : 3
+				27C : 3
+				285 : 3
+				28C : 3
+				2AC : 3
+				2BC : 3
+				2C3 : 3
+				2E9 : 3
+				2F8 : 3
+				301 : 3
+				30D : 3
+				316 : 3
+				31C : 3
+				32C : 3
+				344 : 3
+				35B : 3
+				381 : 3
+				3CD : 3
+				497 : 3
+				4B0 : 3
+				4C5 : 3
+				566 : 3
+				585 : 3
+				597 : 3
+				5D9 : 3
+				60B : 3
+				617 : 3
+				622 : 3
+				62E : 3
+				648 : 3
+				664 : 3
+				6AD : 3
+				6BF : 3
+				6CB : 3
+				70D : 3
+				71E : 3
+				72A : 3
+				76C : 3
+				789 : 3
+				80B : 3
+				827 : 3
+				83A : 3
+				85C : 3
+				870 : 3
+				88E : 3
+				89E : 3
+				972 : 3
+				98E : 3
+				9A1 : 3
+				9C3 : 3
+				9D7 : 3
+				9F5 : 3
+				A05 : 3
+				A69 : 3
+				A89 : 3
+				B97 : 3
+				B9F : 3
+				BE2 : 3
+				BEA : 3
+				C08 : 3
+				C10 : 3
+				C33 : 3
+				C3B : 3
+				C67 : 3
+				C6F : 3
+				CAF : 3
+				CBB : 3
+				D13 : 3
+				D1B : 3
+				D21 : 3
+				D2A : 3
+				D33 : 3
+				D3A : 3
+				D47 : 3
+				D4E : 3
+				D58 : 3
+				DA9 : 3
+				DD3 : 3
+				E05 : 3
+				E0D : 3
+				E34 : 3
+				E50 : 3
+				E63 : 3
+				E85 : 3
+				E99 : 3
+				EB7 : 3
+				EC7 : 3
+				EF3 : 3
+				F0F : 3
+				F22 : 3
+				F44 : 3
+				F58 : 3
+				F76 : 3
+				F86 : 3
+				FCD : 3
+				000 : 0
+			Virtual address base: 00002000 (size=5C (92))
+				01B : 3
+				061 : 3
+				08D : 3
+				092 : 3
+				09A : 3
+				0B5 : 3
+				0BB : 3
+				0CD : 3
+				0DA : 3
+				0EB : 3
+				12F : 3
+				14F : 3
+				155 : 3
+				15D : 3
+				186 : 3
+				195 : 3
+				1B6 : 3
+				2A4 : 3
+				426 : 3
+				441 : 3
+				7FC : 3
+				84C : 3
+				967 : 3
+				A44 : 3
+				B32 : 3
+				CF3 : 3
+				D14 : 3
+				D43 : 3
+				D52 : 3
+				D66 : 3
+				D73 : 3
+				D7C : 3
+				D81 : 3
+				D90 : 3
+				D9C : 3
+				E23 : 3
+				E4D : 3
+				ED4 : 3
+				F0C : 3
+				F93 : 3
+				FCF : 3
+				FEA : 3
+			Virtual address base: 00003000 (size=90 (144))
+				02D : 3
+				257 : 3
+				263 : 3
+				28F : 3
+				2E1 : 3
+				349 : 3
+				37B : 3
+				388 : 3
+				39E : 3
+				425 : 3
+				42C : 3
+				484 : 3
+				52B : 3
+				53E : 3
+				54F : 3
+				567 : 3
+				56E : 3
+				582 : 3
+				58F : 3
+				5CD : 3
+				5F6 : 3
+				611 : 3
+				62E : 3
+				675 : 3
+				686 : 3
+				6A3 : 3
+				703 : 3
+				717 : 3
+				734 : 3
+				7B0 : 3
+				7C4 : 3
+				8C8 : 3
+				8D3 : 3
+				8DF : 3
+				8E6 : 3
+				8ED : 3
+				8FC : 3
+				901 : 3
+				909 : 3
+				91E : 3
+				933 : 3
+				93D : 3
+				94E : 3
+				957 : 3
+				95F : 3
+				967 : 3
+				970 : 3
+				986 : 3
+				990 : 3
+				998 : 3
+				99E : 3
+				9A7 : 3
+				9AE : 3
+				9B8 : 3
+				9C2 : 3
+				9D9 : 3
+				A2B : 3
+				A33 : 3
+				A9E : 3
+				AB1 : 3
+				ABB : 3
+				AE6 : 3
+				C1D : 3
+				CFA : 3
+				DBB : 3
+				DC2 : 3
+				E66 : 3
+				F34 : 3
+			Virtual address base: 00004000 (size=110 (272))
+				0A6 : 3
+				0C1 : 3
+				106 : 3
+				546 : 3
+				570 : 3
+				5E8 : 3
+				618 : 3
+				64A : 3
+				67C : 3
+				699 : 3
+				6BB : 3
+				726 : 3
+				72C : 3
+				732 : 3
+				738 : 3
+				73E : 3
+				744 : 3
+				74A : 3
+				750 : 3
+				756 : 3
+				75C : 3
+				762 : 3
+				768 : 3
+				76E : 3
+				774 : 3
+				77A : 3
+				780 : 3
+				786 : 3
+				78C : 3
+				792 : 3
+				798 : 3
+				79E : 3
+				7A4 : 3
+				7AA : 3
+				7B0 : 3
+				7B6 : 3
+				7BC : 3
+				7C2 : 3
+				7C8 : 3
+				7CE : 3
+				7D4 : 3
+				7DA : 3
+				7E0 : 3
+				7EF : 3
+				7FF : 3
+				80E : 3
+				837 : 3
+				843 : 3
+				84D : 3
+				859 : 3
+				8B4 : 3
+				8F3 : 3
+				93B : 3
+				975 : 3
+				987 : 3
+				9C8 : 3
+				9D4 : 3
+				9DE : 3
+				A14 : 3
+				A3E : 3
+				A44 : 3
+				A4A : 3
+				A50 : 3
+				A5A : 3
+				A5F : 3
+				ADA : 3
+				ADF : 3
+				B4A : 3
+				B57 : 3
+				B5E : 3
+				B63 : 3
+				B88 : 3
+				B8E : 3
+				B9C : 3
+				BA4 : 3
+				BAA : 3
+				BB5 : 3
+				BC2 : 3
+				BCA : 3
+				BD8 : 3
+				BDD : 3
+				BE2 : 3
+				BE7 : 3
+				BF2 : 3
+				BFF : 3
+				C09 : 3
+				C1E : 3
+				C2A : 3
+				C30 : 3
+				C52 : 3
+				C64 : 3
+				CC0 : 3
+				CFE : 3
+				D04 : 3
+				D0A : 3
+				D10 : 3
+				D16 : 3
+				D1C : 3
+				D22 : 3
+				D28 : 3
+				D2E : 3
+				D34 : 3
+				D3A : 3
+				D40 : 3
+				D46 : 3
+				D4C : 3
+				D52 : 3
+				D58 : 3
+				D5E : 3
+				D64 : 3
+				D6A : 3
+				D70 : 3
+				D76 : 3
+				D7C : 3
+				DB7 : 3
+				DCD : 3
+				DE0 : 3
+				E20 : 3
+				E3A : 3
+				E5D : 3
+				E73 : 3
+				E89 : 3
+				E9F : 3
+				EE8 : 3
+				EFB : 3
+				F0E : 3
+				F21 : 3
+				F3A : 3
+				F5A : 3
+				F7A : 3
+				F8D : 3
+				000 : 0
+			Virtual address base: 00005000 (size=E0 (224))
+				190 : 3
+				194 : 3
+				198 : 3
+				19C : 3
+				1A0 : 3
+				1A4 : 3
+				1A8 : 3
+				1AC : 3
+				1B0 : 3
+				1B4 : 3
+				1B8 : 3
+				1BC : 3
+				1C0 : 3
+				1C4 : 3
+				1C8 : 3
+				1CC : 3
+				1D0 : 3
+				1D4 : 3
+				1D8 : 3
+				1DC : 3
+				1E0 : 3
+				1E4 : 3
+				1E8 : 3
+				1EC : 3
+				1F0 : 3
+				1F4 : 3
+				1F8 : 3
+				1FC : 3
+				200 : 3
+				204 : 3
+				208 : 3
+				2BC : 3
+				2C0 : 3
+				2C8 : 3
+				2CC : 3
+				2D8 : 3
+				2E4 : 3
+				2E8 : 3
+				2F0 : 3
+				308 : 3
+				320 : 3
+				338 : 3
+				33C : 3
+				340 : 3
+				354 : 3
+				364 : 3
+				368 : 3
+				370 : 3
+				388 : 3
+				39C : 3
+				3AC : 3
+				3B0 : 3
+				3C0 : 3
+				3DC : 3
+				3E4 : 3
+				3F0 : 3
+				40C : 3
+				418 : 3
+				420 : 3
+				43C : 3
+				458 : 3
+				464 : 3
+				46C : 3
+				478 : 3
+				480 : 3
+				494 : 3
+				49C : 3
+				4A4 : 3
+				4AC : 3
+				4B4 : 3
+				4D8 : 3
+				4EC : 3
+				4F4 : 3
+				514 : 3
+				524 : 3
+				530 : 3
+				54C : 3
+				558 : 3
+				574 : 3
+				580 : 3
+				59C : 3
+				5A8 : 3
+				5C4 : 3
+				5D0 : 3
+				5EC : 3
+				5F8 : 3
+				614 : 3
+				61C : 3
+				624 : 3
+				62C : 3
+				634 : 3
+				63C : 3
+				644 : 3
+				64C : 3
+				658 : 3
+				674 : 3
+				680 : 3
+				69C : 3
+				6A8 : 3
+				6C4 : 3
+				6D0 : 3
+				6EC : 3
+				6F8 : 3
+				714 : 3
+				720 : 3
+				73C : 3
+				748 : 3
+				764 : 3
+			Virtual address base: 00007000 (size=18 (24))
+				004 : 3
+				008 : 3
+				028 : 3
+				090 : 3
+				098 : 3
+				0B8 : 3
+				0D8 : 3
+				100 : 3
+		08326D70 - 00000000 - 0 (Debugging info table)
+		08326D70 - 00000000 - 0 (Architecture-Specific table)
+		08326D70 - 00000000 - 0 (Global pointer table)
+		08326D70 - 00000000 - 0 (TLS table)
+		08326D70 - 00000000 - 0 (Load config table)
+		08326D70 - 00000000 - 0 (Bound import table)
+		0832BD70 - 00005000 - 184 (import address table)
+		08326D70 - 00000000 - 0 (Delay import descriptor table)
+		08326D70 - 00000000 - 0 (CLR Runtime table)
+		08326D70 - 00000000 - 0 (reserved)
+	-----sections-----
+	.text
+		Virtual Size=3F96
+		Virtual Address=1000
+		size of raw data=4000
+		Pointer to raw data=1000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=60000020 (Executable code, executable memory, readable memory)
+	.rdata
+		Virtual Size=15E4
+		Virtual Address=5000
+		size of raw data=2000
+		Pointer to raw data=5000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=40000040 (Initialized data, readable memory)
+	.data
+		Virtual Size=121C
+		Virtual Address=7000
+		size of raw data=1000
+		Pointer to raw data=7000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=C0000040 (Initialized data, readable memory, writable memory)
+	.reloc
+		Virtual Size=49E
+		Virtual Address=9000
+		size of raw data=1000
+		Pointer to raw data=8000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=42000040 (Initialized data, discardable, readable memory)
+
+
+---Imports---
+WINMM.dll
+7105F6F0 (5168) - WINMM.mmioOpenA
+7105F730 (516C) - WINMM.mmioRead
+7105F650 (5170) - WINMM.mmioDescend
+7105F5F0 (5174) - WINMM.mmioAscend
+
+DSOUND.dll
+654BBFA0 (5000) - DSOUND.DirectSoundCreate
+
+RELEASE_Common.dll
+A3361C (514C) - RELEASE_Common.ExtractDirectory
+A35071 (5150) - RELEASE_Common.STRING::toupper
+A35140 (5154) - RELEASE_Common.STRING::strtok
+A33531 (5158) - RELEASE_Common.ExtractFileName
+
+MFC42.DLL
+6C3C4132 (5040) - MFC42.Ordinal4129
+6C3C46AF (5044) - MFC42.Ordinal6282
+6C373941 (5048) - MFC42.Ordinal537
+6C3738C4 (504C) - MFC42.Ordinal860
+6C3CA573 (5050) - MFC42.Ordinal3663
+6C38A2FF (5054) - MFC42.Ordinal5450
+6C38A0E4 (5058) - MFC42.Ordinal6394
+6C371904 (505C) - MFC42.Ordinal2841
+6C373856 (5060) - MFC42.Ordinal2107
+6C374208 (5064) - MFC42.Ordinal5440
+6C373F94 (5068) - MFC42.Ordinal6383
+6C373876 (506C) - MFC42.Ordinal825
+6C37382D (5070) - MFC42.Ordinal823
+6C373EB0 (5074) - MFC42.Ordinal535
+6C38065E (5078) - MFC42.Ordinal5442
+6C37403B (507C) - MFC42.Ordinal858
+6C3C40AD (5080) - MFC42.Ordinal5710
+6C376D6C (5084) - MFC42.Ordinal3318
+6C376C18 (5088) - MFC42.Ordinal665
+6C380352 (508C) - MFC42.Ordinal5186
+6C377331 (5090) - MFC42.Ordinal354
+6C38A37E (5094) - MFC42.Ordinal924
+6C382060 (5098) - MFC42.Ordinal2763
+6C3D07F4 (509C) - MFC42.Ordinal1271
+6C3C4732 (50A0) - MFC42.Ordinal2448
+6C3CEF98 (50A4) - MFC42.Ordinal5834
+6C3C4703 (50A8) - MFC42.Ordinal2044
+6C37654D (50AC) - MFC42.Ordinal826
+6C37B44B (50B0) - MFC42.Ordinal269
+6C371BD1 (50B4) - MFC42.Ordinal1578
+6C371B5A (50B8) - MFC42.Ordinal6467
+6C380273 (50BC) - MFC42.Ordinal1255
+6C387796 (50C0) - MFC42.Ordinal1253
+6C373F15 (50C4) - MFC42.Ordinal922
+6C37198E (50C8) - MFC42.Ordinal540
+6C37191C (50CC) - MFC42.Ordinal800
+6C3729E6 (50D0) - MFC42.Ordinal1570
+6C3729DD (50D4) - MFC42.Ordinal1197
+6C375FDA (50D8) - MFC42.Ordinal1243
+6C37B38F (50DC) - MFC42.Ordinal342
+6C37B0FD (50E0) - MFC42.Ordinal1182
+6C3874D7 (50E4) - MFC42.Ordinal1577
+6C371083 (50E8) - MFC42.Ordinal1168
+6C37B13F (50EC) - MFC42.Ordinal1575
+6C371738 (50F0) - MFC42.Ordinal1176
+6C3CBDD2 (50F4) - MFC42.Ordinal4204
+6C3E9A22 (50F8) - MFC42.Ordinal1116
+6C387978 (50FC) - MFC42.Ordinal600
+
+MSVCRT.dll
+75F16BE4 (5104) - MSVCRT.adjust_fdiv
+75EA74F0 (5108) - MSVCRT.malloc
+75EC6460 (510C) - MSVCRT.initterm
+75EA7310 (5110) - MSVCRT.free
+75EB6DF0 (5114) - MSVCRT.onexit
+75EB6D10 (5118) - MSVCRT._dllonexit
+75E9A620 (511C) - MSVCRT.terminate
+75EB8124 (5120) - MSVCRT.except_handler3
+75EA0E80 (5124) - MSVCRT.type_info::~type_info
+75EE96A0 (5128) - MSVCRT.strcmp
+75EE8CF0 (512C) - MSVCRT.memcpy
+75EFAC20 (5130) - MSVCRT.ftol
+75EE6780 (5134) - MSVCRT.mbscpy
+75EE94D0 (5138) - MSVCRT.memset
+75EEA170 (513C) - MSVCRT.wcscpy
+75E9A6B0 (5140) - MSVCRT.CxxThrowException
+75E9AFB0 (5144) - MSVCRT._CxxFrameHandler3
+
+KERNEL32.dll
+75CCE840 (5008) - KERNEL32.LoadResource
+75CD0480 (500C) - KERNEL32.SizeofResource
+75CCF340 (5010) - KERNEL32.LockResource
+75CD05F0 (5014) - KERNEL32.GlobalAlloc
+75CCE180 (5018) - KERNEL32.GlobalLock
+75CC2EB0 (501C) - KERNEL32.FindResourceA
+75CCFFC0 (5020) - KERNEL32.GlobalFree
+75CCE0D0 (5024) - KERNEL32.GlobalUnlock
+75CC7DE0 (5028) - KERNEL32.GlobalHandle
+75CD23A0 (502C) - KERNEL32.GetTickCount
+75CCF530 (5030) - KERNEL32.LocalFree
+75CD0460 (5034) - KERNEL32.LocalAlloc
+75CCDF80 (5038) - KERNEL32.MultiByteToWideChar
+
+USER32.dll
+7665EE90 (5160) - USER32.MessageBoxA
+
+ole32.dll
+7625DD90 (517C) - combase.CoCreateInstance
+
+
+---Exports---
+RELEASE_Sound.dll:
+2BA0 - ??0CMidi@@QAE@ABV0@@Z
+1000 - ??0CMidi@@QAE@XZ
+2990 - ??0CWave@@QAE@ABV0@@Z
+2E47 - ??0CWave@@QAE@ABVCString@@@Z
+2F06 - ??0CWave@@QAE@IPAUHINSTANCE__@@@Z
+2D96 - ??0CWave@@QAE@XZ
+10E9 - ??1CMidi@@QAE@XZ
+2FC9 - ??1CWave@@UAE@XZ
+2C40 - ??4CMidi@@QAEAAV0@ABV0@@Z
+2A60 - ??4CWave@@QAEAAV0@ABV0@@Z
+51CC - ??_7CWave@@6B@
+3AE0 - ?CheckFormat@CWave@@IAEHXZ
+397D - ?CleanupDirectSound@CWave@@IAEXXZ
+1FF7 - ?Continue@CMidi@@QAEHXZ
+325D - ?Create@CWave@@QAEHABVCString@@@Z
+3519 - ?Create@CWave@@QAEHIPAUHINSTANCE__@@@Z
+2181 - ?Disable@CMidi@@SAXXZ
+2190 - ?Enable@CMidi@@SAXXZ
+2960 - ?Enable@CWave@@SAX_N@Z
+3A54 - ?Free@CWave@@IAEHXZ
+3CF4 - ?GetData@CWave@@IBEKAAPAEK@Z
+3C17 - ?GetDataLen@CWave@@IBEKXZ
+2D8C - ?GetHWND@CWave@@SAPAUHWND__@@XZ
+2056 - ?GetVolume@CMidi@@QAEKXZ
+1180 - ?Init@CMidi@@QAEHXZ
+39CE - ?InitDSBuffer@CWave@@IAEHXZ
+392A - ?InitDirectSound@CWave@@IAEHXZ
+2970 - ?IsValid@CWave@@IBEHXZ
+3235 - ?LoadAudio@CWave@@IAEXXZ
+2B90 - ?LoadConsistentDSSounds@CMidi@@QAEXXZ
+137B - ?LoadSong@CMidi@@QAEHPBD@Z
+1FC4 - ?Pause@CMidi@@QAEHXZ
+36F7 - ?Pause@CWave@@QAEHXZ
+1EEB - ?PauseAll@CMidi@@SAX_N@Z
+18F3 - ?Play@CMidi@@QAEHHKII@Z
+35C3 - ?Play@CWave@@QAEHJJH@Z
+17E4 - ?ReadyThisObjectForPlay@CMidi@@QAEHXZ
+3250 - ?RegisterWindow@CWave@@SAXQAUHWND__@@@Z
+3177 - ?ReloadBuffer@CWave@@AAEHXZ
+38BF - ?SetCooperativeLevel@CWave@@IAEXXZ
+20C8 - ?SetDefaultVolume@CMidi@@SAXK@Z
+3025 - ?SetIgnoreList@CWave@@SAXABV?$LIST@VCString@@@@@Z
+20E0 - ?SetVolume@CMidi@@QAEHK@Z
+37A4 - ?Start@CWave@@IAEHJJH@Z
+1D75 - ?Stop@CMidi@@QAEHXZ
+3669 - ?Stop@CWave@@QAEHXZ
+1E2C - ?StopAll@CMidi@@SAXXZ
+1C8F - ?UnInit@CMidi@@QAEXXZ
+3038 - ?ZeroBuffer@CWave@@AAEHXZ
+7154 - ?m_CooperativeLevelSet@CWave@@0HA
+7034 - ?m_bEnableSound@CWave@@0_NA
+7024 - ?m_bEnabled@CMidi@@0HA
+7020 - ?m_dwDefaultVolume@CMidi@@0KA
+7158 - ?m_hwnd@CWave@@0PAUHWND__@@A
+7130 - ?m_lstDisabledSounds@CWave@@0V?$LIST@VCString@@@@A
+7150 - ?m_nDirectSoundReferences@CWave@@0HA
+714C - ?m_pDirectSound@CWave@@0PAUIDirectSound@@A
+711C - ?m_pPerformance@CMidi@@0PAUIDirectMusicPerformance@@A
+7120 - ?m_pPerformanceRefCount@CMidi@@0IA
+7118 - ?plstAllSounds@CMidi@@0PAV?$LIST@PAVCMidi@@@@A
+
+
+---Relocs---
+1006 : 3
+107B : 3
+10B8 : 3
+10C8 : 3
+10EF : 3
+111A : 3
+1125 : 3
+1134 : 3
+1186 : 3
+11A7 : 3
+11D8 : 3
+11E4 : 3
+11E9 : 3
+11F2 : 3
+11F8 : 3
+1208 : 3
+1232 : 3
+127C : 3
+1285 : 3
+128C : 3
+12AC : 3
+12BC : 3
+12C3 : 3
+12E9 : 3
+12F8 : 3
+1301 : 3
+130D : 3
+1316 : 3
+131C : 3
+132C : 3
+1344 : 3
+135B : 3
+1381 : 3
+13CD : 3
+1497 : 3
+14B0 : 3
+14C5 : 3
+1566 : 3
+1585 : 3
+1597 : 3
+15D9 : 3
+160B : 3
+1617 : 3
+1622 : 3
+162E : 3
+1648 : 3
+1664 : 3
+16AD : 3
+16BF : 3
+16CB : 3
+170D : 3
+171E : 3
+172A : 3
+176C : 3
+1789 : 3
+180B : 3
+1827 : 3
+183A : 3
+185C : 3
+1870 : 3
+188E : 3
+189E : 3
+1972 : 3
+198E : 3
+19A1 : 3
+19C3 : 3
+19D7 : 3
+19F5 : 3
+1A05 : 3
+1A69 : 3
+1A89 : 3
+1B97 : 3
+1B9F : 3
+1BE2 : 3
+1BEA : 3
+1C08 : 3
+1C10 : 3
+1C33 : 3
+1C3B : 3
+1C67 : 3
+1C6F : 3
+1CAF : 3
+1CBB : 3
+1D13 : 3
+1D1B : 3
+1D21 : 3
+1D2A : 3
+1D33 : 3
+1D3A : 3
+1D47 : 3
+1D4E : 3
+1D58 : 3
+1DA9 : 3
+1DD3 : 3
+1E05 : 3
+1E0D : 3
+1E34 : 3
+1E50 : 3
+1E63 : 3
+1E85 : 3
+1E99 : 3
+1EB7 : 3
+1EC7 : 3
+1EF3 : 3
+1F0F : 3
+1F22 : 3
+1F44 : 3
+1F58 : 3
+1F76 : 3
+1F86 : 3
+1FCD : 3
+1000 : 0
+201B : 3
+2061 : 3
+208D : 3
+2092 : 3
+209A : 3
+20B5 : 3
+20BB : 3
+20CD : 3
+20DA : 3
+20EB : 3
+212F : 3
+214F : 3
+2155 : 3
+215D : 3
+2186 : 3
+2195 : 3
+21B6 : 3
+22A4 : 3
+2426 : 3
+2441 : 3
+27FC : 3
+284C : 3
+2967 : 3
+2A44 : 3
+2B32 : 3
+2CF3 : 3
+2D14 : 3
+2D43 : 3
+2D52 : 3
+2D66 : 3
+2D73 : 3
+2D7C : 3
+2D81 : 3
+2D90 : 3
+2D9C : 3
+2E23 : 3
+2E4D : 3
+2ED4 : 3
+2F0C : 3
+2F93 : 3
+2FCF : 3
+2FEA : 3
+302D : 3
+3257 : 3
+3263 : 3
+328F : 3
+32E1 : 3
+3349 : 3
+337B : 3
+3388 : 3
+339E : 3
+3425 : 3
+342C : 3
+3484 : 3
+352B : 3
+353E : 3
+354F : 3
+3567 : 3
+356E : 3
+3582 : 3
+358F : 3
+35CD : 3
+35F6 : 3
+3611 : 3
+362E : 3
+3675 : 3
+3686 : 3
+36A3 : 3
+3703 : 3
+3717 : 3
+3734 : 3
+37B0 : 3
+37C4 : 3
+38C8 : 3
+38D3 : 3
+38DF : 3
+38E6 : 3
+38ED : 3
+38FC : 3
+3901 : 3
+3909 : 3
+391E : 3
+3933 : 3
+393D : 3
+394E : 3
+3957 : 3
+395F : 3
+3967 : 3
+3970 : 3
+3986 : 3
+3990 : 3
+3998 : 3
+399E : 3
+39A7 : 3
+39AE : 3
+39B8 : 3
+39C2 : 3
+39D9 : 3
+3A2B : 3
+3A33 : 3
+3A9E : 3
+3AB1 : 3
+3ABB : 3
+3AE6 : 3
+3C1D : 3
+3CFA : 3
+3DBB : 3
+3DC2 : 3
+3E66 : 3
+3F34 : 3
+40A6 : 3
+40C1 : 3
+4106 : 3
+4546 : 3
+4570 : 3
+45E8 : 3
+4618 : 3
+464A : 3
+467C : 3
+4699 : 3
+46BB : 3
+4726 : 3
+472C : 3
+4732 : 3
+4738 : 3
+473E : 3
+4744 : 3
+474A : 3
+4750 : 3
+4756 : 3
+475C : 3
+4762 : 3
+4768 : 3
+476E : 3
+4774 : 3
+477A : 3
+4780 : 3
+4786 : 3
+478C : 3
+4792 : 3
+4798 : 3
+479E : 3
+47A4 : 3
+47AA : 3
+47B0 : 3
+47B6 : 3
+47BC : 3
+47C2 : 3
+47C8 : 3
+47CE : 3
+47D4 : 3
+47DA : 3
+47E0 : 3
+47EF : 3
+47FF : 3
+480E : 3
+4837 : 3
+4843 : 3
+484D : 3
+4859 : 3
+48B4 : 3
+48F3 : 3
+493B : 3
+4975 : 3
+4987 : 3
+49C8 : 3
+49D4 : 3
+49DE : 3
+4A14 : 3
+4A3E : 3
+4A44 : 3
+4A4A : 3
+4A50 : 3
+4A5A : 3
+4A5F : 3
+4ADA : 3
+4ADF : 3
+4B4A : 3
+4B57 : 3
+4B5E : 3
+4B63 : 3
+4B88 : 3
+4B8E : 3
+4B9C : 3
+4BA4 : 3
+4BAA : 3
+4BB5 : 3
+4BC2 : 3
+4BCA : 3
+4BD8 : 3
+4BDD : 3
+4BE2 : 3
+4BE7 : 3
+4BF2 : 3
+4BFF : 3
+4C09 : 3
+4C1E : 3
+4C2A : 3
+4C30 : 3
+4C52 : 3
+4C64 : 3
+4CC0 : 3
+4CFE : 3
+4D04 : 3
+4D0A : 3
+4D10 : 3
+4D16 : 3
+4D1C : 3
+4D22 : 3
+4D28 : 3
+4D2E : 3
+4D34 : 3
+4D3A : 3
+4D40 : 3
+4D46 : 3
+4D4C : 3
+4D52 : 3
+4D58 : 3
+4D5E : 3
+4D64 : 3
+4D6A : 3
+4D70 : 3
+4D76 : 3
+4D7C : 3
+4DB7 : 3
+4DCD : 3
+4DE0 : 3
+4E20 : 3
+4E3A : 3
+4E5D : 3
+4E73 : 3
+4E89 : 3
+4E9F : 3
+4EE8 : 3
+4EFB : 3
+4F0E : 3
+4F21 : 3
+4F3A : 3
+4F5A : 3
+4F7A : 3
+4F8D : 3
+4000 : 0
+5190 : 3
+5194 : 3
+5198 : 3
+519C : 3
+51A0 : 3
+51A4 : 3
+51A8 : 3
+51AC : 3
+51B0 : 3
+51B4 : 3
+51B8 : 3
+51BC : 3
+51C0 : 3
+51C4 : 3
+51C8 : 3
+51CC : 3
+51D0 : 3
+51D4 : 3
+51D8 : 3
+51DC : 3
+51E0 : 3
+51E4 : 3
+51E8 : 3
+51EC : 3
+51F0 : 3
+51F4 : 3
+51F8 : 3
+51FC : 3
+5200 : 3
+5204 : 3
+5208 : 3
+52BC : 3
+52C0 : 3
+52C8 : 3
+52CC : 3
+52D8 : 3
+52E4 : 3
+52E8 : 3
+52F0 : 3
+5308 : 3
+5320 : 3
+5338 : 3
+533C : 3
+5340 : 3
+5354 : 3
+5364 : 3
+5368 : 3
+5370 : 3
+5388 : 3
+539C : 3
+53AC : 3
+53B0 : 3
+53C0 : 3
+53DC : 3
+53E4 : 3
+53F0 : 3
+540C : 3
+5418 : 3
+5420 : 3
+543C : 3
+5458 : 3
+5464 : 3
+546C : 3
+5478 : 3
+5480 : 3
+5494 : 3
+549C : 3
+54A4 : 3
+54AC : 3
+54B4 : 3
+54D8 : 3
+54EC : 3
+54F4 : 3
+5514 : 3
+5524 : 3
+5530 : 3
+554C : 3
+5558 : 3
+5574 : 3
+5580 : 3
+559C : 3
+55A8 : 3
+55C4 : 3
+55D0 : 3
+55EC : 3
+55F8 : 3
+5614 : 3
+561C : 3
+5624 : 3
+562C : 3
+5634 : 3
+563C : 3
+5644 : 3
+564C : 3
+5658 : 3
+5674 : 3
+5680 : 3
+569C : 3
+56A8 : 3
+56C4 : 3
+56D0 : 3
+56EC : 3
+56F8 : 3
+5714 : 3
+5720 : 3
+573C : 3
+5748 : 3
+5764 : 3
+7004 : 3
+7008 : 3
+7028 : 3
+7090 : 3
+7098 : 3
+70B8 : 3
+70D8 : 3
+7100 : 3

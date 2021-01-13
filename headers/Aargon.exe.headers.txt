@@ -1,0 +1,1180 @@
+Aargon.exe
+MZ header
+	lfanew=108
+	dos entrypoint = 0000:0000
+	dos stack = 0000:00B8
+PE header
+	Machine=14C
+	Number of sections=4
+	Time/Date =1230166566
+	SymbolTable at 0
+	Symbolcount = 0
+	OptionalHeader size = E0
+	Characteristics = 10F (Executable, No relocations, No line numbers, No local symbols, 32-bit)
+	-----optional-----
+	Optional magic number = 10B 
+	Major linker version = 6 
+	Minor linker version = 0 
+	Size of code = 2B000 (176128) 
+	Size of initialized data = 2A000 (172032)
+	Size of uninitialized data = 0 (0) 
+	Entry point = 00027F76 
+	Base of code = 00001000 
+	Base of data = 0002C000 
+	Prefered imagebase = 00400000 
+	Section allignment = 1000 
+	File Alignment = 1000 
+	Major Operating System Version = 4 
+	Major Image Version = 0 
+	Minor Image Version = 0 
+	Major Subsystem Version = 4 
+	Minor Subsystem Version = 0 
+	Win32 Version Value = 0 
+	Size Of Image = 56000 
+	Size Of Headers = 1000 
+	CheckSum = 0 
+	Subsystem = 2 
+	Dll Characteristics = 0 
+	Size Of Stack Reserve = 100000 
+	Size Of Stack Commit = 1000 
+	Size Of Heap Reserve = 100000 
+	Size Of Heap Commit = 1000 
+	Loader Flags = 0 
+	Number Of Rva And Sizes = 16 
+		03550090 - 00000000 - 0 (Export table)
+		03581338 - 000312A8 - 154 (Import table)
+			Import 0 : RELEASE_Common.dll
+				Characteristics/OriginalFirstThunk=31798
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=32240 : RELEASE_Common.dll
+				FirstThunk=2C39C
+				imports:
+					A38DCF (357C42C) - RELEASE_Common.REG::Put
+					A35071 (357C430) - RELEASE_Common.STRING::toupper
+					A35140 (357C434) - RELEASE_Common.STRING::strtok
+					A35118 (357C438) - RELEASE_Common.STRING::trim
+					A38D47 (357C43C) - RELEASE_Common.REG::Put
+					A38E75 (357C440) - RELEASE_Common.REG::Put
+					A33CC6 (357C444) - RELEASE_Common.ShowMouse
+					A38EDD (357C448) - RELEASE_Common.REG::GetPut
+					A38F21 (357C44C) - RELEASE_Common.REG::GetPut
+					A338F0 (357C450) - RELEASE_Common.exists
+					A355B8 (357C454) - RELEASE_Common.CDib::Free
+					A387DC (357C458) - RELEASE_Common.REG::Get
+					A38F65 (357C45C) - RELEASE_Common.REG::RootDir
+					A31900 (357C460) - RELEASE_Common.CHyperLink::CHyperLink
+					A32324 (357C464) - RELEASE_Common.CHyperLink::GotoURL
+					A319D8 (357C468) - RELEASE_Common.CHyperLink::~CHyperLink
+					A310C5 (357C46C) - RELEASE_Common.CDIBStatic::LoadDib
+					A314B2 (357C470) - RELEASE_Common.CDIBStatic::UpdateDib
+					A3612E (357C474) - RELEASE_Common.INIFILE::INIFILE
+					A36CE6 (357C478) - RELEASE_Common.INIFILE::GetValue
+					A3757E (357C47C) - RELEASE_Common.INIFILE::~INIFILE
+					A31057 (357C480) - RELEASE_Common.CDIBStatic::~CDIBStatic
+					A31000 (357C484) - RELEASE_Common.CDIBStatic::CDIBStatic
+					A38E97 (357C488) - RELEASE_Common.REG::GetPut
+					A33531 (357C48C) - RELEASE_Common.ExtractFileName
+					A352CA (357C490) - RELEASE_Common.STRING::tailequ
+					A38799 (357C494) - RELEASE_Common.REG::Get
+					A3534D (357C498) - RELEASE_Common.STRING::equi
+					A3888E (357C49C) - RELEASE_Common.REG::GetStrList
+					A3776A (357C4A0) - RELEASE_Common.INIFILE::LoadAllInifiles
+					A390D3 (357C4A4) - RELEASE_Common.REG::AppData
+					A37608 (357C4A8) - RELEASE_Common.INIFILE::SECTION::Put
+					A35044 (357C4AC) - RELEASE_Common.STRING::atol
+					A35208 (357C4B0) - RELEASE_Common.STRING::headequ
+					A38AA2 (357C4B4) - RELEASE_Common.REG::PutStrList
+					A3682D (357C4B8) - RELEASE_Common.INIFILE::DeleteSection
+					A360E0 (357C4BC) - RELEASE_Common.INIFILE::INIFILE
+					A34F20 (357C4C0) - RELEASE_Common.STRING::STRING
+					A33DF7 (357C4C4) - RELEASE_Common.FindDriver
+					A33010 (357C4C8) - RELEASE_Common.DisplayWarning
+					A33DA6 (357C4CC) - RELEASE_Common.AlreadyRunning
+					A3394C (357C4D0) - RELEASE_Common.RandomProb
+					A35087 (357C4D4) - RELEASE_Common.STRING::terminate
+					A330E5 (357C4D8) - RELEASE_Common.IsRelativePath
+					A336A4 (357C4DC) - RELEASE_Common.ExtractFileExt
+					A3429C (357C4E0) - RELEASE_Common.GetDriverVersion_UAP
+					A350ED (357C4E4) - RELEASE_Common.STRING::first
+					A37A12 (357C4E8) - RELEASE_Common.INIFILE::GetNextSection
+					A379C9 (357C4EC) - RELEASE_Common.INIFILE::GetFirstSection
+					A37633 (357C4F0) - RELEASE_Common.INIFILE::SECTION::Get
+					A37996 (357C4F4) - RELEASE_Common.INIFILE::NullSection
+					A375C9 (357C4F8) - RELEASE_Common.INIFILE::SECTION::Get
+			Import 1 : RELEASE_Font.dll
+				Characteristics/OriginalFirstThunk=3186C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=32308 : RELEASE_Font.dll
+				FirstThunk=2C470
+				imports:
+					4C1000 (357C500) - RELEASE_Font.FONT::FONT
+					4C16F7 (357C504) - RELEASE_Font.FONT::CenterText
+					4C1940 (357C508) - RELEASE_Font.FONT::GetHeight
+					4C1581 (357C50C) - RELEASE_Font.FONT::WrapText
+					4C13AF (357C510) - RELEASE_Font.FONT::OutText
+					4C12FB (357C514) - RELEASE_Font.FONT::InitFont
+			Import 2 : RELEASE_GDITools.dll
+				Characteristics/OriginalFirstThunk=31888
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=32352 : RELEASE_GDITools.dll
+				FirstThunk=2C48C
+				imports:
+					10001000 (357C51C) - RELEASE_GDITools.TwCompatibleBitmap::LoadFromFile
+			Import 3 : RELEASE_GKERNEL.dll
+				Characteristics/OriginalFirstThunk=31890
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=32FA0 : RELEASE_GKERNEL.dll
+				FirstThunk=2C494
+				imports:
+					A560D1 (357C524) - RELEASE_GKERNEL.SPRITE::ResetSurfaceInfo
+					A5D64F (357C528) - RELEASE_GKERNEL.DD_SURFACE::GetDC
+					A5D695 (357C52C) - RELEASE_GKERNEL.DD_SURFACE::ReleaseDC
+					A5601E (357C530) - RELEASE_GKERNEL.SPRITE::Init
+					A5D6DB (357C534) - RELEASE_GKERNEL.DD_SURFACE::Desc
+					A56053 (357C538) - RELEASE_GKERNEL.SPRITE::Init
+					A56E36 (357C53C) - RELEASE_GKERNEL.TwProgressBar::SetPercentage
+					A54DD7 (357C540) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+					A55580 (357C544) - RELEASE_GKERNEL.TwTransparentOverlay::Init
+					A51E20 (357C548) - RELEASE_GKERNEL.OVERLAY::Position
+					A56BD0 (357C54C) - RELEASE_GKERNEL.TwProgressBar::SetParams
+					A5D082 (357C550) - RELEASE_GKERNEL.GKERNEL::SpriteFlip
+					A69090 (357C554) - RELEASE_GKERNEL.g_Timer
+					A51FB0 (357C558) - RELEASE_GKERNEL.SPRITE::InMotion
+					A5CD85 (357C55C) - RELEASE_GKERNEL.GKERNEL::SaveSprites
+					A5CE7F (357C560) - RELEASE_GKERNEL.GKERNEL::DrawSprites
+					A5CCB0 (357C564) - RELEASE_GKERNEL.GKERNEL::FlipSprites
+					A5CF70 (357C568) - RELEASE_GKERNEL.GKERNEL::RestoreSprites
+					A5B75D (357C56C) - RELEASE_GKERNEL.GKERNEL::GetCursorPos
+					A593B7 (357C570) - RELEASE_GKERNEL.GAME::IsKeyDown
+					A5951C (357C574) - RELEASE_GKERNEL.GKERNEL::EnableAltEnter
+					A5944D (357C578) - RELEASE_GKERNEL.GAME::StateReturn
+					A5BA2B (357C57C) - RELEASE_GKERNEL.GKERNEL::Stop
+					A5532E (357C580) - RELEASE_GKERNEL.TwAutoButton::Up
+					A55373 (357C584) - RELEASE_GKERNEL.TwAutoButton::Down
+					A5D0E2 (357C588) - RELEASE_GKERNEL.GKERNEL::NewSpriteBackground
+					A5C40F (357C58C) - RELEASE_GKERNEL.GKTOOLS::CopyDIBToSurface
+					A5530D (357C590) - RELEASE_GKERNEL.TwAutoButton::Init
+					A54EF0 (357C594) - RELEASE_GKERNEL.BUTTON::DrawToBack
+					A54C4F (357C598) - RELEASE_GKERNEL.OVERLAY::SetPosition
+					A54CD9 (357C59C) - RELEASE_GKERNEL.OVERLAY::DrawToFront
+					A5B6BF (357C5A0) - RELEASE_GKERNEL.GKERNEL::SetCursorPos
+					A54A9C (357C5A4) - RELEASE_GKERNEL.OVERLAY::Init
+					A54A12 (357C5A8) - RELEASE_GKERNEL.OVERLAY::Init
+					A54902 (357C5AC) - RELEASE_GKERNEL.OVERLAY::Init
+					A54BDD (357C5B0) - RELEASE_GKERNEL.OVERLAY::IntersectsCursor
+					A54C74 (357C5B4) - RELEASE_GKERNEL.OVERLAY::SetSubImage
+					A55018 (357C5B8) - RELEASE_GKERNEL.BUTTON::Init
+					A54640 (357C5BC) - RELEASE_GKERNEL.OVERLAY::OVERLAY
+					A55CF8 (357C5C0) - RELEASE_GKERNEL.SPRITE::SPRITE
+					A55DF8 (357C5C4) - RELEASE_GKERNEL.SPRITE::~SPRITE
+					A5DB90 (357C5C8) - RELEASE_GKERNEL.DD_SURFACE::DD_SURFACE
+					A56B90 (357C5CC) - RELEASE_GKERNEL.TwProgressBar::TwProgressBar
+					A5DFF7 (357C5D0) - RELEASE_GKERNEL.DD_SURFACE::~DD_SURFACE
+					A6B3C0 (357C5D4) - RELEASE_GKERNEL.GKERNEL::ddsBack
+					A5C2E2 (357C5D8) - RELEASE_GKERNEL.GKTOOLS::TileDIBToSurface
+					A5C607 (357C5DC) - RELEASE_GKERNEL.GKTOOLS::GetDXVersionString
+					A5B1FE (357C5E0) - RELEASE_GKERNEL.GKERNEL::Init
+					A59467 (357C5E4) - RELEASE_GKERNEL.GAME::ChangeState
+					A5C56A (357C5E8) - RELEASE_GKERNEL.GKTOOLS::CopyDIBToBack
+					A5B5AC (357C5EC) - RELEASE_GKERNEL.GKERNEL::Flip
+					A5AA01 (357C5F0) - RELEASE_GKERNEL.GKERNEL::Initialized
+					A592A7 (357C5F4) - RELEASE_GKERNEL.GAME::StartGame
+					A58AC0 (357C5F8) - RELEASE_GKERNEL.TwDXVersion::GetDXVersion
+					A5B8CA (357C5FC) - RELEASE_GKERNEL.GKERNEL::SetWindowedMode
+					A5796C (357C600) - RELEASE_GKERNEL.TwDirectXDialog::OnDestroy
+					A578E8 (357C604) - RELEASE_GKERNEL.TwDirectXDialog::OnMove
+					A5BABA (357C608) - RELEASE_GKERNEL.GKERNEL::Windowed
+					A5C502 (357C60C) - RELEASE_GKERNEL.GKTOOLS::GetDIBSize
+					A5B1C1 (357C610) - RELEASE_GKERNEL.GKERNEL::GetHwnd
+					A5773A (357C614) - RELEASE_GKERNEL.TwDirectXDialog::GetMessageMap
+					A5787E (357C618) - RELEASE_GKERNEL.TwDirectXDialog::OnInitDialog
+					A618A0 (357C61C) - RELEASE_GKERNEL.TwDirectXDialog::messageMap
+					A57A0F (357C620) - RELEASE_GKERNEL.TwDirectXDialog::DoModal
+					A6B460 (357C624) - RELEASE_GKERNEL.GKERNEL::ddsPrimary
+					A56500 (357C628) - RELEASE_GKERNEL.SPRITE::StartAnimation
+					A525B0 (357C62C) - RELEASE_GKERNEL.TwLightning::~TwLightning
+					A554F1 (357C630) - RELEASE_GKERNEL.TwTransparentOverlay::SetPosition
+					A53972 (357C634) - RELEASE_GKERNEL.TwLightning::DrawToBack
+					A524C2 (357C638) - RELEASE_GKERNEL.TwLightning::TwLightning
+					A5B533 (357C63C) - RELEASE_GKERNEL.GKERNEL::ResetFrameCounter
+					A54D41 (357C640) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+					A55BE0 (357C644) - RELEASE_GKERNEL.SPRITE::Hide
+					A564E7 (357C648) - RELEASE_GKERNEL.SPRITE::SetAnimationDelay
+					A56088 (357C64C) - RELEASE_GKERNEL.SPRITE::SetPosition
+					A5DC99 (357C650) - RELEASE_GKERNEL.DD_SURFACE::Create
+					A52B33 (357C654) - RELEASE_GKERNEL.TwLightning::SetFramesPerSecond
+					A52747 (357C658) - RELEASE_GKERNEL.TwLightning::Init
+					A5B7BF (357C65C) - RELEASE_GKERNEL.GKERNEL::ErrorMessage
+					A5B884 (357C660) - RELEASE_GKERNEL.GKERNEL::SupportsWindowedMode
+					A577A6 (357C664) - RELEASE_GKERNEL.TwDirectXDialog::EnableFullScreenSupport
+					A59437 (357C668) - RELEASE_GKERNEL.GAME::SetReturnState
+					A56435 (357C66C) - RELEASE_GKERNEL.SPRITE::SetCurrentImage
+					A55BAE (357C670) - RELEASE_GKERNEL.SPRITE::Show
+					A51F80 (357C674) - RELEASE_GKERNEL.SPRITE::SetPosition
+					A5B6F5 (357C678) - RELEASE_GKERNEL.GKERNEL::IgnoreUserInput
+					A5D4AD (357C67C) - RELEASE_GKERNEL.DD_SURFACE::BltFast
+			Import 4 : RELEASE_ItemMap.dll
+				Characteristics/OriginalFirstThunk=319F0
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=3357E : RELEASE_ItemMap.dll
+				FirstThunk=2C5F4
+				imports:
+					A7A31A (357C684) - RELEASE_ItemMap.MAP::Data
+					A7811C (357C688) - RELEASE_ItemMap.MAP::ItemList
+					A7804C (357C68C) - RELEASE_ItemMap.MAP::SetSelectedItem
+					A7B65C (357C690) - RELEASE_ItemMap.MAP::FindItem
+					A77A2D (357C694) - RELEASE_ItemMap.MAP::Rename
+					A77B98 (357C698) - RELEASE_ItemMap.MAP::Name
+					A7952C (357C69C) - RELEASE_ItemMap.MAP::Save
+					A77AD5 (357C6A0) - RELEASE_ItemMap.MAP::SetCopyrightString
+					A7789D (357C6A4) - RELEASE_ItemMap.MAP::~MAP
+					A79C17 (357C6A8) - RELEASE_ItemMap.MAP::Set
+					A776BC (357C6AC) - RELEASE_ItemMap.MAP::MAP
+					A71000 (357C6B0) - RELEASE_ItemMap.MAP::CheckBackReflection
+					A795CF (357C6B4) - RELEASE_ItemMap.MAP::SaveAs
+					A7A547 (357C6B8) - RELEASE_ItemMap.MAP::Clear
+					A79950 (357C6BC) - RELEASE_ItemMap.MAP::Load
+					A780DE (357C6C0) - RELEASE_ItemMap.MAP::GetItem
+					A77A81 (357C6C4) - RELEASE_ItemMap.MAP::SetScript
+					A77F2D (357C6C8) - RELEASE_ItemMap.MAP::GetScript
+					A7BC91 (357C6CC) - RELEASE_ItemMap.MAP::LoadOptimzationTable
+					A78126 (357C6D0) - RELEASE_ItemMap.MAP::Cleanup
+					A7B8A0 (357C6D4) - RELEASE_ItemMap.MAP::RefreshBothLevelmapBuffers
+					A77CDF (357C6D8) - RELEASE_ItemMap.MAP::OnRestore
+					A7A919 (357C6DC) - RELEASE_ItemMap.MAP::WipeReset
+					A7B040 (357C6E0) - RELEASE_ItemMap.MAP::WipeErase
+					A7C254 (357C6E4) - RELEASE_ItemMap.MAP::DestroyMovingObjects
+					A78076 (357C6E8) - RELEASE_ItemMap.MAP::SetItem
+					A7B77B (357C6EC) - RELEASE_ItemMap.MAP::FindItem
+					A77E36 (357C6F0) - RELEASE_ItemMap.MAP::SelectTile
+					A71861 (357C6F4) - RELEASE_ItemMap.MAP::NewFrame
+					A77879 (357C6F8) - RELEASE_ItemMap.MAP::operator=
+					A77BE9 (357C6FC) - RELEASE_ItemMap.MAP::UseSmallTiles
+					A77B29 (357C700) - RELEASE_ItemMap.MAP::SetLevelDir
+					A777A4 (357C704) - RELEASE_ItemMap.MAP::Init
+					A7139E (357C708) - RELEASE_ItemMap.MAP::RefreshItemMap
+					A7B560 (357C70C) - RELEASE_ItemMap.MAP::Exists
+					A797A9 (357C710) - RELEASE_ItemMap.MAP::GetLevelData
+					A77C02 (357C714) - RELEASE_ItemMap.MAP::DefaultTiles
+					A783F1 (357C718) - RELEASE_ItemMap.MAP::SetGammaLevel
+					A77EA0 (357C71C) - RELEASE_ItemMap.MAP::SwapTile
+					A77DF3 (357C720) - RELEASE_ItemMap.MAP::SetCursor
+					A77BCB (357C724) - RELEASE_ItemMap.MAP::HasScript
+					A7C064 (357C728) - RELEASE_ItemMap.MAP::CreateMovingObjects
+					A7A7B0 (357C72C) - RELEASE_ItemMap.MAP::SetPosition
+					A712FD (357C730) - RELEASE_ItemMap.MAP::SetDemoLevel
+			Import 5 : RELEASE_Sound.dll
+				Characteristics/OriginalFirstThunk=31AA4
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=337F4 : RELEASE_Sound.dll
+				FirstThunk=2C6A8
+				imports:
+					A920E0 (357C738) - RELEASE_Sound.CMidi::SetVolume
+					A91C8F (357C73C) - RELEASE_Sound.CMidi::UnInit
+					A93025 (357C740) - RELEASE_Sound.CWave::SetIgnoreList
+					A92181 (357C744) - RELEASE_Sound.CMidi::Disable
+					A9137B (357C748) - RELEASE_Sound.CMidi::LoadSong
+					A91180 (357C74C) - RELEASE_Sound.CMidi::Init
+					A917E4 (357C750) - RELEASE_Sound.CMidi::ReadyThisObjectForPlay
+					A918F3 (357C754) - RELEASE_Sound.CMidi::Play
+					A91E2C (357C758) - RELEASE_Sound.CMidi::StopAll
+					A91D75 (357C75C) - RELEASE_Sound.CMidi::Stop
+					A92190 (357C760) - RELEASE_Sound.CMidi::Enable
+					A93250 (357C764) - RELEASE_Sound.CWave::RegisterWindow
+					A92960 (357C768) - RELEASE_Sound.CWave::Enable
+					A935C3 (357C76C) - RELEASE_Sound.CWave::Play
+					A910E9 (357C770) - RELEASE_Sound.CMidi::~CMidi
+					A92FC9 (357C774) - RELEASE_Sound.CWave::~CWave
+					A91000 (357C778) - RELEASE_Sound.CMidi::CMidi
+					A92D96 (357C77C) - RELEASE_Sound.CWave::CWave
+					A91EEB (357C780) - RELEASE_Sound.CMidi::PauseAll
+					A93669 (357C784) - RELEASE_Sound.CWave::Stop
+					A9325D (357C788) - RELEASE_Sound.CWave::Create
+					A920C8 (357C78C) - RELEASE_Sound.CMidi::SetDefaultVolume
+			Import 6 : MFC42.DLL
+				Characteristics/OriginalFirstThunk=31450
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33806 : MFC42.DLL
+				FirstThunk=2C054
+				imports:
+					6C37DDE8 (357C0E4) - MFC42.Ordinal5261
+					6C37B4AC (357C0E8) - MFC42.Ordinal1576
+					6C381813 (357C0EC) - MFC42.Ordinal2827
+					6C3C3FE9 (357C0F0) - MFC42.Ordinal4277
+					6C3C4519 (357C0F4) - MFC42.Ordinal6930
+					6C3E8222 (357C0F8) - MFC42.Ordinal3573
+					6C3E821C (357C0FC) - MFC42.Ordinal3693
+					6C3D061F (357C100) - MFC42.Ordinal472
+					6C3D06C5 (357C104) - MFC42.Ordinal283
+					6C37413F (357C108) - MFC42.Ordinal941
+					6C3C3E25 (357C10C) - MFC42.Ordinal6877
+					6C3C422D (357C110) - MFC42.Ordinal2764
+					6C37A2C3 (357C114) - MFC42.Ordinal2086
+					6C3C3ABB (357C118) - MFC42.Ordinal536
+					6C375BAC (357C11C) - MFC42.Ordinal6215
+					6C379C01 (357C120) - MFC42.Ordinal1200
+					6C38B193 (357C124) - MFC42.Ordinal4058
+					6C3875A1 (357C128) - MFC42.Ordinal815
+					6C37AFAF (357C12C) - MFC42.Ordinal561
+					6C3E87C6 (357C130) - MFC42.Ordinal3738
+					6C3CE639 (357C134) - MFC42.Ordinal4622
+					6C379144 (357C138) - MFC42.Ordinal5714
+					6C3713D0 (357C13C) - MFC42.Ordinal5289
+					6C371194 (357C140) - MFC42.Ordinal5307
+					6C372583 (357C144) - MFC42.Ordinal4698
+					6C3711D4 (357C148) - MFC42.Ordinal4079
+					6C38747F (357C14C) - MFC42.Ordinal2725
+					6C3CEBC3 (357C150) - MFC42.Ordinal5302
+					6C3748DE (357C154) - MFC42.Ordinal5300
+					6C3713B3 (357C158) - MFC42.Ordinal3346
+					6C380245 (357C15C) - MFC42.Ordinal2396
+					6C3806C6 (357C160) - MFC42.Ordinal5199
+					6C380CCA (357C164) - MFC42.Ordinal1089
+					6C37B5A5 (357C168) - MFC42.Ordinal3922
+					6C3814F8 (357C16C) - MFC42.Ordinal5731
+					6C379C2B (357C170) - MFC42.Ordinal2512
+					6C3751E8 (357C174) - MFC42.Ordinal2554
+					6C3DA217 (357C178) - MFC42.Ordinal4486
+					6C3CEB8C (357C17C) - MFC42.Ordinal6375
+					6C417FD8 (357C180) - MFC42.Ordinal4274
+					6C37369E (357C184) - MFC42.Ordinal3874
+					6C386933 (357C188) - MFC42.Ordinal2645
+					6C386437 (357C18C) - MFC42.Ordinal2289
+					6C3795B4 (357C190) - MFC42.Ordinal4710
+					6C40FAE8 (357C194) - MFC42.Ordinal4234
+					6C386AB1 (357C198) - MFC42.Ordinal2514
+					6C3E7E7E (357C19C) - MFC42.Ordinal3582
+					6C376F93 (357C1A0) - MFC42.Ordinal4398
+					6C374F28 (357C1A4) - MFC42.Ordinal4219
+					6C374F28 (357C1A8) - MFC42.Ordinal4219
+					6C3DDF8A (357C1AC) - MFC42.Ordinal2023
+					6C374F28 (357C1B0) - MFC42.Ordinal4219
+					6C3E7F5D (357C1B4) - MFC42.Ordinal3639
+					6C375036 (357C1B8) - MFC42.Ordinal3402
+					6C3DDF97 (357C1BC) - MFC42.Ordinal4401
+					6C374F28 (357C1C0) - MFC42.Ordinal4219
+					6C374F28 (357C1C4) - MFC42.Ordinal4219
+					6C3DDF8A (357C1C8) - MFC42.Ordinal2023
+					6C374F28 (357C1CC) - MFC42.Ordinal4219
+					6C3DDF8F (357C1D0) - MFC42.Ordinal1771
+					6C3DDF8F (357C1D4) - MFC42.Ordinal1771
+					6C3C4703 (357C1D8) - MFC42.Ordinal2044
+					6C3C4732 (357C1DC) - MFC42.Ordinal2448
+					6C3CEF98 (357C1E0) - MFC42.Ordinal5834
+					6C378D71 (357C1E4) - MFC42.Ordinal6334
+					6C3DE034 (357C1E8) - MFC42.Ordinal3803
+					6C3854A2 (357C1EC) - MFC42.Ordinal3317
+					6C3C3C4F (357C1F0) - MFC42.Ordinal6648
+					6C372400 (357C1F4) - MFC42.Ordinal2915
+					6C381800 (357C1F8) - MFC42.Ordinal2818
+					6C3C7D36 (357C1FC) - MFC42.Ordinal6111
+					6C38AF19 (357C200) - MFC42.Ordinal356
+					6C38AFAB (357C204) - MFC42.Ordinal2770
+					6C38B1CC (357C208) - MFC42.Ordinal2781
+					6C38B29B (357C20C) - MFC42.Ordinal3181
+					6C379BBB (357C210) - MFC42.Ordinal2642
+					6C3E6D90 (357C214) - MFC42.Ordinal668
+					6C3D7028 (357C218) - MFC42.Ordinal2301
+					6C3D7377 (357C21C) - MFC42.Ordinal6646
+					6C3D707A (357C220) - MFC42.Ordinal2358
+					6C3C26F1 (357C224) - MFC42.Ordinal692
+					6C388E86 (357C228) - MFC42.Ordinal616
+					6C371244 (357C22C) - MFC42.Ordinal2864
+					6C379283 (357C230) - MFC42.Ordinal1768
+					6C3863E5 (357C234) - MFC42.Ordinal2370
+					6C374691 (357C238) - MFC42.Ordinal2414
+					6C3E822E (357C23C) - MFC42.Ordinal3626
+					6C3E8234 (357C240) - MFC42.Ordinal3571
+					6C3C824D (357C244) - MFC42.Ordinal2862
+					6C372303 (357C248) - MFC42.Ordinal567
+					6C3E7EA8 (357C24C) - MFC42.Ordinal3640
+					6C37223C (357C250) - MFC42.Ordinal4424
+					6C3C7369 (357C254) - MFC42.Ordinal3370
+					6C3714EF (357C258) - MFC42.Ordinal5290
+					6C3C7EA1 (357C25C) - MFC42.Ordinal4402
+					6C371A47 (357C260) - MFC42.Ordinal1776
+					6C377129 (357C264) - MFC42.Ordinal3079
+					6C3C7FD6 (357C268) - MFC42.Ordinal2582
+					6C374FA3 (357C26C) - MFC42.Ordinal2859
+					6C373F94 (357C270) - MFC42.Ordinal6383
+					6C374208 (357C274) - MFC42.Ordinal5440
+					6C373856 (357C278) - MFC42.Ordinal2107
+					6C371904 (357C27C) - MFC42.Ordinal2841
+					6C38A0E4 (357C280) - MFC42.Ordinal6394
+					6C38A2FF (357C284) - MFC42.Ordinal5450
+					6C3CA573 (357C288) - MFC42.Ordinal3663
+					6C3CBDD2 (357C28C) - MFC42.Ordinal4204
+					6C3C3AF3 (357C290) - MFC42.Ordinal538
+					6C3738C4 (357C294) - MFC42.Ordinal860
+					6C37382D (357C298) - MFC42.Ordinal823
+					6C3CE176 (357C29C) - MFC42.Ordinal5802
+					6C3C8237 (357C2A0) - MFC42.Ordinal2408
+					6C3C827D (357C2A4) - MFC42.Ordinal2096
+					6C3CBDE5 (357C2A8) - MFC42.Ordinal4202
+					6C3CBCA7 (357C2AC) - MFC42.Ordinal926
+					6C37A07D (357C2B0) - MFC42.Ordinal939
+					6C3CBE0B (357C2B4) - MFC42.Ordinal5856
+					6C373EB0 (357C2B8) - MFC42.Ordinal535
+					6C37403B (357C2BC) - MFC42.Ordinal858
+					6C375089 (357C2C0) - MFC42.Ordinal5981
+					6C3CE334 (357C2C4) - MFC42.Ordinal4299
+					6C3C73A0 (357C2C8) - MFC42.Ordinal693
+					6C3C8201 (357C2CC) - MFC42.Ordinal384
+					6C3E7F17 (357C2D0) - MFC42.Ordinal6539
+					6C378D34 (357C2D4) - MFC42.Ordinal641
+					6C378F3F (357C2D8) - MFC42.Ordinal324
+					6C373941 (357C2DC) - MFC42.Ordinal537
+					6C37198E (357C2E0) - MFC42.Ordinal540
+					6C373F15 (357C2E4) - MFC42.Ordinal922
+					6C373876 (357C2E8) - MFC42.Ordinal825
+					6C38691A (357C2EC) - MFC42.Ordinal4853
+					6C38A37E (357C2F0) - MFC42.Ordinal924
+					6C37191C (357C2F4) - MFC42.Ordinal800
+					6C375042 (357C2F8) - MFC42.Ordinal3092
+					6C374961 (357C2FC) - MFC42.Ordinal6199
+					6C3839BE (357C300) - MFC42.Ordinal2302
+					6C37967C (357C304) - MFC42.Ordinal3597
+					6C378FAA (357C308) - MFC42.Ordinal4425
+					6C384481 (357C30C) - MFC42.Ordinal4627
+					6C383F13 (357C310) - MFC42.Ordinal4080
+					6C377129 (357C314) - MFC42.Ordinal3079
+					6C3717E0 (357C318) - MFC42.Ordinal3831
+					6C3717E0 (357C31C) - MFC42.Ordinal3831
+					6C3CE610 (357C320) - MFC42.Ordinal3830
+					6C3CE671 (357C324) - MFC42.Ordinal2976
+					6C3CE62D (357C328) - MFC42.Ordinal3081
+					6C3CE66B (357C32C) - MFC42.Ordinal2985
+					6C386A75 (357C330) - MFC42.Ordinal3262
+					6C3CE633 (357C334) - MFC42.Ordinal3136
+					6C371A47 (357C338) - MFC42.Ordinal1776
+					6C377129 (357C33C) - MFC42.Ordinal3079
+					6C377129 (357C340) - MFC42.Ordinal3079
+					6C377129 (357C344) - MFC42.Ordinal3079
+					6C374444 (357C348) - MFC42.Ordinal5277
+					6C37C61A (357C34C) - MFC42.Ordinal2124
+					6C375BF6 (357C350) - MFC42.Ordinal2446
+					6C371083 (357C354) - MFC42.Ordinal1168
+					6C37DFA8 (357C358) - MFC42.Ordinal1727
+					6C3CC2AE (357C35C) - MFC42.Ordinal5065
+					6C377129 (357C360) - MFC42.Ordinal3079
+					6C3CC587 (357C364) - MFC42.Ordinal6376
+					6C386913 (357C368) - MFC42.Ordinal2055
+					6C386956 (357C36C) - MFC42.Ordinal2648
+					6C37291C (357C370) - MFC42.Ordinal4441
+					6C373290 (357C374) - MFC42.Ordinal4837
+					6C374440 (357C378) - MFC42.Ordinal3798
+					6C3868A4 (357C37C) - MFC42.Ordinal5280
+					6C3CE06A (357C380) - MFC42.Ordinal4353
+					6C371CC8 (357C384) - MFC42.Ordinal6374
+					6C371D0C (357C388) - MFC42.Ordinal5163
+					6C3720CE (357C38C) - MFC42.Ordinal2385
+					6C374444 (357C390) - MFC42.Ordinal5277
+					6C37271D (357C394) - MFC42.Ordinal4407
+					6C379789 (357C398) - MFC42.Ordinal1775
+					6C3717E0 (357C39C) - MFC42.Ordinal3831
+					6C3CD6C7 (357C3A0) - MFC42.Ordinal6052
+					6C37466E (357C3A4) - MFC42.Ordinal5894
+					6C3CD8DA (357C3A8) - MFC42.Ordinal4376
+					6C374444 (357C3AC) - MFC42.Ordinal5277
+			Import 7 : MSVCRT.dll
+				Characteristics/OriginalFirstThunk=31720
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33890 : MSVCRT.dll
+				FirstThunk=2C324
+				imports:
+					75EA7310 (357C3B4) - MSVCRT.free
+					75EAE480 (357C3B8) - MSVCRT.setmbcp
+					75EE6880 (357C3BC) - MSVCRT.mbsdup
+					75E92BF0 (357C3C0) - MSVCRT.toupper
+					75EE6780 (357C3C4) - MSVCRT.mbscpy
+					75EE96A0 (357C3C8) - MSVCRT.strcmp
+					75EE94D0 (357C3CC) - MSVCRT.memset
+					75E977A0 (357C3D0) - MSVCRT.remove
+					75EC6690 (357C3D4) - MSVCRT.exit
+					75EB8B00 (357C3D8) - MSVCRT.purecall
+					75E90060 (357C3DC) - MSVCRT.isprint
+					75EE6A90 (357C3E0) - MSVCRT.stricmp
+					75EFAC20 (357C3E4) - MSVCRT.ftol
+					75EB6D10 (357C3E8) - MSVCRT._dllonexit
+					75EB6DF0 (357C3EC) - MSVCRT.onexit
+					75EB8124 (357C3F0) - MSVCRT.except_handler3
+					75E9A620 (357C3F4) - MSVCRT.terminate
+					75EC60B0 (357C3F8) - MSVCRT.exit
+					75EB4BA0 (357C3FC) - MSVCRT.XcptFilter
+					75F15BA0 (357C400) - MSVCRT.acmdln
+					75E95C10 (357C404) - MSVCRT._getmainargs
+					75EC6460 (357C408) - MSVCRT.initterm
+					75EF8030 (357C40C) - MSVCRT._setusermatherr
+					75F16BE4 (357C410) - MSVCRT.adjust_fdiv
+					75EF9AB0 (357C414) - MSVCRT.controlfp
+					75E9AFB0 (357C418) - MSVCRT._CxxFrameHandler3
+					75EB7540 (357C41C) - MSVCRT._set_app_type
+					75E95D70 (357C420) - MSVCRT._p__fmode
+					75E95D20 (357C424) - MSVCRT._p__commode
+			Import 8 : KERNEL32.dll
+				Characteristics/OriginalFirstThunk=3141C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33A44 : KERNEL32.dll
+				FirstThunk=2C020
+				imports:
+					75CD0C80 (357C0B0) - KERNEL32.GetStartupInfoA
+					75CD0A60 (357C0B4) - KERNEL32.GetModuleHandleA
+					75CCDFA0 (357C0B8) - KERNEL32.SetLastError
+					75CD0BD0 (357C0BC) - KERNEL32.LoadLibraryA
+					75CCF550 (357C0C0) - KERNEL32.GetProcAddress
+					75CD23A0 (357C0C4) - KERNEL32.GetTickCount
+					75CD05D0 (357C0C8) - KERNEL32.UnmapViewOfFile
+					75CD3130 (357C0CC) - KERNEL32.CreateFileA
+					75CD3360 (357C0D0) - KERNEL32.GetFileSize
+					75CC16B0 (357C0D4) - KERNEL32.CreateFileMappingA
+					75CCF590 (357C0D8) - KERNEL32.MapViewOfFile
+					75CD2EE0 (357C0DC) - KERNEL32.CloseHandle
+			Import 9 : USER32.dll
+				Characteristics/OriginalFirstThunk=31B08
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33BB6 : USER32.dll
+				FirstThunk=2C70C
+				imports:
+					76612D90 (357C79C) - USER32.GetWindowRect
+					7132A3B0 (357C7A0) - apphelp.SE_GetProcAddressForCaller+710
+					7661E800 (357C7A4) - USER32.SetForegroundWindow
+					76604F50 (357C7A8) - USER32.SetWindowTextA
+					76620730 (357C7AC) - USER32.ShowCursor
+					76620760 (357C7B0) - USER32.ShowWindow
+					766003D0 (357C7B4) - USER32.DrawEdge
+					766022B0 (357C7B8) - USER32.PtInRect
+					7660BD40 (357C7BC) - USER32.InflateRect
+					76601900 (357C7C0) - USER32.PostMessageA
+					76616F60 (357C7C4) - USER32.ScreenToClient
+					76612FC0 (357C7C8) - USER32.GetWindowLongA
+					766021A0 (357C7CC) - USER32.SendMessageA
+					766204F0 (357C7D0) - USER32.SetFocus
+					7661DEE0 (357C7D4) - USER32.EnableWindow
+					766022F0 (357C7D8) - USER32.ClientToScreen
+					76602050 (357C7DC) - USER32.CallWindowProcA
+					76609B70 (357C7E0) - USER32.SetClassLongA
+					76605FF0 (357C7E4) - USER32.SetWindowLongA
+					7666ECD0 (357C7E8) - USER32.MessageBeep
+					713367D0 (357C7EC) - apphelp.ShimDbgPrint+2C0
+					766172F0 (357C7F0) - USER32.GetDlgItem
+					76618340 (357C7F4) - USER32.IsWindow
+			Import 10 : GDI32.dll
+				Characteristics/OriginalFirstThunk=31410
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33BDE : GDI32.dll
+				FirstThunk=2C014
+				imports:
+					75BF46A0 (357C0A4) - GDI32.Rectangle
+					75BF6BF0 (357C0A8) - GDI32.SelectObject
+			Import 11 : comdlg32.dll
+				Characteristics/OriginalFirstThunk=31B68
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33C10 : comdlg32.dll
+				FirstThunk=2C76C
+				imports:
+					7614D9E0 (357C7FC) - comdlg32.GetSaveFileNameA
+					7614D900 (357C800) - comdlg32.GetOpenFileNameA
+			Import 12 : ADVAPI32.dll
+				Characteristics/OriginalFirstThunk=313FC
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33C3E : ADVAPI32.dll
+				FirstThunk=2C000
+				imports:
+					75C4E840 (357C090) - ADVAPI32.RegCreateKeyExA
+					75C4E310 (357C094) - ADVAPI32.RegCloseKey
+			Import 13 : SHELL32.dll
+				Characteristics/OriginalFirstThunk=31B00
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33C5C : SHELL32.dll
+				FirstThunk=2C704
+				imports:
+					7734A0E0 (357C794) - SHELL32.ShellExecuteA
+			Import 14 : COMCTL32.dll
+				Characteristics/OriginalFirstThunk=31408
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33C78 : COMCTL32.dll
+				FirstThunk=2C00C
+				imports:
+					77AC11B0 (357C09C) - COMCTL32.ImageList_Add
+			Import 15 : ole32.dll
+				Characteristics/OriginalFirstThunk=31B74
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=33C96 : ole32.dll
+				FirstThunk=2C778
+				imports:
+					76FF9900 (357C808) - ole32.CoInitialize
+		035A1090 - 00051000 - 49F8 (Resource table)
+		03550090 - 00000000 - 0 (Exception table)
+		03550090 - 00000000 - 0 (Certificate table)
+		03550090 - 00000000 - 0 (Base-Relocation table)
+		03550090 - 00000000 - 0 (Debugging info table)
+		03550090 - 00000000 - 0 (Architecture-Specific table)
+		03550090 - 00000000 - 0 (Global pointer table)
+		03550090 - 00000000 - 0 (TLS table)
+		03550090 - 00000000 - 0 (Load config table)
+		03550090 - 00000000 - 0 (Bound import table)
+		0357C090 - 0002C000 - 780 (import address table)
+		03550090 - 00000000 - 0 (Delay import descriptor table)
+		03550090 - 00000000 - 0 (CLR Runtime table)
+		03550090 - 00000000 - 0 (reserved)
+	-----sections-----
+	.text
+		Virtual Size=2A3B0
+		Virtual Address=1000
+		size of raw data=2B000
+		Pointer to raw data=1000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=60000020 (Executable code, executable memory, readable memory)
+	.rdata
+		Virtual Size=7CB6
+		Virtual Address=2C000
+		size of raw data=8000
+		Pointer to raw data=2C000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=40000040 (Initialized data, readable memory)
+	.data
+		Virtual Size=1CB0C
+		Virtual Address=34000
+		size of raw data=2000
+		Pointer to raw data=34000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=C0000040 (Initialized data, readable memory, writable memory)
+	.rsrc
+		Virtual Size=49F8
+		Virtual Address=51000
+		size of raw data=5000
+		Pointer to raw data=36000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=40000040 (Initialized data, readable memory)
+
+
+---Imports---
+RELEASE_Common.dll
+A38DCF (2C39C) - RELEASE_Common.REG::Put
+A35071 (2C3A0) - RELEASE_Common.STRING::toupper
+A35140 (2C3A4) - RELEASE_Common.STRING::strtok
+A35118 (2C3A8) - RELEASE_Common.STRING::trim
+A38D47 (2C3AC) - RELEASE_Common.REG::Put
+A38E75 (2C3B0) - RELEASE_Common.REG::Put
+A33CC6 (2C3B4) - RELEASE_Common.ShowMouse
+A38EDD (2C3B8) - RELEASE_Common.REG::GetPut
+A38F21 (2C3BC) - RELEASE_Common.REG::GetPut
+A338F0 (2C3C0) - RELEASE_Common.exists
+A355B8 (2C3C4) - RELEASE_Common.CDib::Free
+A387DC (2C3C8) - RELEASE_Common.REG::Get
+A38F65 (2C3CC) - RELEASE_Common.REG::RootDir
+A31900 (2C3D0) - RELEASE_Common.CHyperLink::CHyperLink
+A32324 (2C3D4) - RELEASE_Common.CHyperLink::GotoURL
+A319D8 (2C3D8) - RELEASE_Common.CHyperLink::~CHyperLink
+A310C5 (2C3DC) - RELEASE_Common.CDIBStatic::LoadDib
+A314B2 (2C3E0) - RELEASE_Common.CDIBStatic::UpdateDib
+A3612E (2C3E4) - RELEASE_Common.INIFILE::INIFILE
+A36CE6 (2C3E8) - RELEASE_Common.INIFILE::GetValue
+A3757E (2C3EC) - RELEASE_Common.INIFILE::~INIFILE
+A31057 (2C3F0) - RELEASE_Common.CDIBStatic::~CDIBStatic
+A31000 (2C3F4) - RELEASE_Common.CDIBStatic::CDIBStatic
+A38E97 (2C3F8) - RELEASE_Common.REG::GetPut
+A33531 (2C3FC) - RELEASE_Common.ExtractFileName
+A352CA (2C400) - RELEASE_Common.STRING::tailequ
+A38799 (2C404) - RELEASE_Common.REG::Get
+A3534D (2C408) - RELEASE_Common.STRING::equi
+A3888E (2C40C) - RELEASE_Common.REG::GetStrList
+A3776A (2C410) - RELEASE_Common.INIFILE::LoadAllInifiles
+A390D3 (2C414) - RELEASE_Common.REG::AppData
+A37608 (2C418) - RELEASE_Common.INIFILE::SECTION::Put
+A35044 (2C41C) - RELEASE_Common.STRING::atol
+A35208 (2C420) - RELEASE_Common.STRING::headequ
+A38AA2 (2C424) - RELEASE_Common.REG::PutStrList
+A3682D (2C428) - RELEASE_Common.INIFILE::DeleteSection
+A360E0 (2C42C) - RELEASE_Common.INIFILE::INIFILE
+A34F20 (2C430) - RELEASE_Common.STRING::STRING
+A33DF7 (2C434) - RELEASE_Common.FindDriver
+A33010 (2C438) - RELEASE_Common.DisplayWarning
+A33DA6 (2C43C) - RELEASE_Common.AlreadyRunning
+A3394C (2C440) - RELEASE_Common.RandomProb
+A35087 (2C444) - RELEASE_Common.STRING::terminate
+A330E5 (2C448) - RELEASE_Common.IsRelativePath
+A336A4 (2C44C) - RELEASE_Common.ExtractFileExt
+A3429C (2C450) - RELEASE_Common.GetDriverVersion_UAP
+A350ED (2C454) - RELEASE_Common.STRING::first
+A37A12 (2C458) - RELEASE_Common.INIFILE::GetNextSection
+A379C9 (2C45C) - RELEASE_Common.INIFILE::GetFirstSection
+A37633 (2C460) - RELEASE_Common.INIFILE::SECTION::Get
+A37996 (2C464) - RELEASE_Common.INIFILE::NullSection
+A375C9 (2C468) - RELEASE_Common.INIFILE::SECTION::Get
+
+RELEASE_Font.dll
+4C1000 (2C470) - RELEASE_Font.FONT::FONT
+4C16F7 (2C474) - RELEASE_Font.FONT::CenterText
+4C1940 (2C478) - RELEASE_Font.FONT::GetHeight
+4C1581 (2C47C) - RELEASE_Font.FONT::WrapText
+4C13AF (2C480) - RELEASE_Font.FONT::OutText
+4C12FB (2C484) - RELEASE_Font.FONT::InitFont
+
+RELEASE_GDITools.dll
+10001000 (2C48C) - RELEASE_GDITools.TwCompatibleBitmap::LoadFromFile
+
+RELEASE_GKERNEL.dll
+A560D1 (2C494) - RELEASE_GKERNEL.SPRITE::ResetSurfaceInfo
+A5D64F (2C498) - RELEASE_GKERNEL.DD_SURFACE::GetDC
+A5D695 (2C49C) - RELEASE_GKERNEL.DD_SURFACE::ReleaseDC
+A5601E (2C4A0) - RELEASE_GKERNEL.SPRITE::Init
+A5D6DB (2C4A4) - RELEASE_GKERNEL.DD_SURFACE::Desc
+A56053 (2C4A8) - RELEASE_GKERNEL.SPRITE::Init
+A56E36 (2C4AC) - RELEASE_GKERNEL.TwProgressBar::SetPercentage
+A54DD7 (2C4B0) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+A55580 (2C4B4) - RELEASE_GKERNEL.TwTransparentOverlay::Init
+A51E20 (2C4B8) - RELEASE_GKERNEL.OVERLAY::Position
+A56BD0 (2C4BC) - RELEASE_GKERNEL.TwProgressBar::SetParams
+A5D082 (2C4C0) - RELEASE_GKERNEL.GKERNEL::SpriteFlip
+A69090 (2C4C4) - RELEASE_GKERNEL.g_Timer
+A51FB0 (2C4C8) - RELEASE_GKERNEL.SPRITE::InMotion
+A5CD85 (2C4CC) - RELEASE_GKERNEL.GKERNEL::SaveSprites
+A5CE7F (2C4D0) - RELEASE_GKERNEL.GKERNEL::DrawSprites
+A5CCB0 (2C4D4) - RELEASE_GKERNEL.GKERNEL::FlipSprites
+A5CF70 (2C4D8) - RELEASE_GKERNEL.GKERNEL::RestoreSprites
+A5B75D (2C4DC) - RELEASE_GKERNEL.GKERNEL::GetCursorPos
+A593B7 (2C4E0) - RELEASE_GKERNEL.GAME::IsKeyDown
+A5951C (2C4E4) - RELEASE_GKERNEL.GKERNEL::EnableAltEnter
+A5944D (2C4E8) - RELEASE_GKERNEL.GAME::StateReturn
+A5BA2B (2C4EC) - RELEASE_GKERNEL.GKERNEL::Stop
+A5532E (2C4F0) - RELEASE_GKERNEL.TwAutoButton::Up
+A55373 (2C4F4) - RELEASE_GKERNEL.TwAutoButton::Down
+A5D0E2 (2C4F8) - RELEASE_GKERNEL.GKERNEL::NewSpriteBackground
+A5C40F (2C4FC) - RELEASE_GKERNEL.GKTOOLS::CopyDIBToSurface
+A5530D (2C500) - RELEASE_GKERNEL.TwAutoButton::Init
+A54EF0 (2C504) - RELEASE_GKERNEL.BUTTON::DrawToBack
+A54C4F (2C508) - RELEASE_GKERNEL.OVERLAY::SetPosition
+A54CD9 (2C50C) - RELEASE_GKERNEL.OVERLAY::DrawToFront
+A5B6BF (2C510) - RELEASE_GKERNEL.GKERNEL::SetCursorPos
+A54A9C (2C514) - RELEASE_GKERNEL.OVERLAY::Init
+A54A12 (2C518) - RELEASE_GKERNEL.OVERLAY::Init
+A54902 (2C51C) - RELEASE_GKERNEL.OVERLAY::Init
+A54BDD (2C520) - RELEASE_GKERNEL.OVERLAY::IntersectsCursor
+A54C74 (2C524) - RELEASE_GKERNEL.OVERLAY::SetSubImage
+A55018 (2C528) - RELEASE_GKERNEL.BUTTON::Init
+A54640 (2C52C) - RELEASE_GKERNEL.OVERLAY::OVERLAY
+A55CF8 (2C530) - RELEASE_GKERNEL.SPRITE::SPRITE
+A55DF8 (2C534) - RELEASE_GKERNEL.SPRITE::~SPRITE
+A5DB90 (2C538) - RELEASE_GKERNEL.DD_SURFACE::DD_SURFACE
+A56B90 (2C53C) - RELEASE_GKERNEL.TwProgressBar::TwProgressBar
+A5DFF7 (2C540) - RELEASE_GKERNEL.DD_SURFACE::~DD_SURFACE
+A6B3C0 (2C544) - RELEASE_GKERNEL.GKERNEL::ddsBack
+A5C2E2 (2C548) - RELEASE_GKERNEL.GKTOOLS::TileDIBToSurface
+A5C607 (2C54C) - RELEASE_GKERNEL.GKTOOLS::GetDXVersionString
+A5B1FE (2C550) - RELEASE_GKERNEL.GKERNEL::Init
+A59467 (2C554) - RELEASE_GKERNEL.GAME::ChangeState
+A5C56A (2C558) - RELEASE_GKERNEL.GKTOOLS::CopyDIBToBack
+A5B5AC (2C55C) - RELEASE_GKERNEL.GKERNEL::Flip
+A5AA01 (2C560) - RELEASE_GKERNEL.GKERNEL::Initialized
+A592A7 (2C564) - RELEASE_GKERNEL.GAME::StartGame
+A58AC0 (2C568) - RELEASE_GKERNEL.TwDXVersion::GetDXVersion
+A5B8CA (2C56C) - RELEASE_GKERNEL.GKERNEL::SetWindowedMode
+A5796C (2C570) - RELEASE_GKERNEL.TwDirectXDialog::OnDestroy
+A578E8 (2C574) - RELEASE_GKERNEL.TwDirectXDialog::OnMove
+A5BABA (2C578) - RELEASE_GKERNEL.GKERNEL::Windowed
+A5C502 (2C57C) - RELEASE_GKERNEL.GKTOOLS::GetDIBSize
+A5B1C1 (2C580) - RELEASE_GKERNEL.GKERNEL::GetHwnd
+A5773A (2C584) - RELEASE_GKERNEL.TwDirectXDialog::GetMessageMap
+A5787E (2C588) - RELEASE_GKERNEL.TwDirectXDialog::OnInitDialog
+A618A0 (2C58C) - RELEASE_GKERNEL.TwDirectXDialog::messageMap
+A57A0F (2C590) - RELEASE_GKERNEL.TwDirectXDialog::DoModal
+A6B460 (2C594) - RELEASE_GKERNEL.GKERNEL::ddsPrimary
+A56500 (2C598) - RELEASE_GKERNEL.SPRITE::StartAnimation
+A525B0 (2C59C) - RELEASE_GKERNEL.TwLightning::~TwLightning
+A554F1 (2C5A0) - RELEASE_GKERNEL.TwTransparentOverlay::SetPosition
+A53972 (2C5A4) - RELEASE_GKERNEL.TwLightning::DrawToBack
+A524C2 (2C5A8) - RELEASE_GKERNEL.TwLightning::TwLightning
+A5B533 (2C5AC) - RELEASE_GKERNEL.GKERNEL::ResetFrameCounter
+A54D41 (2C5B0) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+A55BE0 (2C5B4) - RELEASE_GKERNEL.SPRITE::Hide
+A564E7 (2C5B8) - RELEASE_GKERNEL.SPRITE::SetAnimationDelay
+A56088 (2C5BC) - RELEASE_GKERNEL.SPRITE::SetPosition
+A5DC99 (2C5C0) - RELEASE_GKERNEL.DD_SURFACE::Create
+A52B33 (2C5C4) - RELEASE_GKERNEL.TwLightning::SetFramesPerSecond
+A52747 (2C5C8) - RELEASE_GKERNEL.TwLightning::Init
+A5B7BF (2C5CC) - RELEASE_GKERNEL.GKERNEL::ErrorMessage
+A5B884 (2C5D0) - RELEASE_GKERNEL.GKERNEL::SupportsWindowedMode
+A577A6 (2C5D4) - RELEASE_GKERNEL.TwDirectXDialog::EnableFullScreenSupport
+A59437 (2C5D8) - RELEASE_GKERNEL.GAME::SetReturnState
+A56435 (2C5DC) - RELEASE_GKERNEL.SPRITE::SetCurrentImage
+A55BAE (2C5E0) - RELEASE_GKERNEL.SPRITE::Show
+A51F80 (2C5E4) - RELEASE_GKERNEL.SPRITE::SetPosition
+A5B6F5 (2C5E8) - RELEASE_GKERNEL.GKERNEL::IgnoreUserInput
+A5D4AD (2C5EC) - RELEASE_GKERNEL.DD_SURFACE::BltFast
+
+RELEASE_ItemMap.dll
+A7A31A (2C5F4) - RELEASE_ItemMap.MAP::Data
+A7811C (2C5F8) - RELEASE_ItemMap.MAP::ItemList
+A7804C (2C5FC) - RELEASE_ItemMap.MAP::SetSelectedItem
+A7B65C (2C600) - RELEASE_ItemMap.MAP::FindItem
+A77A2D (2C604) - RELEASE_ItemMap.MAP::Rename
+A77B98 (2C608) - RELEASE_ItemMap.MAP::Name
+A7952C (2C60C) - RELEASE_ItemMap.MAP::Save
+A77AD5 (2C610) - RELEASE_ItemMap.MAP::SetCopyrightString
+A7789D (2C614) - RELEASE_ItemMap.MAP::~MAP
+A79C17 (2C618) - RELEASE_ItemMap.MAP::Set
+A776BC (2C61C) - RELEASE_ItemMap.MAP::MAP
+A71000 (2C620) - RELEASE_ItemMap.MAP::CheckBackReflection
+A795CF (2C624) - RELEASE_ItemMap.MAP::SaveAs
+A7A547 (2C628) - RELEASE_ItemMap.MAP::Clear
+A79950 (2C62C) - RELEASE_ItemMap.MAP::Load
+A780DE (2C630) - RELEASE_ItemMap.MAP::GetItem
+A77A81 (2C634) - RELEASE_ItemMap.MAP::SetScript
+A77F2D (2C638) - RELEASE_ItemMap.MAP::GetScript
+A7BC91 (2C63C) - RELEASE_ItemMap.MAP::LoadOptimzationTable
+A78126 (2C640) - RELEASE_ItemMap.MAP::Cleanup
+A7B8A0 (2C644) - RELEASE_ItemMap.MAP::RefreshBothLevelmapBuffers
+A77CDF (2C648) - RELEASE_ItemMap.MAP::OnRestore
+A7A919 (2C64C) - RELEASE_ItemMap.MAP::WipeReset
+A7B040 (2C650) - RELEASE_ItemMap.MAP::WipeErase
+A7C254 (2C654) - RELEASE_ItemMap.MAP::DestroyMovingObjects
+A78076 (2C658) - RELEASE_ItemMap.MAP::SetItem
+A7B77B (2C65C) - RELEASE_ItemMap.MAP::FindItem
+A77E36 (2C660) - RELEASE_ItemMap.MAP::SelectTile
+A71861 (2C664) - RELEASE_ItemMap.MAP::NewFrame
+A77879 (2C668) - RELEASE_ItemMap.MAP::operator=
+A77BE9 (2C66C) - RELEASE_ItemMap.MAP::UseSmallTiles
+A77B29 (2C670) - RELEASE_ItemMap.MAP::SetLevelDir
+A777A4 (2C674) - RELEASE_ItemMap.MAP::Init
+A7139E (2C678) - RELEASE_ItemMap.MAP::RefreshItemMap
+A7B560 (2C67C) - RELEASE_ItemMap.MAP::Exists
+A797A9 (2C680) - RELEASE_ItemMap.MAP::GetLevelData
+A77C02 (2C684) - RELEASE_ItemMap.MAP::DefaultTiles
+A783F1 (2C688) - RELEASE_ItemMap.MAP::SetGammaLevel
+A77EA0 (2C68C) - RELEASE_ItemMap.MAP::SwapTile
+A77DF3 (2C690) - RELEASE_ItemMap.MAP::SetCursor
+A77BCB (2C694) - RELEASE_ItemMap.MAP::HasScript
+A7C064 (2C698) - RELEASE_ItemMap.MAP::CreateMovingObjects
+A7A7B0 (2C69C) - RELEASE_ItemMap.MAP::SetPosition
+A712FD (2C6A0) - RELEASE_ItemMap.MAP::SetDemoLevel
+
+RELEASE_Sound.dll
+A920E0 (2C6A8) - RELEASE_Sound.CMidi::SetVolume
+A91C8F (2C6AC) - RELEASE_Sound.CMidi::UnInit
+A93025 (2C6B0) - RELEASE_Sound.CWave::SetIgnoreList
+A92181 (2C6B4) - RELEASE_Sound.CMidi::Disable
+A9137B (2C6B8) - RELEASE_Sound.CMidi::LoadSong
+A91180 (2C6BC) - RELEASE_Sound.CMidi::Init
+A917E4 (2C6C0) - RELEASE_Sound.CMidi::ReadyThisObjectForPlay
+A918F3 (2C6C4) - RELEASE_Sound.CMidi::Play
+A91E2C (2C6C8) - RELEASE_Sound.CMidi::StopAll
+A91D75 (2C6CC) - RELEASE_Sound.CMidi::Stop
+A92190 (2C6D0) - RELEASE_Sound.CMidi::Enable
+A93250 (2C6D4) - RELEASE_Sound.CWave::RegisterWindow
+A92960 (2C6D8) - RELEASE_Sound.CWave::Enable
+A935C3 (2C6DC) - RELEASE_Sound.CWave::Play
+A910E9 (2C6E0) - RELEASE_Sound.CMidi::~CMidi
+A92FC9 (2C6E4) - RELEASE_Sound.CWave::~CWave
+A91000 (2C6E8) - RELEASE_Sound.CMidi::CMidi
+A92D96 (2C6EC) - RELEASE_Sound.CWave::CWave
+A91EEB (2C6F0) - RELEASE_Sound.CMidi::PauseAll
+A93669 (2C6F4) - RELEASE_Sound.CWave::Stop
+A9325D (2C6F8) - RELEASE_Sound.CWave::Create
+A920C8 (2C6FC) - RELEASE_Sound.CMidi::SetDefaultVolume
+
+MFC42.DLL
+6C37DDE8 (2C054) - MFC42.Ordinal5261
+6C37B4AC (2C058) - MFC42.Ordinal1576
+6C381813 (2C05C) - MFC42.Ordinal2827
+6C3C3FE9 (2C060) - MFC42.Ordinal4277
+6C3C4519 (2C064) - MFC42.Ordinal6930
+6C3E8222 (2C068) - MFC42.Ordinal3573
+6C3E821C (2C06C) - MFC42.Ordinal3693
+6C3D061F (2C070) - MFC42.Ordinal472
+6C3D06C5 (2C074) - MFC42.Ordinal283
+6C37413F (2C078) - MFC42.Ordinal941
+6C3C3E25 (2C07C) - MFC42.Ordinal6877
+6C3C422D (2C080) - MFC42.Ordinal2764
+6C37A2C3 (2C084) - MFC42.Ordinal2086
+6C3C3ABB (2C088) - MFC42.Ordinal536
+6C375BAC (2C08C) - MFC42.Ordinal6215
+6C379C01 (2C090) - MFC42.Ordinal1200
+6C38B193 (2C094) - MFC42.Ordinal4058
+6C3875A1 (2C098) - MFC42.Ordinal815
+6C37AFAF (2C09C) - MFC42.Ordinal561
+6C3E87C6 (2C0A0) - MFC42.Ordinal3738
+6C3CE639 (2C0A4) - MFC42.Ordinal4622
+6C379144 (2C0A8) - MFC42.Ordinal5714
+6C3713D0 (2C0AC) - MFC42.Ordinal5289
+6C371194 (2C0B0) - MFC42.Ordinal5307
+6C372583 (2C0B4) - MFC42.Ordinal4698
+6C3711D4 (2C0B8) - MFC42.Ordinal4079
+6C38747F (2C0BC) - MFC42.Ordinal2725
+6C3CEBC3 (2C0C0) - MFC42.Ordinal5302
+6C3748DE (2C0C4) - MFC42.Ordinal5300
+6C3713B3 (2C0C8) - MFC42.Ordinal3346
+6C380245 (2C0CC) - MFC42.Ordinal2396
+6C3806C6 (2C0D0) - MFC42.Ordinal5199
+6C380CCA (2C0D4) - MFC42.Ordinal1089
+6C37B5A5 (2C0D8) - MFC42.Ordinal3922
+6C3814F8 (2C0DC) - MFC42.Ordinal5731
+6C379C2B (2C0E0) - MFC42.Ordinal2512
+6C3751E8 (2C0E4) - MFC42.Ordinal2554
+6C3DA217 (2C0E8) - MFC42.Ordinal4486
+6C3CEB8C (2C0EC) - MFC42.Ordinal6375
+6C417FD8 (2C0F0) - MFC42.Ordinal4274
+6C37369E (2C0F4) - MFC42.Ordinal3874
+6C386933 (2C0F8) - MFC42.Ordinal2645
+6C386437 (2C0FC) - MFC42.Ordinal2289
+6C3795B4 (2C100) - MFC42.Ordinal4710
+6C40FAE8 (2C104) - MFC42.Ordinal4234
+6C386AB1 (2C108) - MFC42.Ordinal2514
+6C3E7E7E (2C10C) - MFC42.Ordinal3582
+6C376F93 (2C110) - MFC42.Ordinal4398
+6C374F28 (2C114) - MFC42.Ordinal4219
+6C374F28 (2C118) - MFC42.Ordinal4219
+6C3DDF8A (2C11C) - MFC42.Ordinal2023
+6C374F28 (2C120) - MFC42.Ordinal4219
+6C3E7F5D (2C124) - MFC42.Ordinal3639
+6C375036 (2C128) - MFC42.Ordinal3402
+6C3DDF97 (2C12C) - MFC42.Ordinal4401
+6C374F28 (2C130) - MFC42.Ordinal4219
+6C374F28 (2C134) - MFC42.Ordinal4219
+6C3DDF8A (2C138) - MFC42.Ordinal2023
+6C374F28 (2C13C) - MFC42.Ordinal4219
+6C3DDF8F (2C140) - MFC42.Ordinal1771
+6C3DDF8F (2C144) - MFC42.Ordinal1771
+6C3C4703 (2C148) - MFC42.Ordinal2044
+6C3C4732 (2C14C) - MFC42.Ordinal2448
+6C3CEF98 (2C150) - MFC42.Ordinal5834
+6C378D71 (2C154) - MFC42.Ordinal6334
+6C3DE034 (2C158) - MFC42.Ordinal3803
+6C3854A2 (2C15C) - MFC42.Ordinal3317
+6C3C3C4F (2C160) - MFC42.Ordinal6648
+6C372400 (2C164) - MFC42.Ordinal2915
+6C381800 (2C168) - MFC42.Ordinal2818
+6C3C7D36 (2C16C) - MFC42.Ordinal6111
+6C38AF19 (2C170) - MFC42.Ordinal356
+6C38AFAB (2C174) - MFC42.Ordinal2770
+6C38B1CC (2C178) - MFC42.Ordinal2781
+6C38B29B (2C17C) - MFC42.Ordinal3181
+6C379BBB (2C180) - MFC42.Ordinal2642
+6C3E6D90 (2C184) - MFC42.Ordinal668
+6C3D7028 (2C188) - MFC42.Ordinal2301
+6C3D7377 (2C18C) - MFC42.Ordinal6646
+6C3D707A (2C190) - MFC42.Ordinal2358
+6C3C26F1 (2C194) - MFC42.Ordinal692
+6C388E86 (2C198) - MFC42.Ordinal616
+6C371244 (2C19C) - MFC42.Ordinal2864
+6C379283 (2C1A0) - MFC42.Ordinal1768
+6C3863E5 (2C1A4) - MFC42.Ordinal2370
+6C374691 (2C1A8) - MFC42.Ordinal2414
+6C3E822E (2C1AC) - MFC42.Ordinal3626
+6C3E8234 (2C1B0) - MFC42.Ordinal3571
+6C3C824D (2C1B4) - MFC42.Ordinal2862
+6C372303 (2C1B8) - MFC42.Ordinal567
+6C3E7EA8 (2C1BC) - MFC42.Ordinal3640
+6C37223C (2C1C0) - MFC42.Ordinal4424
+6C3C7369 (2C1C4) - MFC42.Ordinal3370
+6C3714EF (2C1C8) - MFC42.Ordinal5290
+6C3C7EA1 (2C1CC) - MFC42.Ordinal4402
+6C371A47 (2C1D0) - MFC42.Ordinal1776
+6C377129 (2C1D4) - MFC42.Ordinal3079
+6C3C7FD6 (2C1D8) - MFC42.Ordinal2582
+6C374FA3 (2C1DC) - MFC42.Ordinal2859
+6C373F94 (2C1E0) - MFC42.Ordinal6383
+6C374208 (2C1E4) - MFC42.Ordinal5440
+6C373856 (2C1E8) - MFC42.Ordinal2107
+6C371904 (2C1EC) - MFC42.Ordinal2841
+6C38A0E4 (2C1F0) - MFC42.Ordinal6394
+6C38A2FF (2C1F4) - MFC42.Ordinal5450
+6C3CA573 (2C1F8) - MFC42.Ordinal3663
+6C3CBDD2 (2C1FC) - MFC42.Ordinal4204
+6C3C3AF3 (2C200) - MFC42.Ordinal538
+6C3738C4 (2C204) - MFC42.Ordinal860
+6C37382D (2C208) - MFC42.Ordinal823
+6C3CE176 (2C20C) - MFC42.Ordinal5802
+6C3C8237 (2C210) - MFC42.Ordinal2408
+6C3C827D (2C214) - MFC42.Ordinal2096
+6C3CBDE5 (2C218) - MFC42.Ordinal4202
+6C3CBCA7 (2C21C) - MFC42.Ordinal926
+6C37A07D (2C220) - MFC42.Ordinal939
+6C3CBE0B (2C224) - MFC42.Ordinal5856
+6C373EB0 (2C228) - MFC42.Ordinal535
+6C37403B (2C22C) - MFC42.Ordinal858
+6C375089 (2C230) - MFC42.Ordinal5981
+6C3CE334 (2C234) - MFC42.Ordinal4299
+6C3C73A0 (2C238) - MFC42.Ordinal693
+6C3C8201 (2C23C) - MFC42.Ordinal384
+6C3E7F17 (2C240) - MFC42.Ordinal6539
+6C378D34 (2C244) - MFC42.Ordinal641
+6C378F3F (2C248) - MFC42.Ordinal324
+6C373941 (2C24C) - MFC42.Ordinal537
+6C37198E (2C250) - MFC42.Ordinal540
+6C373F15 (2C254) - MFC42.Ordinal922
+6C373876 (2C258) - MFC42.Ordinal825
+6C38691A (2C25C) - MFC42.Ordinal4853
+6C38A37E (2C260) - MFC42.Ordinal924
+6C37191C (2C264) - MFC42.Ordinal800
+6C375042 (2C268) - MFC42.Ordinal3092
+6C374961 (2C26C) - MFC42.Ordinal6199
+6C3839BE (2C270) - MFC42.Ordinal2302
+6C37967C (2C274) - MFC42.Ordinal3597
+6C378FAA (2C278) - MFC42.Ordinal4425
+6C384481 (2C27C) - MFC42.Ordinal4627
+6C383F13 (2C280) - MFC42.Ordinal4080
+6C377129 (2C284) - MFC42.Ordinal3079
+6C3717E0 (2C288) - MFC42.Ordinal3831
+6C3717E0 (2C28C) - MFC42.Ordinal3831
+6C3CE610 (2C290) - MFC42.Ordinal3830
+6C3CE671 (2C294) - MFC42.Ordinal2976
+6C3CE62D (2C298) - MFC42.Ordinal3081
+6C3CE66B (2C29C) - MFC42.Ordinal2985
+6C386A75 (2C2A0) - MFC42.Ordinal3262
+6C3CE633 (2C2A4) - MFC42.Ordinal3136
+6C371A47 (2C2A8) - MFC42.Ordinal1776
+6C377129 (2C2AC) - MFC42.Ordinal3079
+6C377129 (2C2B0) - MFC42.Ordinal3079
+6C377129 (2C2B4) - MFC42.Ordinal3079
+6C374444 (2C2B8) - MFC42.Ordinal5277
+6C37C61A (2C2BC) - MFC42.Ordinal2124
+6C375BF6 (2C2C0) - MFC42.Ordinal2446
+6C371083 (2C2C4) - MFC42.Ordinal1168
+6C37DFA8 (2C2C8) - MFC42.Ordinal1727
+6C3CC2AE (2C2CC) - MFC42.Ordinal5065
+6C377129 (2C2D0) - MFC42.Ordinal3079
+6C3CC587 (2C2D4) - MFC42.Ordinal6376
+6C386913 (2C2D8) - MFC42.Ordinal2055
+6C386956 (2C2DC) - MFC42.Ordinal2648
+6C37291C (2C2E0) - MFC42.Ordinal4441
+6C373290 (2C2E4) - MFC42.Ordinal4837
+6C374440 (2C2E8) - MFC42.Ordinal3798
+6C3868A4 (2C2EC) - MFC42.Ordinal5280
+6C3CE06A (2C2F0) - MFC42.Ordinal4353
+6C371CC8 (2C2F4) - MFC42.Ordinal6374
+6C371D0C (2C2F8) - MFC42.Ordinal5163
+6C3720CE (2C2FC) - MFC42.Ordinal2385
+6C374444 (2C300) - MFC42.Ordinal5277
+6C37271D (2C304) - MFC42.Ordinal4407
+6C379789 (2C308) - MFC42.Ordinal1775
+6C3717E0 (2C30C) - MFC42.Ordinal3831
+6C3CD6C7 (2C310) - MFC42.Ordinal6052
+6C37466E (2C314) - MFC42.Ordinal5894
+6C3CD8DA (2C318) - MFC42.Ordinal4376
+6C374444 (2C31C) - MFC42.Ordinal5277
+
+MSVCRT.dll
+75EA7310 (2C324) - MSVCRT.free
+75EAE480 (2C328) - MSVCRT.setmbcp
+75EE6880 (2C32C) - MSVCRT.mbsdup
+75E92BF0 (2C330) - MSVCRT.toupper
+75EE6780 (2C334) - MSVCRT.mbscpy
+75EE96A0 (2C338) - MSVCRT.strcmp
+75EE94D0 (2C33C) - MSVCRT.memset
+75E977A0 (2C340) - MSVCRT.remove
+75EC6690 (2C344) - MSVCRT.exit
+75EB8B00 (2C348) - MSVCRT.purecall
+75E90060 (2C34C) - MSVCRT.isprint
+75EE6A90 (2C350) - MSVCRT.stricmp
+75EFAC20 (2C354) - MSVCRT.ftol
+75EB6D10 (2C358) - MSVCRT._dllonexit
+75EB6DF0 (2C35C) - MSVCRT.onexit
+75EB8124 (2C360) - MSVCRT.except_handler3
+75E9A620 (2C364) - MSVCRT.terminate
+75EC60B0 (2C368) - MSVCRT.exit
+75EB4BA0 (2C36C) - MSVCRT.XcptFilter
+75F15BA0 (2C370) - MSVCRT.acmdln
+75E95C10 (2C374) - MSVCRT._getmainargs
+75EC6460 (2C378) - MSVCRT.initterm
+75EF8030 (2C37C) - MSVCRT._setusermatherr
+75F16BE4 (2C380) - MSVCRT.adjust_fdiv
+75EF9AB0 (2C384) - MSVCRT.controlfp
+75E9AFB0 (2C388) - MSVCRT._CxxFrameHandler3
+75EB7540 (2C38C) - MSVCRT._set_app_type
+75E95D70 (2C390) - MSVCRT._p__fmode
+75E95D20 (2C394) - MSVCRT._p__commode
+
+KERNEL32.dll
+75CD0C80 (2C020) - KERNEL32.GetStartupInfoA
+75CD0A60 (2C024) - KERNEL32.GetModuleHandleA
+75CCDFA0 (2C028) - KERNEL32.SetLastError
+75CD0BD0 (2C02C) - KERNEL32.LoadLibraryA
+75CCF550 (2C030) - KERNEL32.GetProcAddress
+75CD23A0 (2C034) - KERNEL32.GetTickCount
+75CD05D0 (2C038) - KERNEL32.UnmapViewOfFile
+75CD3130 (2C03C) - KERNEL32.CreateFileA
+75CD3360 (2C040) - KERNEL32.GetFileSize
+75CC16B0 (2C044) - KERNEL32.CreateFileMappingA
+75CCF590 (2C048) - KERNEL32.MapViewOfFile
+75CD2EE0 (2C04C) - KERNEL32.CloseHandle
+
+USER32.dll
+76612D90 (2C70C) - USER32.GetWindowRect
+7132A3B0 (2C710) - apphelp.SE_GetProcAddressForCaller+710
+7661E800 (2C714) - USER32.SetForegroundWindow
+76604F50 (2C718) - USER32.SetWindowTextA
+76620730 (2C71C) - USER32.ShowCursor
+76620760 (2C720) - USER32.ShowWindow
+766003D0 (2C724) - USER32.DrawEdge
+766022B0 (2C728) - USER32.PtInRect
+7660BD40 (2C72C) - USER32.InflateRect
+76601900 (2C730) - USER32.PostMessageA
+76616F60 (2C734) - USER32.ScreenToClient
+76612FC0 (2C738) - USER32.GetWindowLongA
+766021A0 (2C73C) - USER32.SendMessageA
+766204F0 (2C740) - USER32.SetFocus
+7661DEE0 (2C744) - USER32.EnableWindow
+766022F0 (2C748) - USER32.ClientToScreen
+76602050 (2C74C) - USER32.CallWindowProcA
+76609B70 (2C750) - USER32.SetClassLongA
+76605FF0 (2C754) - USER32.SetWindowLongA
+7666ECD0 (2C758) - USER32.MessageBeep
+713367D0 (2C75C) - apphelp.ShimDbgPrint+2C0
+766172F0 (2C760) - USER32.GetDlgItem
+76618340 (2C764) - USER32.IsWindow
+
+GDI32.dll
+75BF46A0 (2C014) - GDI32.Rectangle
+75BF6BF0 (2C018) - GDI32.SelectObject
+
+comdlg32.dll
+7614D9E0 (2C76C) - comdlg32.GetSaveFileNameA
+7614D900 (2C770) - comdlg32.GetOpenFileNameA
+
+ADVAPI32.dll
+75C4E840 (2C000) - ADVAPI32.RegCreateKeyExA
+75C4E310 (2C004) - ADVAPI32.RegCloseKey
+
+SHELL32.dll
+7734A0E0 (2C704) - SHELL32.ShellExecuteA
+
+COMCTL32.dll
+77AC11B0 (2C00C) - COMCTL32.ImageList_Add
+
+ole32.dll
+76FF9900 (2C778) - ole32.CoInitialize
+
+
+---Exports---
+
+
+---Relocs---

@@ -1,0 +1,1008 @@
+RELEASE_LevelPackOne.dll
+MZ header
+	lfanew=F8
+	dos entrypoint = 0000:0000
+	dos stack = 0000:00B8
+PE header
+	Machine=14C
+	Number of sections=4
+	Time/Date =1181602903
+	SymbolTable at 0
+	Symbolcount = 0
+	OptionalHeader size = E0
+	Characteristics = 210E (Executable, No line numbers, No local symbols, 32-bit, DLL)
+	-----optional-----
+	Optional magic number = 10B 
+	Major linker version = 6 
+	Minor linker version = 0 
+	Size of code = 3000 (12288) 
+	Size of initialized data = 4000 (16384)
+	Size of uninitialized data = 0 (0) 
+	Entry point = 00003467 
+	Base of code = 00001000 
+	Base of data = 00004000 
+	Prefered imagebase = 10000000 
+	Section allignment = 1000 
+	File Alignment = 1000 
+	Major Operating System Version = 4 
+	Major Image Version = 0 
+	Minor Image Version = 0 
+	Major Subsystem Version = 4 
+	Minor Subsystem Version = 0 
+	Win32 Version Value = 0 
+	Size Of Image = 8000 
+	Size Of Headers = 1000 
+	CheckSum = 0 
+	Subsystem = 2 
+	Dll Characteristics = 0 
+	Size Of Stack Reserve = 100000 
+	Size Of Stack Commit = 1000 
+	Size Of Heap Reserve = 100000 
+	Size Of Heap Commit = 1000 
+	Loader Flags = 0 
+	Number Of Rva And Sizes = 16 
+		0832B9F0 - 00004C80 - 74 (Export table)
+			Characteristics=0 (should be 0)
+			Time datastamp=466DD457
+			Major version=0
+			Minor version=0
+			Name = 4CB2 (RELEASE_LevelPackOne.dll)
+			Base = 1
+			NumberOfFunctions = 1
+			NumberOfNames = 1
+			AddressOfFunctions = 4CA8
+				1000
+			AddressOfNames = 4CAC
+				?Create@@YAPAVSELECT_SKILL1@@PAVGAME@@@Z
+			AddressOfNameOrdinals = 4CB0
+		0832B3E0 - 00004670 - 8C (Import table)
+			Import 0 : RELEASE_Common.dll
+				Characteristics/OriginalFirstThunk=4794
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=4822 : RELEASE_Common.dll
+				FirstThunk=4098
+				imports:
+					A33993 (832AE08) - RELEASE_Common.round
+			Import 1 : MFC42.DLL
+				Characteristics/OriginalFirstThunk=470C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=4836 : MFC42.DLL
+				FirstThunk=4010
+				imports:
+					6C37191C (832AD80) - MFC42.Ordinal800
+					6C373941 (832AD84) - MFC42.Ordinal537
+					6C387978 (832AD88) - MFC42.Ordinal600
+					6C371BD1 (832AD8C) - MFC42.Ordinal1578
+					6C371B5A (832AD90) - MFC42.Ordinal6467
+					6C380273 (832AD94) - MFC42.Ordinal1255
+					6C37382D (832AD98) - MFC42.Ordinal823
+					6C3729E6 (832AD9C) - MFC42.Ordinal1570
+					6C3729DD (832ADA0) - MFC42.Ordinal1197
+					6C375FDA (832ADA4) - MFC42.Ordinal1243
+					6C37B38F (832ADA8) - MFC42.Ordinal342
+					6C37B0FD (832ADAC) - MFC42.Ordinal1182
+					6C3874D7 (832ADB0) - MFC42.Ordinal1577
+					6C371083 (832ADB4) - MFC42.Ordinal1168
+					6C373876 (832ADB8) - MFC42.Ordinal825
+					6C3E9A22 (832ADBC) - MFC42.Ordinal1116
+					6C37654D (832ADC0) - MFC42.Ordinal826
+					6C387796 (832ADC4) - MFC42.Ordinal1253
+					6C371738 (832ADC8) - MFC42.Ordinal1176
+					6C37B13F (832ADCC) - MFC42.Ordinal1575
+					6C37B44B (832ADD0) - MFC42.Ordinal269
+			Import 2 : MSVCRT.dll
+				Characteristics/OriginalFirstThunk=4764
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=4860 : MSVCRT.dll
+				FirstThunk=4068
+				imports:
+					75EB6DF0 (832ADD8) - MSVCRT.onexit
+					75EB6D10 (832ADDC) - MSVCRT._dllonexit
+					75EA0E80 (832ADE0) - MSVCRT.type_info::~type_info
+					75F16BE4 (832ADE4) - MSVCRT.adjust_fdiv
+					75EA74F0 (832ADE8) - MSVCRT.malloc
+					75EC6460 (832ADEC) - MSVCRT.initterm
+					75EA7310 (832ADF0) - MSVCRT.free
+					75E9A620 (832ADF4) - MSVCRT.terminate
+					75E9AFB0 (832ADF8) - MSVCRT._CxxFrameHandler3
+					75EB8124 (832ADFC) - MSVCRT.except_handler3
+					75EB8B00 (832AE00) - MSVCRT.purecall
+			Import 3 : KERNEL32.dll
+				Characteristics/OriginalFirstThunk=46FC
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=491C : KERNEL32.dll
+				FirstThunk=4000
+				imports:
+					75CCF530 (832AD70) - KERNEL32.LocalFree
+					75CD0460 (832AD74) - KERNEL32.LocalAlloc
+					75CD23A0 (832AD78) - KERNEL32.GetTickCount
+			Import 4 : RELEASE_GKERNEL.dll
+				Characteristics/OriginalFirstThunk=479C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=4BD8 : RELEASE_GKERNEL.dll
+				FirstThunk=40A0
+				imports:
+					A5DFF7 (832AE10) - RELEASE_GKERNEL.DD_SURFACE::~DD_SURFACE
+					A5DB90 (832AE14) - RELEASE_GKERNEL.DD_SURFACE::DD_SURFACE
+					A54640 (832AE18) - RELEASE_GKERNEL.OVERLAY::OVERLAY
+					A51DE0 (832AE1C) - RELEASE_GKERNEL.OVERLAY::GetXPos
+					A51E00 (832AE20) - RELEASE_GKERNEL.OVERLAY::GetYPos
+					A55DF8 (832AE24) - RELEASE_GKERNEL.SPRITE::~SPRITE
+					A55CF8 (832AE28) - RELEASE_GKERNEL.SPRITE::SPRITE
+					A5601E (832AE2C) - RELEASE_GKERNEL.SPRITE::Init
+					A59467 (832AE30) - RELEASE_GKERNEL.GAME::ChangeState
+					A5B5AC (832AE34) - RELEASE_GKERNEL.GKERNEL::Flip
+					A5C56A (832AE38) - RELEASE_GKERNEL.GKTOOLS::CopyDIBToBack
+					A54EF0 (832AE3C) - RELEASE_GKERNEL.BUTTON::DrawToBack
+					A54C4F (832AE40) - RELEASE_GKERNEL.OVERLAY::SetPosition
+					A54CD9 (832AE44) - RELEASE_GKERNEL.OVERLAY::DrawToFront
+					A54D41 (832AE48) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+					A54A9C (832AE4C) - RELEASE_GKERNEL.OVERLAY::Init
+					A54902 (832AE50) - RELEASE_GKERNEL.OVERLAY::Init
+					A54BDD (832AE54) - RELEASE_GKERNEL.OVERLAY::IntersectsCursor
+					A54C74 (832AE58) - RELEASE_GKERNEL.OVERLAY::SetSubImage
+					A55018 (832AE5C) - RELEASE_GKERNEL.BUTTON::Init
+					A5D0E2 (832AE60) - RELEASE_GKERNEL.GKERNEL::NewSpriteBackground
+					A54A12 (832AE64) - RELEASE_GKERNEL.OVERLAY::Init
+			Import 5 : RELEASE_Sound.dll
+				Characteristics/OriginalFirstThunk=47F8
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=4C68 : RELEASE_Sound.dll
+				FirstThunk=40FC
+				imports:
+					A92D96 (832AE6C) - RELEASE_Sound.CWave::CWave
+					A92FC9 (832AE70) - RELEASE_Sound.CWave::~CWave
+					A9325D (832AE74) - RELEASE_Sound.CWave::Create
+					A93669 (832AE78) - RELEASE_Sound.CWave::Stop
+					A935C3 (832AE7C) - RELEASE_Sound.CWave::Play
+		08326D70 - 00000000 - 0 (Resource table)
+		08326D70 - 00000000 - 0 (Exception table)
+		08326D70 - 00000000 - 0 (Certificate table)
+		0832DD70 - 00007000 - 2E4 (Base-Relocation table)
+			Virtual address base: 00001000 (size=3C (60))
+				006 : 3
+				074 : 3
+				0A2 : 3
+				102 : 3
+				14F : 3
+				1AB : 3
+				23C : 3
+				298 : 3
+				329 : 3
+				385 : 3
+				416 : 3
+				472 : 3
+				503 : 3
+				55F : 3
+				5F0 : 3
+				64C : 3
+				7A6 : 3
+				84E : 3
+				8D3 : 3
+				97C : 3
+				A3F : 3
+				AC4 : 3
+				B70 : 3
+				C48 : 3
+				CCD : 3
+				000 : 0
+			Virtual address base: 00002000 (size=80 (128))
+				08A : 3
+				0D7 : 3
+				124 : 3
+				171 : 3
+				1A2 : 3
+				240 : 3
+				25A : 3
+				287 : 3
+				2C9 : 3
+				2E1 : 3
+				306 : 3
+				348 : 3
+				3BD : 3
+				3C2 : 3
+				3ED : 3
+				476 : 3
+				491 : 3
+				49D : 3
+				52F : 3
+				564 : 3
+				57C : 3
+				5A9 : 3
+				5CB : 3
+				63C : 3
+				65C : 3
+				736 : 3
+				751 : 3
+				775 : 3
+				782 : 3
+				78C : 3
+				8B6 : 3
+				8F2 : 3
+				92C : 3
+				976 : 3
+				99E : 3
+				A09 : 3
+				A4F : 3
+				A7E : 3
+				AF6 : 3
+				B30 : 3
+				B66 : 3
+				B81 : 3
+				BC1 : 3
+				BD4 : 3
+				C15 : 3
+				C1F : 3
+				CBD : 3
+				D35 : 3
+				D63 : 3
+				D82 : 3
+				DA1 : 3
+				DF1 : 3
+				DFB : 3
+				F29 : 3
+				F96 : 3
+				FBE : 3
+				FD1 : 3
+				FF4 : 3
+				FFA : 3
+				000 : 0
+			Virtual address base: 00003000 (size=CC (204))
+				000 : 3
+				006 : 3
+				015 : 3
+				025 : 3
+				034 : 3
+				05D : 3
+				069 : 3
+				073 : 3
+				07F : 3
+				0DA : 3
+				119 : 3
+				161 : 3
+				19B : 3
+				1AD : 3
+				1EE : 3
+				1FA : 3
+				204 : 3
+				23A : 3
+				246 : 3
+				24B : 3
+				2C8 : 3
+				2CD : 3
+				348 : 3
+				34D : 3
+				3B8 : 3
+				3C6 : 3
+				3CE : 3
+				3D4 : 3
+				3DF : 3
+				3EC : 3
+				3F4 : 3
+				402 : 3
+				407 : 3
+				40C : 3
+				411 : 3
+				41C : 3
+				429 : 3
+				433 : 3
+				448 : 3
+				454 : 3
+				45A : 3
+				47C : 3
+				48E : 3
+				4EA : 3
+				522 : 3
+				52F : 3
+				536 : 3
+				53B : 3
+				582 : 3
+				588 : 3
+				58E : 3
+				594 : 3
+				59A : 3
+				5A0 : 3
+				5A6 : 3
+				5AC : 3
+				5B2 : 3
+				5B8 : 3
+				5BE : 3
+				5C4 : 3
+				5CA : 3
+				5D0 : 3
+				5D6 : 3
+				5DC : 3
+				5E2 : 3
+				5E8 : 3
+				5EE : 3
+				5F4 : 3
+				5FA : 3
+				600 : 3
+				606 : 3
+				60C : 3
+				612 : 3
+				618 : 3
+				61E : 3
+				624 : 3
+				62A : 3
+				630 : 3
+				636 : 3
+				63C : 3
+				64C : 3
+				734 : 3
+				747 : 3
+				761 : 3
+				7C1 : 3
+				7E1 : 3
+				841 : 3
+				864 : 3
+				86A : 3
+				88A : 3
+				8AA : 3
+				8CA : 3
+				8F4 : 3
+				8FA : 3
+				924 : 3
+				92A : 3
+				93D : 3
+				000 : 0
+			Virtual address base: 00004000 (size=148 (328))
+				118 : 3
+				11C : 3
+				120 : 3
+				124 : 3
+				128 : 3
+				12C : 3
+				130 : 3
+				134 : 3
+				138 : 3
+				13C : 3
+				140 : 3
+				144 : 3
+				148 : 3
+				14C : 3
+				150 : 3
+				154 : 3
+				158 : 3
+				15C : 3
+				160 : 3
+				164 : 3
+				168 : 3
+				16C : 3
+				170 : 3
+				174 : 3
+				178 : 3
+				17C : 3
+				180 : 3
+				184 : 3
+				188 : 3
+				18C : 3
+				190 : 3
+				194 : 3
+				198 : 3
+				19C : 3
+				1A0 : 3
+				1A4 : 3
+				1A8 : 3
+				1AC : 3
+				1B0 : 3
+				1B4 : 3
+				1B8 : 3
+				1BC : 3
+				1C0 : 3
+				1C4 : 3
+				1C8 : 3
+				1CC : 3
+				1D0 : 3
+				1D4 : 3
+				1D8 : 3
+				1DC : 3
+				1E0 : 3
+				1E4 : 3
+				1E8 : 3
+				1EC : 3
+				1F0 : 3
+				1F4 : 3
+				1F8 : 3
+				1FC : 3
+				200 : 3
+				204 : 3
+				208 : 3
+				20C : 3
+				210 : 3
+				214 : 3
+				218 : 3
+				21C : 3
+				220 : 3
+				224 : 3
+				228 : 3
+				22C : 3
+				230 : 3
+				234 : 3
+				238 : 3
+				23C : 3
+				240 : 3
+				244 : 3
+				250 : 3
+				254 : 3
+				268 : 3
+				278 : 3
+				284 : 3
+				288 : 3
+				28C : 3
+				290 : 3
+				298 : 3
+				2B0 : 3
+				2C8 : 3
+				2E0 : 3
+				2E4 : 3
+				2E8 : 3
+				2FC : 3
+				30C : 3
+				310 : 3
+				318 : 3
+				330 : 3
+				344 : 3
+				354 : 3
+				358 : 3
+				368 : 3
+				384 : 3
+				390 : 3
+				3AC : 3
+				3B4 : 3
+				3BC : 3
+				3C4 : 3
+				3CC : 3
+				3D4 : 3
+				3DC : 3
+				3E4 : 3
+				3EC : 3
+				3F4 : 3
+				3FC : 3
+				404 : 3
+				40C : 3
+				414 : 3
+				41C : 3
+				424 : 3
+				42C : 3
+				434 : 3
+				43C : 3
+				444 : 3
+				44C : 3
+				454 : 3
+				460 : 3
+				47C : 3
+				488 : 3
+				4A4 : 3
+				4AC : 3
+				4B4 : 3
+				4BC : 3
+				4C4 : 3
+				4CC : 3
+				4D4 : 3
+				4DC : 3
+				4E8 : 3
+				504 : 3
+				50C : 3
+				514 : 3
+				51C : 3
+				524 : 3
+				52C : 3
+				534 : 3
+				53C : 3
+				548 : 3
+				564 : 3
+				56C : 3
+				578 : 3
+				594 : 3
+				5A0 : 3
+				5BC : 3
+				5C8 : 3
+				5E4 : 3
+				5F0 : 3
+				60C : 3
+				614 : 3
+				620 : 3
+				63C : 3
+				644 : 3
+				650 : 3
+				66C : 3
+			Virtual address base: 00005000 (size=14 (20))
+				004 : 3
+				1B8 : 3
+				1C0 : 3
+				1E0 : 3
+				200 : 3
+				230 : 3
+		08326D70 - 00000000 - 0 (Debugging info table)
+		08326D70 - 00000000 - 0 (Architecture-Specific table)
+		08326D70 - 00000000 - 0 (Global pointer table)
+		08326D70 - 00000000 - 0 (TLS table)
+		08326D70 - 00000000 - 0 (Load config table)
+		08326D70 - 00000000 - 0 (Bound import table)
+		0832AD70 - 00004000 - 114 (import address table)
+		08326D70 - 00000000 - 0 (Delay import descriptor table)
+		08326D70 - 00000000 - 0 (CLR Runtime table)
+		08326D70 - 00000000 - 0 (reserved)
+	-----sections-----
+	.text
+		Virtual Size=2946
+		Virtual Address=1000
+		size of raw data=3000
+		Pointer to raw data=1000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=60000020 (Executable code, executable memory, readable memory)
+	.rdata
+		Virtual Size=CF4
+		Virtual Address=4000
+		size of raw data=1000
+		Pointer to raw data=4000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=40000040 (Initialized data, readable memory)
+	.data
+		Virtual Size=130C
+		Virtual Address=5000
+		size of raw data=1000
+		Pointer to raw data=5000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=C0000040 (Initialized data, readable memory, writable memory)
+	.reloc
+		Virtual Size=37A
+		Virtual Address=7000
+		size of raw data=1000
+		Pointer to raw data=6000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=42000040 (Initialized data, discardable, readable memory)
+
+
+---Imports---
+RELEASE_Common.dll
+A33993 (4098) - RELEASE_Common.round
+
+MFC42.DLL
+6C37191C (4010) - MFC42.Ordinal800
+6C373941 (4014) - MFC42.Ordinal537
+6C387978 (4018) - MFC42.Ordinal600
+6C371BD1 (401C) - MFC42.Ordinal1578
+6C371B5A (4020) - MFC42.Ordinal6467
+6C380273 (4024) - MFC42.Ordinal1255
+6C37382D (4028) - MFC42.Ordinal823
+6C3729E6 (402C) - MFC42.Ordinal1570
+6C3729DD (4030) - MFC42.Ordinal1197
+6C375FDA (4034) - MFC42.Ordinal1243
+6C37B38F (4038) - MFC42.Ordinal342
+6C37B0FD (403C) - MFC42.Ordinal1182
+6C3874D7 (4040) - MFC42.Ordinal1577
+6C371083 (4044) - MFC42.Ordinal1168
+6C373876 (4048) - MFC42.Ordinal825
+6C3E9A22 (404C) - MFC42.Ordinal1116
+6C37654D (4050) - MFC42.Ordinal826
+6C387796 (4054) - MFC42.Ordinal1253
+6C371738 (4058) - MFC42.Ordinal1176
+6C37B13F (405C) - MFC42.Ordinal1575
+6C37B44B (4060) - MFC42.Ordinal269
+
+MSVCRT.dll
+75EB6DF0 (4068) - MSVCRT.onexit
+75EB6D10 (406C) - MSVCRT._dllonexit
+75EA0E80 (4070) - MSVCRT.type_info::~type_info
+75F16BE4 (4074) - MSVCRT.adjust_fdiv
+75EA74F0 (4078) - MSVCRT.malloc
+75EC6460 (407C) - MSVCRT.initterm
+75EA7310 (4080) - MSVCRT.free
+75E9A620 (4084) - MSVCRT.terminate
+75E9AFB0 (4088) - MSVCRT._CxxFrameHandler3
+75EB8124 (408C) - MSVCRT.except_handler3
+75EB8B00 (4090) - MSVCRT.purecall
+
+KERNEL32.dll
+75CCF530 (4000) - KERNEL32.LocalFree
+75CD0460 (4004) - KERNEL32.LocalAlloc
+75CD23A0 (4008) - KERNEL32.GetTickCount
+
+RELEASE_GKERNEL.dll
+A5DFF7 (40A0) - RELEASE_GKERNEL.DD_SURFACE::~DD_SURFACE
+A5DB90 (40A4) - RELEASE_GKERNEL.DD_SURFACE::DD_SURFACE
+A54640 (40A8) - RELEASE_GKERNEL.OVERLAY::OVERLAY
+A51DE0 (40AC) - RELEASE_GKERNEL.OVERLAY::GetXPos
+A51E00 (40B0) - RELEASE_GKERNEL.OVERLAY::GetYPos
+A55DF8 (40B4) - RELEASE_GKERNEL.SPRITE::~SPRITE
+A55CF8 (40B8) - RELEASE_GKERNEL.SPRITE::SPRITE
+A5601E (40BC) - RELEASE_GKERNEL.SPRITE::Init
+A59467 (40C0) - RELEASE_GKERNEL.GAME::ChangeState
+A5B5AC (40C4) - RELEASE_GKERNEL.GKERNEL::Flip
+A5C56A (40C8) - RELEASE_GKERNEL.GKTOOLS::CopyDIBToBack
+A54EF0 (40CC) - RELEASE_GKERNEL.BUTTON::DrawToBack
+A54C4F (40D0) - RELEASE_GKERNEL.OVERLAY::SetPosition
+A54CD9 (40D4) - RELEASE_GKERNEL.OVERLAY::DrawToFront
+A54D41 (40D8) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+A54A9C (40DC) - RELEASE_GKERNEL.OVERLAY::Init
+A54902 (40E0) - RELEASE_GKERNEL.OVERLAY::Init
+A54BDD (40E4) - RELEASE_GKERNEL.OVERLAY::IntersectsCursor
+A54C74 (40E8) - RELEASE_GKERNEL.OVERLAY::SetSubImage
+A55018 (40EC) - RELEASE_GKERNEL.BUTTON::Init
+A5D0E2 (40F0) - RELEASE_GKERNEL.GKERNEL::NewSpriteBackground
+A54A12 (40F4) - RELEASE_GKERNEL.OVERLAY::Init
+
+RELEASE_Sound.dll
+A92D96 (40FC) - RELEASE_Sound.CWave::CWave
+A92FC9 (4100) - RELEASE_Sound.CWave::~CWave
+A9325D (4104) - RELEASE_Sound.CWave::Create
+A93669 (4108) - RELEASE_Sound.CWave::Stop
+A935C3 (410C) - RELEASE_Sound.CWave::Play
+
+
+---Exports---
+RELEASE_LevelPackOne.dll:
+1000 - ?Create@@YAPAVSELECT_SKILL1@@PAVGAME@@@Z
+
+
+---Relocs---
+1006 : 3
+1074 : 3
+10A2 : 3
+1102 : 3
+114F : 3
+11AB : 3
+123C : 3
+1298 : 3
+1329 : 3
+1385 : 3
+1416 : 3
+1472 : 3
+1503 : 3
+155F : 3
+15F0 : 3
+164C : 3
+17A6 : 3
+184E : 3
+18D3 : 3
+197C : 3
+1A3F : 3
+1AC4 : 3
+1B70 : 3
+1C48 : 3
+1CCD : 3
+1000 : 0
+208A : 3
+20D7 : 3
+2124 : 3
+2171 : 3
+21A2 : 3
+2240 : 3
+225A : 3
+2287 : 3
+22C9 : 3
+22E1 : 3
+2306 : 3
+2348 : 3
+23BD : 3
+23C2 : 3
+23ED : 3
+2476 : 3
+2491 : 3
+249D : 3
+252F : 3
+2564 : 3
+257C : 3
+25A9 : 3
+25CB : 3
+263C : 3
+265C : 3
+2736 : 3
+2751 : 3
+2775 : 3
+2782 : 3
+278C : 3
+28B6 : 3
+28F2 : 3
+292C : 3
+2976 : 3
+299E : 3
+2A09 : 3
+2A4F : 3
+2A7E : 3
+2AF6 : 3
+2B30 : 3
+2B66 : 3
+2B81 : 3
+2BC1 : 3
+2BD4 : 3
+2C15 : 3
+2C1F : 3
+2CBD : 3
+2D35 : 3
+2D63 : 3
+2D82 : 3
+2DA1 : 3
+2DF1 : 3
+2DFB : 3
+2F29 : 3
+2F96 : 3
+2FBE : 3
+2FD1 : 3
+2FF4 : 3
+2FFA : 3
+2000 : 0
+3000 : 3
+3006 : 3
+3015 : 3
+3025 : 3
+3034 : 3
+305D : 3
+3069 : 3
+3073 : 3
+307F : 3
+30DA : 3
+3119 : 3
+3161 : 3
+319B : 3
+31AD : 3
+31EE : 3
+31FA : 3
+3204 : 3
+323A : 3
+3246 : 3
+324B : 3
+32C8 : 3
+32CD : 3
+3348 : 3
+334D : 3
+33B8 : 3
+33C6 : 3
+33CE : 3
+33D4 : 3
+33DF : 3
+33EC : 3
+33F4 : 3
+3402 : 3
+3407 : 3
+340C : 3
+3411 : 3
+341C : 3
+3429 : 3
+3433 : 3
+3448 : 3
+3454 : 3
+345A : 3
+347C : 3
+348E : 3
+34EA : 3
+3522 : 3
+352F : 3
+3536 : 3
+353B : 3
+3582 : 3
+3588 : 3
+358E : 3
+3594 : 3
+359A : 3
+35A0 : 3
+35A6 : 3
+35AC : 3
+35B2 : 3
+35B8 : 3
+35BE : 3
+35C4 : 3
+35CA : 3
+35D0 : 3
+35D6 : 3
+35DC : 3
+35E2 : 3
+35E8 : 3
+35EE : 3
+35F4 : 3
+35FA : 3
+3600 : 3
+3606 : 3
+360C : 3
+3612 : 3
+3618 : 3
+361E : 3
+3624 : 3
+362A : 3
+3630 : 3
+3636 : 3
+363C : 3
+364C : 3
+3734 : 3
+3747 : 3
+3761 : 3
+37C1 : 3
+37E1 : 3
+3841 : 3
+3864 : 3
+386A : 3
+388A : 3
+38AA : 3
+38CA : 3
+38F4 : 3
+38FA : 3
+3924 : 3
+392A : 3
+393D : 3
+3000 : 0
+4118 : 3
+411C : 3
+4120 : 3
+4124 : 3
+4128 : 3
+412C : 3
+4130 : 3
+4134 : 3
+4138 : 3
+413C : 3
+4140 : 3
+4144 : 3
+4148 : 3
+414C : 3
+4150 : 3
+4154 : 3
+4158 : 3
+415C : 3
+4160 : 3
+4164 : 3
+4168 : 3
+416C : 3
+4170 : 3
+4174 : 3
+4178 : 3
+417C : 3
+4180 : 3
+4184 : 3
+4188 : 3
+418C : 3
+4190 : 3
+4194 : 3
+4198 : 3
+419C : 3
+41A0 : 3
+41A4 : 3
+41A8 : 3
+41AC : 3
+41B0 : 3
+41B4 : 3
+41B8 : 3
+41BC : 3
+41C0 : 3
+41C4 : 3
+41C8 : 3
+41CC : 3
+41D0 : 3
+41D4 : 3
+41D8 : 3
+41DC : 3
+41E0 : 3
+41E4 : 3
+41E8 : 3
+41EC : 3
+41F0 : 3
+41F4 : 3
+41F8 : 3
+41FC : 3
+4200 : 3
+4204 : 3
+4208 : 3
+420C : 3
+4210 : 3
+4214 : 3
+4218 : 3
+421C : 3
+4220 : 3
+4224 : 3
+4228 : 3
+422C : 3
+4230 : 3
+4234 : 3
+4238 : 3
+423C : 3
+4240 : 3
+4244 : 3
+4250 : 3
+4254 : 3
+4268 : 3
+4278 : 3
+4284 : 3
+4288 : 3
+428C : 3
+4290 : 3
+4298 : 3
+42B0 : 3
+42C8 : 3
+42E0 : 3
+42E4 : 3
+42E8 : 3
+42FC : 3
+430C : 3
+4310 : 3
+4318 : 3
+4330 : 3
+4344 : 3
+4354 : 3
+4358 : 3
+4368 : 3
+4384 : 3
+4390 : 3
+43AC : 3
+43B4 : 3
+43BC : 3
+43C4 : 3
+43CC : 3
+43D4 : 3
+43DC : 3
+43E4 : 3
+43EC : 3
+43F4 : 3
+43FC : 3
+4404 : 3
+440C : 3
+4414 : 3
+441C : 3
+4424 : 3
+442C : 3
+4434 : 3
+443C : 3
+4444 : 3
+444C : 3
+4454 : 3
+4460 : 3
+447C : 3
+4488 : 3
+44A4 : 3
+44AC : 3
+44B4 : 3
+44BC : 3
+44C4 : 3
+44CC : 3
+44D4 : 3
+44DC : 3
+44E8 : 3
+4504 : 3
+450C : 3
+4514 : 3
+451C : 3
+4524 : 3
+452C : 3
+4534 : 3
+453C : 3
+4548 : 3
+4564 : 3
+456C : 3
+4578 : 3
+4594 : 3
+45A0 : 3
+45BC : 3
+45C8 : 3
+45E4 : 3
+45F0 : 3
+460C : 3
+4614 : 3
+4620 : 3
+463C : 3
+4644 : 3
+4650 : 3
+466C : 3
+5004 : 3
+51B8 : 3
+51C0 : 3
+51E0 : 3
+5200 : 3
+5230 : 3

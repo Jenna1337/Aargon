@@ -1,0 +1,894 @@
+RELEASE_Mine.dll
+MZ header
+	lfanew=100
+	dos entrypoint = 0000:0000
+	dos stack = 0000:00B8
+PE header
+	Machine=14C
+	Number of sections=4
+	Time/Date =1181602905
+	SymbolTable at 0
+	Symbolcount = 0
+	OptionalHeader size = E0
+	Characteristics = 210E (Executable, No line numbers, No local symbols, 32-bit, DLL)
+	-----optional-----
+	Optional magic number = 10B 
+	Major linker version = 6 
+	Minor linker version = 0 
+	Size of code = 2000 (8192) 
+	Size of initialized data = 4000 (16384)
+	Size of uninitialized data = 0 (0) 
+	Entry point = 00001F47 
+	Base of code = 00001000 
+	Base of data = 00003000 
+	Prefered imagebase = 10000000 
+	Section allignment = 1000 
+	File Alignment = 1000 
+	Major Operating System Version = 4 
+	Major Image Version = 0 
+	Minor Image Version = 0 
+	Major Subsystem Version = 4 
+	Minor Subsystem Version = 0 
+	Win32 Version Value = 0 
+	Size Of Image = 7000 
+	Size Of Headers = 1000 
+	CheckSum = 0 
+	Subsystem = 2 
+	Dll Characteristics = 0 
+	Size Of Stack Reserve = 100000 
+	Size Of Stack Commit = 1000 
+	Size Of Heap Reserve = 100000 
+	Size Of Heap Commit = 1000 
+	Loader Flags = 0 
+	Number Of Rva And Sizes = 16 
+		0251EDE0 - 00003BD0 - 64 (Export table)
+			Characteristics=0 (should be 0)
+			Time datastamp=466DD459
+			Major version=0
+			Minor version=0
+			Name = 3C02 (RELEASE_Mine.dll)
+			Base = 1
+			NumberOfFunctions = 1
+			NumberOfNames = 1
+			AddressOfFunctions = 3BF8
+				1041
+			AddressOfNames = 3BFC
+				?Create@@YAPAVTwMovingObject@@XZ
+			AddressOfNameOrdinals = 3C00
+		0251E650 - 00003440 - A0 (Import table)
+			Import 0 : RELEASE_ItemMap.dll
+				Characteristics/OriginalFirstThunk=3604
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=3648 : RELEASE_ItemMap.dll
+				FirstThunk=3124
+				imports:
+					A780DE (251E334) - RELEASE_ItemMap.MAP::GetItem
+			Import 1 : MFC42.DLL
+				Characteristics/OriginalFirstThunk=34F0
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=365C : MFC42.DLL
+				FirstThunk=3010
+				imports:
+					6C37191C (251E220) - MFC42.Ordinal800
+					6C373941 (251E224) - MFC42.Ordinal537
+					6C375FDA (251E228) - MFC42.Ordinal1243
+					6C3729DD (251E22C) - MFC42.Ordinal1197
+					6C3729E6 (251E230) - MFC42.Ordinal1570
+					6C387796 (251E234) - MFC42.Ordinal1253
+					6C37382D (251E238) - MFC42.Ordinal823
+					6C371B5A (251E23C) - MFC42.Ordinal6467
+					6C371BD1 (251E240) - MFC42.Ordinal1578
+					6C387978 (251E244) - MFC42.Ordinal600
+					6C37654D (251E248) - MFC42.Ordinal826
+					6C37B44B (251E24C) - MFC42.Ordinal269
+					6C37B0FD (251E250) - MFC42.Ordinal1182
+					6C3874D7 (251E254) - MFC42.Ordinal1577
+					6C373876 (251E258) - MFC42.Ordinal825
+					6C371738 (251E25C) - MFC42.Ordinal1176
+					6C380273 (251E260) - MFC42.Ordinal1255
+					6C3E9A22 (251E264) - MFC42.Ordinal1116
+					6C371083 (251E268) - MFC42.Ordinal1168
+					6C37B13F (251E26C) - MFC42.Ordinal1575
+					6C37B38F (251E270) - MFC42.Ordinal342
+			Import 2 : MSVCRT.dll
+				Characteristics/OriginalFirstThunk=3548
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=36B0 : MSVCRT.dll
+				FirstThunk=3068
+				imports:
+					75E9AFB0 (251E278) - MSVCRT._CxxFrameHandler3
+					75EFAC20 (251E27C) - MSVCRT.ftol
+					75EB04F0 (251E280) - MSVCRT.mbscmp
+					75EB6D10 (251E284) - MSVCRT._dllonexit
+					75EB6DF0 (251E288) - MSVCRT.onexit
+					75EA7310 (251E28C) - MSVCRT.free
+					75EC6460 (251E290) - MSVCRT.initterm
+					75EA74F0 (251E294) - MSVCRT.malloc
+					75F16BE4 (251E298) - MSVCRT.adjust_fdiv
+					75EA0E80 (251E29C) - MSVCRT.type_info::~type_info
+					75EB8B00 (251E2A0) - MSVCRT.purecall
+			Import 3 : KERNEL32.dll
+				Characteristics/OriginalFirstThunk=34E0
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=372C : KERNEL32.dll
+				FirstThunk=3000
+				imports:
+					75CCF530 (251E210) - KERNEL32.LocalFree
+					75CD23A0 (251E214) - KERNEL32.GetTickCount
+					75CD0460 (251E218) - KERNEL32.LocalAlloc
+			Import 4 : RELEASE_Common.dll
+				Characteristics/OriginalFirstThunk=3578
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=3750 : RELEASE_Common.dll
+				FirstThunk=3098
+				imports:
+					A3394C (251E2A8) - RELEASE_Common.RandomProb
+			Import 5 : RELEASE_GKERNEL.dll
+				Characteristics/OriginalFirstThunk=3580
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=3B5E : RELEASE_GKERNEL.dll
+				FirstThunk=30A0
+				imports:
+					A54A9C (251E2B0) - RELEASE_GKERNEL.OVERLAY::Init
+					A54D41 (251E2B4) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+					A54CD9 (251E2B8) - RELEASE_GKERNEL.OVERLAY::DrawToFront
+					A56088 (251E2BC) - RELEASE_GKERNEL.SPRITE::SetPosition
+					A51F80 (251E2C0) - RELEASE_GKERNEL.SPRITE::SetPosition
+					A55BE0 (251E2C4) - RELEASE_GKERNEL.SPRITE::Hide
+					A55BAE (251E2C8) - RELEASE_GKERNEL.SPRITE::Show
+					A52010 (251E2CC) - RELEASE_GKERNEL.SPRITE::IsVisible
+					A54A12 (251E2D0) - RELEASE_GKERNEL.OVERLAY::Init
+					A56556 (251E2D4) - RELEASE_GKERNEL.SPRITE::ZeroSaveBufs
+					A56530 (251E2D8) - RELEASE_GKERNEL.SPRITE::FlipSprite
+					A56635 (251E2DC) - RELEASE_GKERNEL.SPRITE::RestoreUnderSprite
+					A5657D (251E2E0) - RELEASE_GKERNEL.SPRITE::SaveUnderSprite
+					A55CF8 (251E2E4) - RELEASE_GKERNEL.SPRITE::SPRITE
+					A55DF8 (251E2E8) - RELEASE_GKERNEL.SPRITE::~SPRITE
+					A51E00 (251E2EC) - RELEASE_GKERNEL.OVERLAY::GetYPos
+					A51DE0 (251E2F0) - RELEASE_GKERNEL.OVERLAY::GetXPos
+					A54BDD (251E2F4) - RELEASE_GKERNEL.OVERLAY::IntersectsCursor
+					A54902 (251E2F8) - RELEASE_GKERNEL.OVERLAY::Init
+					A55C1C (251E2FC) - RELEASE_GKERNEL.SPRITE::OnRestore
+					A564E7 (251E300) - RELEASE_GKERNEL.SPRITE::SetAnimationDelay
+					A56500 (251E304) - RELEASE_GKERNEL.SPRITE::StartAnimation
+					A56518 (251E308) - RELEASE_GKERNEL.SPRITE::StopAnimation
+					A55EDD (251E30C) - RELEASE_GKERNEL.SPRITE::SetVelocity
+					A55F08 (251E310) - RELEASE_GKERNEL.SPRITE::SetXVelocity
+					A55F6F (251E314) - RELEASE_GKERNEL.SPRITE::SetYVelocity
+					A55FD6 (251E318) - RELEASE_GKERNEL.SPRITE::GetXVelocity
+					A55FFA (251E31C) - RELEASE_GKERNEL.SPRITE::GetYVelocity
+					A5694F (251E320) - RELEASE_GKERNEL.SPRITE::MoveTo
+					A5664E (251E324) - RELEASE_GKERNEL.SPRITE::DrawToBack
+					A56435 (251E328) - RELEASE_GKERNEL.SPRITE::SetCurrentImage
+					A54C74 (251E32C) - RELEASE_GKERNEL.OVERLAY::SetSubImage
+			Import 6 : RELEASE_Sound.dll
+				Characteristics/OriginalFirstThunk=360C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=3BBE : RELEASE_Sound.dll
+				FirstThunk=312C
+				imports:
+					A92D96 (251E33C) - RELEASE_Sound.CWave::CWave
+					A92FC9 (251E340) - RELEASE_Sound.CWave::~CWave
+					A9325D (251E344) - RELEASE_Sound.CWave::Create
+		0251B210 - 00000000 - 0 (Resource table)
+		0251B210 - 00000000 - 0 (Exception table)
+		0251B210 - 00000000 - 0 (Certificate table)
+		02521210 - 00006000 - 250 (Base-Relocation table)
+			Virtual address base: 00001000 (size=F0 (240))
+				013 : 3
+				019 : 3
+				023 : 3
+				035 : 3
+				03B : 3
+				047 : 3
+				0B1 : 3
+				0CB : 3
+				0D9 : 3
+				109 : 3
+				10F : 3
+				124 : 3
+				146 : 3
+				14C : 3
+				152 : 3
+				15E : 3
+				164 : 3
+				16A : 3
+				181 : 3
+				187 : 3
+				194 : 3
+				19A : 3
+				1A0 : 3
+				1B9 : 3
+				1BF : 3
+				1CC : 3
+				1D2 : 3
+				1D8 : 3
+				21D : 3
+				243 : 3
+				252 : 3
+				2B9 : 3
+				2E8 : 3
+				317 : 3
+				346 : 3
+				354 : 3
+				3CB : 3
+				442 : 3
+				4B9 : 3
+				534 : 3
+				5CC : 3
+				66A : 3
+				70E : 3
+				805 : 3
+				80B : 3
+				811 : 3
+				81D : 3
+				823 : 3
+				829 : 3
+				861 : 3
+				867 : 3
+				86D : 3
+				8A7 : 3
+				8AD : 3
+				8B3 : 3
+				8ED : 3
+				8F3 : 3
+				8F9 : 3
+				933 : 3
+				939 : 3
+				93F : 3
+				976 : 3
+				9AE : 3
+				9B8 : 3
+				A2C : 3
+				A35 : 3
+				A3F : 3
+				A5C : 3
+				B0D : 3
+				B49 : 3
+				C08 : 3
+				C0E : 3
+				C14 : 3
+				C1A : 3
+				C29 : 3
+				C39 : 3
+				C48 : 3
+				C71 : 3
+				C7D : 3
+				C87 : 3
+				C93 : 3
+				CEE : 3
+				D2D : 3
+				D75 : 3
+				DAF : 3
+				DC1 : 3
+				E02 : 3
+				E0E : 3
+				E18 : 3
+				E4E : 3
+				E5B : 3
+				E62 : 3
+				E67 : 3
+				E8C : 3
+				E92 : 3
+				E98 : 3
+				EA6 : 3
+				EAE : 3
+				EB4 : 3
+				EBF : 3
+				ECC : 3
+				ED4 : 3
+				EE2 : 3
+				EE7 : 3
+				EEC : 3
+				EF1 : 3
+				EFC : 3
+				F09 : 3
+				F13 : 3
+				F28 : 3
+				F34 : 3
+				F3A : 3
+				F5C : 3
+				F6E : 3
+				FCA : 3
+				000 : 0
+			Virtual address base: 00002000 (size=74 (116))
+				022 : 3
+				028 : 3
+				02E : 3
+				034 : 3
+				03A : 3
+				040 : 3
+				046 : 3
+				04C : 3
+				052 : 3
+				058 : 3
+				05E : 3
+				064 : 3
+				06A : 3
+				070 : 3
+				076 : 3
+				07C : 3
+				082 : 3
+				088 : 3
+				08E : 3
+				094 : 3
+				09A : 3
+				0A0 : 3
+				0A6 : 3
+				0AC : 3
+				0B2 : 3
+				0B8 : 3
+				0BE : 3
+				0C4 : 3
+				0CA : 3
+				0D0 : 3
+				0D6 : 3
+				0DC : 3
+				0E2 : 3
+				0E8 : 3
+				0EE : 3
+				0F4 : 3
+				0FA : 3
+				100 : 3
+				106 : 3
+				10C : 3
+				112 : 3
+				118 : 3
+				11E : 3
+				124 : 3
+				12A : 3
+				130 : 3
+				136 : 3
+				13C : 3
+				14C : 3
+				15F : 3
+				1B7 : 3
+				1CA : 3
+				1DD : 3
+				000 : 0
+			Virtual address base: 00003000 (size=D4 (212))
+				140 : 3
+				144 : 3
+				148 : 3
+				14C : 3
+				150 : 3
+				154 : 3
+				158 : 3
+				15C : 3
+				160 : 3
+				164 : 3
+				168 : 3
+				16C : 3
+				170 : 3
+				174 : 3
+				178 : 3
+				17C : 3
+				180 : 3
+				184 : 3
+				188 : 3
+				18C : 3
+				190 : 3
+				194 : 3
+				198 : 3
+				19C : 3
+				1A0 : 3
+				1A4 : 3
+				1A8 : 3
+				1AC : 3
+				1B0 : 3
+				1B4 : 3
+				1B8 : 3
+				1BC : 3
+				1C0 : 3
+				1C4 : 3
+				1C8 : 3
+				1CC : 3
+				1D0 : 3
+				1D4 : 3
+				1D8 : 3
+				1DC : 3
+				1E0 : 3
+				1E4 : 3
+				1E8 : 3
+				1EC : 3
+				1F0 : 3
+				1F4 : 3
+				1F8 : 3
+				1FC : 3
+				200 : 3
+				204 : 3
+				208 : 3
+				20C : 3
+				210 : 3
+				214 : 3
+				218 : 3
+				21C : 3
+				220 : 3
+				224 : 3
+				228 : 3
+				22C : 3
+				230 : 3
+				234 : 3
+				238 : 3
+				23C : 3
+				240 : 3
+				244 : 3
+				260 : 3
+				264 : 3
+				26C : 3
+				270 : 3
+				278 : 3
+				290 : 3
+				2A8 : 3
+				2C0 : 3
+				2C4 : 3
+				2C8 : 3
+				2DC : 3
+				2EC : 3
+				2F0 : 3
+				2F8 : 3
+				310 : 3
+				324 : 3
+				334 : 3
+				338 : 3
+				348 : 3
+				364 : 3
+				370 : 3
+				38C : 3
+				398 : 3
+				3B4 : 3
+				3BC : 3
+				3C4 : 3
+				3CC : 3
+				3D4 : 3
+				3DC : 3
+				3E4 : 3
+				3EC : 3
+				3F8 : 3
+				414 : 3
+				420 : 3
+				43C : 3
+				000 : 0
+			Virtual address base: 00004000 (size=18 (24))
+				004 : 3
+				008 : 3
+				04C : 3
+				050 : 3
+				070 : 3
+				090 : 3
+				0C0 : 3
+				000 : 0
+		0251B210 - 00000000 - 0 (Debugging info table)
+		0251B210 - 00000000 - 0 (Architecture-Specific table)
+		0251B210 - 00000000 - 0 (Global pointer table)
+		0251B210 - 00000000 - 0 (TLS table)
+		0251B210 - 00000000 - 0 (Load config table)
+		0251B210 - 00000000 - 0 (Bound import table)
+		0251E210 - 00003000 - 13C (import address table)
+		0251B210 - 00000000 - 0 (Delay import descriptor table)
+		0251B210 - 00000000 - 0 (CLR Runtime table)
+		0251B210 - 00000000 - 0 (reserved)
+	-----sections-----
+	.text
+		Virtual Size=11E6
+		Virtual Address=1000
+		size of raw data=2000
+		Pointer to raw data=1000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=60000020 (Executable code, executable memory, readable memory)
+	.rdata
+		Virtual Size=C34
+		Virtual Address=3000
+		size of raw data=1000
+		Pointer to raw data=3000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=40000040 (Initialized data, readable memory)
+	.data
+		Virtual Size=11DC
+		Virtual Address=4000
+		size of raw data=1000
+		Pointer to raw data=4000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=C0000040 (Initialized data, readable memory, writable memory)
+	.reloc
+		Virtual Size=296
+		Virtual Address=6000
+		size of raw data=1000
+		Pointer to raw data=5000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=42000040 (Initialized data, discardable, readable memory)
+
+
+---Imports---
+RELEASE_ItemMap.dll
+A780DE (3124) - RELEASE_ItemMap.MAP::GetItem
+
+MFC42.DLL
+6C37191C (3010) - MFC42.Ordinal800
+6C373941 (3014) - MFC42.Ordinal537
+6C375FDA (3018) - MFC42.Ordinal1243
+6C3729DD (301C) - MFC42.Ordinal1197
+6C3729E6 (3020) - MFC42.Ordinal1570
+6C387796 (3024) - MFC42.Ordinal1253
+6C37382D (3028) - MFC42.Ordinal823
+6C371B5A (302C) - MFC42.Ordinal6467
+6C371BD1 (3030) - MFC42.Ordinal1578
+6C387978 (3034) - MFC42.Ordinal600
+6C37654D (3038) - MFC42.Ordinal826
+6C37B44B (303C) - MFC42.Ordinal269
+6C37B0FD (3040) - MFC42.Ordinal1182
+6C3874D7 (3044) - MFC42.Ordinal1577
+6C373876 (3048) - MFC42.Ordinal825
+6C371738 (304C) - MFC42.Ordinal1176
+6C380273 (3050) - MFC42.Ordinal1255
+6C3E9A22 (3054) - MFC42.Ordinal1116
+6C371083 (3058) - MFC42.Ordinal1168
+6C37B13F (305C) - MFC42.Ordinal1575
+6C37B38F (3060) - MFC42.Ordinal342
+
+MSVCRT.dll
+75E9AFB0 (3068) - MSVCRT._CxxFrameHandler3
+75EFAC20 (306C) - MSVCRT.ftol
+75EB04F0 (3070) - MSVCRT.mbscmp
+75EB6D10 (3074) - MSVCRT._dllonexit
+75EB6DF0 (3078) - MSVCRT.onexit
+75EA7310 (307C) - MSVCRT.free
+75EC6460 (3080) - MSVCRT.initterm
+75EA74F0 (3084) - MSVCRT.malloc
+75F16BE4 (3088) - MSVCRT.adjust_fdiv
+75EA0E80 (308C) - MSVCRT.type_info::~type_info
+75EB8B00 (3090) - MSVCRT.purecall
+
+KERNEL32.dll
+75CCF530 (3000) - KERNEL32.LocalFree
+75CD23A0 (3004) - KERNEL32.GetTickCount
+75CD0460 (3008) - KERNEL32.LocalAlloc
+
+RELEASE_Common.dll
+A3394C (3098) - RELEASE_Common.RandomProb
+
+RELEASE_GKERNEL.dll
+A54A9C (30A0) - RELEASE_GKERNEL.OVERLAY::Init
+A54D41 (30A4) - RELEASE_GKERNEL.OVERLAY::DrawToBack
+A54CD9 (30A8) - RELEASE_GKERNEL.OVERLAY::DrawToFront
+A56088 (30AC) - RELEASE_GKERNEL.SPRITE::SetPosition
+A51F80 (30B0) - RELEASE_GKERNEL.SPRITE::SetPosition
+A55BE0 (30B4) - RELEASE_GKERNEL.SPRITE::Hide
+A55BAE (30B8) - RELEASE_GKERNEL.SPRITE::Show
+A52010 (30BC) - RELEASE_GKERNEL.SPRITE::IsVisible
+A54A12 (30C0) - RELEASE_GKERNEL.OVERLAY::Init
+A56556 (30C4) - RELEASE_GKERNEL.SPRITE::ZeroSaveBufs
+A56530 (30C8) - RELEASE_GKERNEL.SPRITE::FlipSprite
+A56635 (30CC) - RELEASE_GKERNEL.SPRITE::RestoreUnderSprite
+A5657D (30D0) - RELEASE_GKERNEL.SPRITE::SaveUnderSprite
+A55CF8 (30D4) - RELEASE_GKERNEL.SPRITE::SPRITE
+A55DF8 (30D8) - RELEASE_GKERNEL.SPRITE::~SPRITE
+A51E00 (30DC) - RELEASE_GKERNEL.OVERLAY::GetYPos
+A51DE0 (30E0) - RELEASE_GKERNEL.OVERLAY::GetXPos
+A54BDD (30E4) - RELEASE_GKERNEL.OVERLAY::IntersectsCursor
+A54902 (30E8) - RELEASE_GKERNEL.OVERLAY::Init
+A55C1C (30EC) - RELEASE_GKERNEL.SPRITE::OnRestore
+A564E7 (30F0) - RELEASE_GKERNEL.SPRITE::SetAnimationDelay
+A56500 (30F4) - RELEASE_GKERNEL.SPRITE::StartAnimation
+A56518 (30F8) - RELEASE_GKERNEL.SPRITE::StopAnimation
+A55EDD (30FC) - RELEASE_GKERNEL.SPRITE::SetVelocity
+A55F08 (3100) - RELEASE_GKERNEL.SPRITE::SetXVelocity
+A55F6F (3104) - RELEASE_GKERNEL.SPRITE::SetYVelocity
+A55FD6 (3108) - RELEASE_GKERNEL.SPRITE::GetXVelocity
+A55FFA (310C) - RELEASE_GKERNEL.SPRITE::GetYVelocity
+A5694F (3110) - RELEASE_GKERNEL.SPRITE::MoveTo
+A5664E (3114) - RELEASE_GKERNEL.SPRITE::DrawToBack
+A56435 (3118) - RELEASE_GKERNEL.SPRITE::SetCurrentImage
+A54C74 (311C) - RELEASE_GKERNEL.OVERLAY::SetSubImage
+
+RELEASE_Sound.dll
+A92D96 (312C) - RELEASE_Sound.CWave::CWave
+A92FC9 (3130) - RELEASE_Sound.CWave::~CWave
+A9325D (3134) - RELEASE_Sound.CWave::Create
+
+
+---Exports---
+RELEASE_Mine.dll:
+1041 - ?Create@@YAPAVTwMovingObject@@XZ
+
+
+---Relocs---
+1013 : 3
+1019 : 3
+1023 : 3
+1035 : 3
+103B : 3
+1047 : 3
+10B1 : 3
+10CB : 3
+10D9 : 3
+1109 : 3
+110F : 3
+1124 : 3
+1146 : 3
+114C : 3
+1152 : 3
+115E : 3
+1164 : 3
+116A : 3
+1181 : 3
+1187 : 3
+1194 : 3
+119A : 3
+11A0 : 3
+11B9 : 3
+11BF : 3
+11CC : 3
+11D2 : 3
+11D8 : 3
+121D : 3
+1243 : 3
+1252 : 3
+12B9 : 3
+12E8 : 3
+1317 : 3
+1346 : 3
+1354 : 3
+13CB : 3
+1442 : 3
+14B9 : 3
+1534 : 3
+15CC : 3
+166A : 3
+170E : 3
+1805 : 3
+180B : 3
+1811 : 3
+181D : 3
+1823 : 3
+1829 : 3
+1861 : 3
+1867 : 3
+186D : 3
+18A7 : 3
+18AD : 3
+18B3 : 3
+18ED : 3
+18F3 : 3
+18F9 : 3
+1933 : 3
+1939 : 3
+193F : 3
+1976 : 3
+19AE : 3
+19B8 : 3
+1A2C : 3
+1A35 : 3
+1A3F : 3
+1A5C : 3
+1B0D : 3
+1B49 : 3
+1C08 : 3
+1C0E : 3
+1C14 : 3
+1C1A : 3
+1C29 : 3
+1C39 : 3
+1C48 : 3
+1C71 : 3
+1C7D : 3
+1C87 : 3
+1C93 : 3
+1CEE : 3
+1D2D : 3
+1D75 : 3
+1DAF : 3
+1DC1 : 3
+1E02 : 3
+1E0E : 3
+1E18 : 3
+1E4E : 3
+1E5B : 3
+1E62 : 3
+1E67 : 3
+1E8C : 3
+1E92 : 3
+1E98 : 3
+1EA6 : 3
+1EAE : 3
+1EB4 : 3
+1EBF : 3
+1ECC : 3
+1ED4 : 3
+1EE2 : 3
+1EE7 : 3
+1EEC : 3
+1EF1 : 3
+1EFC : 3
+1F09 : 3
+1F13 : 3
+1F28 : 3
+1F34 : 3
+1F3A : 3
+1F5C : 3
+1F6E : 3
+1FCA : 3
+1000 : 0
+2022 : 3
+2028 : 3
+202E : 3
+2034 : 3
+203A : 3
+2040 : 3
+2046 : 3
+204C : 3
+2052 : 3
+2058 : 3
+205E : 3
+2064 : 3
+206A : 3
+2070 : 3
+2076 : 3
+207C : 3
+2082 : 3
+2088 : 3
+208E : 3
+2094 : 3
+209A : 3
+20A0 : 3
+20A6 : 3
+20AC : 3
+20B2 : 3
+20B8 : 3
+20BE : 3
+20C4 : 3
+20CA : 3
+20D0 : 3
+20D6 : 3
+20DC : 3
+20E2 : 3
+20E8 : 3
+20EE : 3
+20F4 : 3
+20FA : 3
+2100 : 3
+2106 : 3
+210C : 3
+2112 : 3
+2118 : 3
+211E : 3
+2124 : 3
+212A : 3
+2130 : 3
+2136 : 3
+213C : 3
+214C : 3
+215F : 3
+21B7 : 3
+21CA : 3
+21DD : 3
+2000 : 0
+3140 : 3
+3144 : 3
+3148 : 3
+314C : 3
+3150 : 3
+3154 : 3
+3158 : 3
+315C : 3
+3160 : 3
+3164 : 3
+3168 : 3
+316C : 3
+3170 : 3
+3174 : 3
+3178 : 3
+317C : 3
+3180 : 3
+3184 : 3
+3188 : 3
+318C : 3
+3190 : 3
+3194 : 3
+3198 : 3
+319C : 3
+31A0 : 3
+31A4 : 3
+31A8 : 3
+31AC : 3
+31B0 : 3
+31B4 : 3
+31B8 : 3
+31BC : 3
+31C0 : 3
+31C4 : 3
+31C8 : 3
+31CC : 3
+31D0 : 3
+31D4 : 3
+31D8 : 3
+31DC : 3
+31E0 : 3
+31E4 : 3
+31E8 : 3
+31EC : 3
+31F0 : 3
+31F4 : 3
+31F8 : 3
+31FC : 3
+3200 : 3
+3204 : 3
+3208 : 3
+320C : 3
+3210 : 3
+3214 : 3
+3218 : 3
+321C : 3
+3220 : 3
+3224 : 3
+3228 : 3
+322C : 3
+3230 : 3
+3234 : 3
+3238 : 3
+323C : 3
+3240 : 3
+3244 : 3
+3260 : 3
+3264 : 3
+326C : 3
+3270 : 3
+3278 : 3
+3290 : 3
+32A8 : 3
+32C0 : 3
+32C4 : 3
+32C8 : 3
+32DC : 3
+32EC : 3
+32F0 : 3
+32F8 : 3
+3310 : 3
+3324 : 3
+3334 : 3
+3338 : 3
+3348 : 3
+3364 : 3
+3370 : 3
+338C : 3
+3398 : 3
+33B4 : 3
+33BC : 3
+33C4 : 3
+33CC : 3
+33D4 : 3
+33DC : 3
+33E4 : 3
+33EC : 3
+33F8 : 3
+3414 : 3
+3420 : 3
+343C : 3
+3000 : 0
+4004 : 3
+4008 : 3
+404C : 3
+4050 : 3
+4070 : 3
+4090 : 3
+40C0 : 3
+4000 : 0

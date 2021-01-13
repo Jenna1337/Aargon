@@ -1,0 +1,3766 @@
+RELEASE_Common.dll
+MZ header
+	lfanew=108
+	dos entrypoint = 0000:0000
+	dos stack = 0000:00B8
+PE header
+	Machine=14C
+	Number of sections=5
+	Time/Date =1218858884
+	SymbolTable at 0
+	Symbolcount = 0
+	OptionalHeader size = E0
+	Characteristics = 210E (Executable, No line numbers, No local symbols, 32-bit, DLL)
+	-----optional-----
+	Optional magic number = 10B 
+	Major linker version = 6 
+	Minor linker version = 0 
+	Size of code = A000 (40960) 
+	Size of initialized data = 8000 (32768)
+	Size of uninitialized data = 0 (0) 
+	Entry point = 0000A041 
+	Base of code = 00001000 
+	Base of data = 0000B000 
+	Prefered imagebase = 10000000 
+	Section allignment = 1000 
+	File Alignment = 1000 
+	Major Operating System Version = 4 
+	Major Image Version = 0 
+	Minor Image Version = 0 
+	Major Subsystem Version = 4 
+	Minor Subsystem Version = 0 
+	Win32 Version Value = 0 
+	Size Of Image = 13000 
+	Size Of Headers = 1000 
+	CheckSum = 0 
+	Subsystem = 2 
+	Dll Characteristics = 0 
+	Size Of Stack Reserve = 100000 
+	Size Of Stack Commit = 1000 
+	Size Of Heap Reserve = 100000 
+	Size Of Heap Commit = 1000 
+	Loader Flags = 0 
+	Number Of Rva And Sizes = 16 
+		0833AB00 - 0000D730 - 148A (Export table)
+			Characteristics=0 (should be 0)
+			Time datastamp=48A64F83
+			Major version=0
+			Minor version=0
+			Name = DC1C (RELEASE_Common.dll)
+			Base = 1
+			NumberOfFunctions = 122
+			NumberOfNames = 122
+			AddressOfFunctions = D758
+				1000
+				552A
+				1900
+				612E
+				60E0
+				4F20
+				1057
+				5567
+				19D8
+				757E
+				B6E8
+				3AA6
+				3DA6
+				90D3
+				3B5A
+				5399
+				119C
+				5DE8
+				3B82
+				576F
+				1AEA
+				682D
+				3010
+				361C
+				36A4
+				3531
+				3DF7
+				3BB2
+				55B8
+				8700
+				87DC
+				8799
+				75C9
+				7633
+				3C71
+				2006
+				415D
+				429C
+				79C9
+				1EBB
+				1E99
+				1F37
+				1A63
+				3D41
+				7A12
+				8EDD
+				8E97
+				8F21
+				228B
+				676F
+				888E
+				3186
+				1E0F
+				1FC4
+				6CE6
+				1EFF
+				1EAA
+				2324
+				5958
+				30E5
+				776A
+				1157
+				10C5
+				372C
+				7996
+				59A2
+				1A9B
+				1B55
+				1C02
+				5687
+				122B
+				5979
+				2017
+				1C2E
+				1A73
+				8DCF
+				8D47
+				8E75
+				7608
+				76F2
+				68DB
+				8AA2
+				6E87
+				394C
+				5BF2
+				5EBA
+				2301
+				8F65
+				5A18
+				5F3E
+				1FD5
+				1E40
+				21BD
+				1F10
+				1D89
+				1F48
+				1ECC
+				3CC6
+				14B2
+				5937
+				3A7D
+				1A59
+				B670
+				5044
+				2C70
+				4FBA
+				534D
+				38F0
+				3A2D
+				50ED
+				6AED
+				5208
+				5269
+				5002
+				50B8
+				B668
+				3993
+				5140
+				52CA
+				5087
+				5071
+				5118
+			AddressOfNames = D940
+				??0CDIBStatic@@QAE@XZ
+				??0CDib@@QAE@XZ
+				??0CHyperLink@@QAE@XZ
+				??0INIFILE@@QAE@PBDH@Z
+				??0INIFILE@@QAE@XZ
+				??0STRING@@QAE@PAUHWND__@@@Z
+				??1CDIBStatic@@UAE@XZ
+				??1CDib@@UAE@XZ
+				??1CHyperLink@@UAE@XZ
+				??1INIFILE@@QAE@XZ
+				??_7CHyperLink@@6B@
+				?AddressToHinst@@YAPAUHINSTANCE__@@PBX@Z
+				?AlreadyRunning@@YAHPBD@Z
+				?AppData@REG@@SA?AVCString@@XZ
+				?CallersHinst@@YAPAUHINSTANCE__@@XZ
+				?Center@STRING@@QAEAAU1@I@Z
+				?ClearDib@CDIBStatic@@IAEXXZ
+				?CopyToHandle@CDib@@QBEPAXXZ
+				?CountBits@@YAEK@Z
+				?CreatePalette@CDib@@IAEHXZ
+				?CtlColor@CHyperLink@@IAEPAUHBRUSH__@@PAVCDC@@I@Z
+				?DeleteSection@INIFILE@@QAEXPBD@Z
+				?DisplayWarning@@YAXPBD00@Z
+				?ExtractDirectory@@YA?AVCString@@PBD@Z
+				?ExtractFileExt@@YA?AVCString@@PBD@Z
+				?ExtractFileName@@YA?AVCString@@PBD@Z
+				?FindDriver@@YA_NPBD@Z
+				?FindTopLevelWindow@@YAPAUHWND__@@VCString@@PAU1@@Z
+				?Free@CDib@@IAEXXZ
+				?Get@REG@@QAE_NPBDAAK@Z
+				?Get@REG@@QAE_NPBDAAVCString@@@Z
+				?Get@REG@@QAE_NPBDAA_N@Z
+				?Get@SECTION@INIFILE@@QAE?AUSTRING@@PBD@Z
+				?Get@SECTION@INIFILE@@QAE_NPBDAAK@Z
+				?GetAllTopLevelWindows@@YAXAAV?$LIST@PAUHWND__@@@@PAUHWND__@@@Z
+				?GetAutoSize@CHyperLink@@QBEHXZ
+				?GetDriverVersion_UAG@@YAKPBD@Z
+				?GetDriverVersion_UAP@@YAXPBDK@Z
+				?GetFirstSection@INIFILE@@QBEPAU__POSITION@@XZ
+				?GetHoverColour@CHyperLink@@QBEKXZ
+				?GetLinkColour@CHyperLink@@QBEKXZ
+				?GetLinkCursor@CHyperLink@@QBEPAUHICON__@@XZ
+				?GetMessageMap@CHyperLink@@MBEPBUAFX_MSGMAP@@XZ
+				?GetModuleFileNameA@@YA?AVCString@@PAUHINSTANCE__@@@Z
+				?GetNextSection@INIFILE@@QAE?AVSECTION@1@AAPAU__POSITION@@@Z
+				?GetPut@REG@@QAE_NPBDAAKK@Z
+				?GetPut@REG@@QAE_NPBDAAVCString@@0@Z
+				?GetPut@REG@@QAE_NPBDAA_N_N@Z
+				?GetRegKey@CHyperLink@@QAEJPAUHKEY__@@PBDPAD@Z
+				?GetSection@INIFILE@@QBE?AUSTRING@@PBD@Z
+				?GetStrList@REG@@QAE_NPBDAAV?$LIST@VCString@@@@@Z
+				?GetTempFileNameA@@YA?AVCString@@PBD@Z
+				?GetURL@CHyperLink@@QBE?AVCString@@XZ
+				?GetUnderline@CHyperLink@@QBEHXZ
+				?GetValue@INIFILE@@QBE?AUSTRING@@PBD0@Z
+				?GetVisited@CHyperLink@@QBEHXZ
+				?GetVisitedColour@CHyperLink@@QBEKXZ
+				?GotoURL@CHyperLink@@QAEHPBDH@Z
+				?Height@CDib@@QBEKXZ
+				?IsRelativePath@@YA_NABVCString@@@Z
+				?LoadAllInifiles@INIFILE@@SA?AV?$LIST@PAVINIFILE@@@@PBDPAD@Z
+				?LoadDib@CDIBStatic@@QAEHAAVCFile@@@Z
+				?LoadDib@CDIBStatic@@QAEHPBD@Z
+				?MakeDirectory@@YAHPBD@Z
+				?NullSection@INIFILE@@QAE?AVSECTION@1@XZ
+				?NumColors@CDib@@QBEGXZ
+				?OnClicked@CHyperLink@@IAEXXZ
+				?OnMouseMove@CHyperLink@@IAEXIVCPoint@@@Z
+				?OnSetCursor@CHyperLink@@IAEHPAVCWnd@@II@Z
+				?Paint@CDib@@QBEHPAUHDC__@@PAUtagRECT@@1@Z
+				?PaintDib@CDIBStatic@@IAEXH@Z
+				?PaletteSize@CDib@@IBEGXZ
+				?PositionWindow@CHyperLink@@QAEXXZ
+				?PreSubclassWindow@CHyperLink@@MAEXXZ
+				?PreTranslateMessage@CHyperLink@@UAEHPAUtagMSG@@@Z
+				?Put@REG@@QAE_NPBD0@Z
+				?Put@REG@@QAE_NPBDK@Z
+				?Put@REG@@QAE_NPBD_N@Z
+				?Put@SECTION@INIFILE@@QAEXPBD0@Z
+				?Put@SECTION@INIFILE@@QAEXPBDAAK@Z
+				?PutSection@INIFILE@@QAEXPBD0@Z
+				?PutStrList@REG@@QAE_NPBDABV?$LIST@VCString@@@@@Z
+				?PutValue@INIFILE@@QAEXPBD00@Z
+				?RandomProb@@YANXZ
+				?Read@CDib@@QAEKAAVCFile@@@Z
+				?ReadFromHandle@CDib@@QAEKPAX@Z
+				?ReportError@CHyperLink@@QAEXH@Z
+				?RootDir@REG@@SA?AVCString@@XZ
+				?Save@CDib@@QBEKAAVCFile@@@Z
+				?Serialize@CDib@@UAEXAAVCArchive@@@Z
+				?SetAutoSize@CHyperLink@@QAEXH@Z
+				?SetColours@CHyperLink@@QAEXKKK@Z
+				?SetDefaultCursor@CHyperLink@@QAEXXZ
+				?SetLinkCursor@CHyperLink@@QAEXPAUHICON__@@@Z
+				?SetURL@CHyperLink@@QAEXVCString@@@Z
+				?SetUnderline@CHyperLink@@QAEXH@Z
+				?SetVisited@CHyperLink@@QAEXH@Z
+				?ShowMouse@@YAX_N@Z
+				?UpdateDib@CDIBStatic@@QAEXXZ
+				?Width@CDib@@QBEKXZ
+				?Win32ErrorDesc@@YAPBDK@Z
+				?_GetBaseMessageMap@CHyperLink@@KGPBUAFX_MSGMAP@@XZ
+				?_messageEntries@CHyperLink@@0QBUAFX_MSGMAP_ENTRY@@B
+				?atol@STRING@@QBEHXZ
+				?contains@STRING@@QBE_ND@Z
+				?contains_only@STRING@@QBE_NPBD@Z
+				?equi@STRING@@QBE_NPBD@Z
+				?exists@@YA_NPBD@Z
+				?fcomp@@YAHNNN@Z
+				?first@STRING@@QBEDXZ
+				?flush@INIFILE@@QAEXXZ
+				?headequ@STRING@@QBE_NPBD@Z
+				?headequi@STRING@@QBE_NPBD@Z
+				?isblank@STRING@@QBE_NXZ
+				?last@STRING@@QBEDXZ
+				?messageMap@CHyperLink@@1UAFX_MSGMAP@@B
+				?round@@YAHN@Z
+				?strtok@STRING@@QAE?AU1@PBDW4DIRECTION@1@@Z
+				?tailequ@STRING@@QBE_NPBD@Z
+				?terminate@STRING@@QAEAAU1@PBD@Z
+				?toupper@STRING@@QAEAAU1@XZ
+				?trim@STRING@@QAEAAU1@PBD@Z
+			AddressOfNameOrdinals = DB28
+		08339FA0 - 0000CBD0 - A0 (Import table)
+			Import 0 : MFC42.DLL
+				Characteristics/OriginalFirstThunk=CD24
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=D0F0 : MFC42.DLL
+				FirstThunk=B0B4
+				imports:
+					6C37E1DC (8338484) - MFC42.Ordinal613
+					6C37E185 (8338488) - MFC42.Ordinal289
+					6C373876 (833848C) - MFC42.Ordinal825
+					6C378F78 (8338490) - MFC42.Ordinal2860
+					6C375036 (8338494) - MFC42.Ordinal3402
+					6C372303 (8338498) - MFC42.Ordinal567
+					6C3C63EB (833849C) - MFC42.Ordinal809
+					6C37191C (83384A0) - MFC42.Ordinal800
+					6C3749FA (83384A4) - MFC42.Ordinal2614
+					6C3C635D (83384A8) - MFC42.Ordinal556
+					6C37198E (83384AC) - MFC42.Ordinal540
+					6C374691 (83384B0) - MFC42.Ordinal2414
+					6C37FEF4 (83384B4) - MFC42.Ordinal5875
+					6C3C657A (83384B8) - MFC42.Ordinal1088
+					6C3C6396 (83384BC) - MFC42.Ordinal2122
+					6C374961 (83384C0) - MFC42.Ordinal6199
+					6C37369E (83384C4) - MFC42.Ordinal3874
+					6C372325 (83384C8) - MFC42.Ordinal3797
+					6C3C678F (83384CC) - MFC42.Ordinal6358
+					6C37403B (83384D0) - MFC42.Ordinal858
+					6C373EB0 (83384D4) - MFC42.Ordinal535
+					6C3745D6 (83384D8) - MFC42.Ordinal6197
+					6C374750 (83384DC) - MFC42.Ordinal6880
+					6C37413F (83384E0) - MFC42.Ordinal941
+					6C372476 (83384E4) - MFC42.Ordinal5572
+					6C372400 (83384E8) - MFC42.Ordinal2915
+					6C379C01 (83384EC) - MFC42.Ordinal1200
+					6C37A07D (83384F0) - MFC42.Ordinal939
+					6C3CBCA7 (83384F4) - MFC42.Ordinal926
+					6C382060 (83384F8) - MFC42.Ordinal2763
+					6C38A37E (83384FC) - MFC42.Ordinal924
+					6C3E8228 (8338500) - MFC42.Ordinal3619
+					6C3E822E (8338504) - MFC42.Ordinal3626
+					6C3CA573 (8338508) - MFC42.Ordinal3663
+					6C37D815 (833850C) - MFC42.Ordinal1641
+					6C374FA3 (8338510) - MFC42.Ordinal2859
+					6C371244 (8338514) - MFC42.Ordinal2864
+					6C3718DD (8338518) - MFC42.Ordinal4865
+					6C373941 (833851C) - MFC42.Ordinal537
+					6C374444 (8338520) - MFC42.Ordinal5277
+					6C3CD8DA (8338524) - MFC42.Ordinal4376
+					6C38691A (8338528) - MFC42.Ordinal4853
+					6C37466E (833852C) - MFC42.Ordinal5894
+					6C3CD6C7 (8338530) - MFC42.Ordinal6052
+					6C379789 (8338534) - MFC42.Ordinal1775
+					6C3868A4 (8338538) - MFC42.Ordinal5280
+					6C378FAA (833853C) - MFC42.Ordinal4425
+					6C37967C (8338540) - MFC42.Ordinal3597
+					6C378D34 (8338544) - MFC42.Ordinal641
+					6C3738C4 (8338548) - MFC42.Ordinal860
+					6C378F3F (833854C) - MFC42.Ordinal324
+					6C3863E5 (8338550) - MFC42.Ordinal2370
+					6C3D7028 (8338554) - MFC42.Ordinal2301
+					6C40FAE8 (8338558) - MFC42.Ordinal4234
+					6C378D71 (833855C) - MFC42.Ordinal6334
+					6C386AB1 (8338560) - MFC42.Ordinal2514
+					6C3795B4 (8338564) - MFC42.Ordinal4710
+					6C371B5A (8338568) - MFC42.Ordinal6467
+					6C3C400C (833856C) - MFC42.Ordinal4278
+					6C373F15 (8338570) - MFC42.Ordinal922
+					6C3C3BED (8338574) - MFC42.Ordinal925
+					6C3C3FE9 (8338578) - MFC42.Ordinal4277
+					6C3C422D (833857C) - MFC42.Ordinal2764
+					6C3CBDF8 (8338580) - MFC42.Ordinal4203
+					6C371904 (8338584) - MFC42.Ordinal2841
+					6C3CA6FC (8338588) - MFC42.Ordinal353
+					6C381800 (833858C) - MFC42.Ordinal2818
+					6C3875A1 (8338590) - MFC42.Ordinal815
+					6C3CEB8C (8338594) - MFC42.Ordinal6375
+					6C3DA217 (8338598) - MFC42.Ordinal4486
+					6C3751E8 (833859C) - MFC42.Ordinal2554
+					6C379C2B (83385A0) - MFC42.Ordinal2512
+					6C3814F8 (83385A4) - MFC42.Ordinal5731
+					6C37B5A5 (83385A8) - MFC42.Ordinal3922
+					6C380CCA (83385AC) - MFC42.Ordinal1089
+					6C3806C6 (83385B0) - MFC42.Ordinal5199
+					6C380245 (83385B4) - MFC42.Ordinal2396
+					6C3713B3 (83385B8) - MFC42.Ordinal3346
+					6C3748DE (83385BC) - MFC42.Ordinal5300
+					6C3CEBC3 (83385C0) - MFC42.Ordinal5302
+					6C3711D4 (83385C4) - MFC42.Ordinal4079
+					6C372583 (83385C8) - MFC42.Ordinal4698
+					6C371194 (83385CC) - MFC42.Ordinal5307
+					6C3713D0 (83385D0) - MFC42.Ordinal5289
+					6C379144 (83385D4) - MFC42.Ordinal5714
+					6C3CEB7A (83385D8) - MFC42.Ordinal3401
+					6C3CE639 (83385DC) - MFC42.Ordinal4622
+					6C3E87C6 (83385E0) - MFC42.Ordinal3738
+					6C37AFAF (83385E4) - MFC42.Ordinal561
+					6C3CBDD2 (83385E8) - MFC42.Ordinal4204
+					6C3C4519 (83385EC) - MFC42.Ordinal6930
+					6C3C45FF (83385F0) - MFC42.Ordinal6928
+					6C3C3C4F (83385F4) - MFC42.Ordinal6648
+					6C3C41DE (83385F8) - MFC42.Ordinal6222
+					6C3C3ABB (83385FC) - MFC42.Ordinal536
+					6C40C4F0 (8338600) - MFC42.Ordinal1871
+					6C3DA609 (8338604) - MFC42.Ordinal2461
+					6C40548D (8338608) - MFC42.Ordinal786
+					6C3DA53E (833860C) - MFC42.Ordinal519
+					6C3DA568 (8338610) - MFC42.Ordinal5989
+					6C37382D (8338614) - MFC42.Ordinal823
+					6C3E823A (8338618) - MFC42.Ordinal3692
+					6C38B29B (833861C) - MFC42.Ordinal3181
+					6C38B1CC (8338620) - MFC42.Ordinal2781
+					6C3E6D90 (8338624) - MFC42.Ordinal668
+					6C38AFAB (8338628) - MFC42.Ordinal2770
+					6C38AF19 (833862C) - MFC42.Ordinal356
+					6C38A2FF (8338630) - MFC42.Ordinal5450
+					6C38A0E4 (8338634) - MFC42.Ordinal6394
+					6C374208 (8338638) - MFC42.Ordinal5440
+					6C373F94 (833863C) - MFC42.Ordinal6383
+					6C3C4732 (8338640) - MFC42.Ordinal2448
+					6C3C4703 (8338644) - MFC42.Ordinal2044
+					6C381813 (8338648) - MFC42.Ordinal2827
+					6C3E9A22 (833864C) - MFC42.Ordinal1116
+					6C371738 (8338650) - MFC42.Ordinal1176
+					6C37B13F (8338654) - MFC42.Ordinal1575
+					6C371083 (8338658) - MFC42.Ordinal1168
+					6C3874D7 (833865C) - MFC42.Ordinal1577
+					6C37B0FD (8338660) - MFC42.Ordinal1182
+					6C37B38F (8338664) - MFC42.Ordinal342
+					6C375FDA (8338668) - MFC42.Ordinal1243
+					6C3729DD (833866C) - MFC42.Ordinal1197
+					6C3729E6 (8338670) - MFC42.Ordinal1570
+					6C387796 (8338674) - MFC42.Ordinal1253
+					6C380273 (8338678) - MFC42.Ordinal1255
+					6C371BD1 (833867C) - MFC42.Ordinal1578
+					6C387978 (8338680) - MFC42.Ordinal600
+					6C37654D (8338684) - MFC42.Ordinal826
+					6C37B44B (8338688) - MFC42.Ordinal269
+					6C376C18 (833868C) - MFC42.Ordinal665
+					6C3CA5C6 (8338690) - MFC42.Ordinal2393
+					6C40BAB8 (8338694) - MFC42.Ordinal4275
+					6C3844E5 (8338698) - MFC42.Ordinal795
+					6C3E7E54 (833869C) - MFC42.Ordinal3721
+					6C37223C (83386A0) - MFC42.Ordinal4424
+					6C384481 (83386A4) - MFC42.Ordinal4627
+					6C383F13 (83386A8) - MFC42.Ordinal4080
+					6C377129 (83386AC) - MFC42.Ordinal3079
+					6C3717E0 (83386B0) - MFC42.Ordinal3831
+					6C3717E0 (83386B4) - MFC42.Ordinal3831
+					6C3CE610 (83386B8) - MFC42.Ordinal3830
+					6C3CE671 (83386BC) - MFC42.Ordinal2976
+					6C3CE62D (83386C0) - MFC42.Ordinal3081
+					6C3CE66B (83386C4) - MFC42.Ordinal2985
+					6C386A75 (83386C8) - MFC42.Ordinal3262
+					6C3CE633 (83386CC) - MFC42.Ordinal3136
+					6C371A47 (83386D0) - MFC42.Ordinal1776
+					6C377129 (83386D4) - MFC42.Ordinal3079
+					6C377129 (83386D8) - MFC42.Ordinal3079
+					6C377129 (83386DC) - MFC42.Ordinal3079
+					6C374444 (83386E0) - MFC42.Ordinal5277
+					6C37C61A (83386E4) - MFC42.Ordinal2124
+					6C375BF6 (83386E8) - MFC42.Ordinal2446
+					6C37DDE8 (83386EC) - MFC42.Ordinal5261
+					6C37DFA8 (83386F0) - MFC42.Ordinal1727
+					6C3CC2AE (83386F4) - MFC42.Ordinal5065
+					6C377129 (83386F8) - MFC42.Ordinal3079
+					6C3CC587 (83386FC) - MFC42.Ordinal6376
+					6C386913 (8338700) - MFC42.Ordinal2055
+					6C386956 (8338704) - MFC42.Ordinal2648
+					6C37291C (8338708) - MFC42.Ordinal4441
+					6C373290 (833870C) - MFC42.Ordinal4837
+					6C374440 (8338710) - MFC42.Ordinal3798
+					6C3714EF (8338714) - MFC42.Ordinal5290
+					6C3CE06A (8338718) - MFC42.Ordinal4353
+					6C371CC8 (833871C) - MFC42.Ordinal6374
+					6C371D0C (8338720) - MFC42.Ordinal5163
+					6C3720CE (8338724) - MFC42.Ordinal2385
+					6C374444 (8338728) - MFC42.Ordinal5277
+					6C37271D (833872C) - MFC42.Ordinal4407
+					6C371A47 (8338730) - MFC42.Ordinal1776
+					6C3717E0 (8338734) - MFC42.Ordinal3831
+					6C373856 (8338738) - MFC42.Ordinal2107
+					6C377129 (833873C) - MFC42.Ordinal3079
+			Import 1 : MSVCRT.dll
+				Characteristics/OriginalFirstThunk=CFE4
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=D216 : MSVCRT.dll
+				FirstThunk=B374
+				imports:
+					75EE7130 (8338744) - MSVCRT.strnicmp
+					75E9AFB0 (8338748) - MSVCRT._CxxFrameHandler3
+					75EE9B70 (833874C) - MSVCRT.strncpy
+					75E977A0 (8338750) - MSVCRT.remove
+					75EB92C0 (8338754) - MSVCRT.splitpath
+					75E96160 (8338758) - MSVCRT.errno
+					75E969C0 (833875C) - MSVCRT.mkdir
+					75EBC650 (8338760) - MSVCRT.rand
+					75EBC680 (8338764) - MSVCRT.srand
+					75EEF130 (8338768) - MSVCRT.time
+					75EFDEF0 (833876C) - MSVCRT.floor
+					75EFDD00 (8338770) - MSVCRT.ceil
+					75EFDE30 (8338774) - MSVCRT.fabs
+					75EFAC20 (8338778) - MSVCRT.ftol
+					75EE97F0 (833877C) - MSVCRT.strlen
+					75EE94D0 (8338780) - MSVCRT.memset
+					75EB04F0 (8338784) - MSVCRT.mbscmp
+					75EE9E10 (8338788) - MSVCRT.strspn
+					75E90450 (833878C) - MSVCRT.atol
+					75EE9AC0 (8338790) - MSVCRT.strncmp
+					75ED8860 (8338794) - MSVCRT.fgets
+					75ED85B0 (8338798) - MSVCRT.fclose
+					75ED3E40 (833879C) - MSVCRT.fopen
+					75ED8E30 (83387A0) - MSVCRT.fputs
+					75EB0AF0 (83387A4) - MSVCRT.mbsicmp
+					75EA7310 (83387A8) - MSVCRT.free
+					75F16BE4 (83387AC) - MSVCRT.adjust_fdiv
+					75EC6460 (83387B0) - MSVCRT.initterm
+					75EB6DF0 (83387B4) - MSVCRT.onexit
+					75EB6D10 (83387B8) - MSVCRT._dllonexit
+					75E9A620 (83387BC) - MSVCRT.terminate
+					75EB8124 (83387C0) - MSVCRT.except_handler3
+					75EA0E80 (83387C4) - MSVCRT.type_info::~type_info
+					75E9A6B0 (83387C8) - MSVCRT.CxxThrowException
+					75EBBAB0 (83387CC) - MSVCRT.getenv
+					75EA74F0 (83387D0) - MSVCRT.malloc
+					75EE6A90 (83387D4) - MSVCRT.stricmp
+			Import 2 : KERNEL32.dll
+				Characteristics/OriginalFirstThunk=CCBC
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=D41C : KERNEL32.dll
+				FirstThunk=B04C
+				imports:
+					75CC83C0 (833841C) - KERNEL32.lstrcpyA
+					75CD1D50 (8338420) - KERNEL32.GetWindowsDirectoryA
+					75CD2EE0 (8338424) - KERNEL32.CloseHandle
+					75CE2D90 (8338428) - KERNEL32.CreateProcessA
+					75CCE010 (833842C) - KERNEL32.GetLastError
+					75CC50A0 (8338430) - KERNEL32.lclose
+					75CD2F70 (8338434) - KERNEL32.CreateMutexA
+					75D0F4A0 (8338438) - KERNEL32.lcreat
+					75CCDFA0 (833843C) - KERNEL32.SetLastError
+					75CD3410 (8338440) - KERNEL32.GetTempPathA
+					75CD3130 (8338444) - KERNEL32.CreateFileA
+					75CC8C30 (8338448) - KERNEL32.FormatMessageA
+					75CD0E30 (833844C) - KERNEL32.GetModuleFileNameA
+					75CCF570 (8338450) - KERNEL32.VirtualQuery
+					75CD0AE0 (8338454) - KERNEL32.FreeLibrary
+					75CC0100 (8338458) - KERNEL32.IsBadReadPtr
+					75CCFFC0 (833845C) - KERNEL32.GlobalFree
+					75CCE0D0 (8338460) - KERNEL32.GlobalUnlock
+					75CC7DE0 (8338464) - KERNEL32.GlobalHandle
+					75CCE180 (8338468) - KERNEL32.GlobalLock
+					75CD05F0 (833846C) - KERNEL32.GlobalAlloc
+					75CD3310 (8338470) - KERNEL32.GetFileAttributesA
+					75CD0BD0 (8338474) - KERNEL32.LoadLibraryA
+					75CD0460 (8338478) - KERNEL32.LocalAlloc
+					75CCF530 (833847C) - KERNEL32.LocalFree
+			Import 3 : USER32.dll
+				Characteristics/OriginalFirstThunk=D088
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=D58E : USER32.dll
+				FirstThunk=B418
+				imports:
+					76615660 (83387E8) - USER32.GetParent
+					7661A000 (83387EC) - USER32.GetWindow
+					71335C40 (83387F0) - apphelp.SE_ProcessDying+390
+					7661FE50 (83387F4) - USER32.InvalidateRect
+					76620730 (83387F8) - USER32.ShowCursor
+					77906640 (83387FC) - ntdll.NtdllDefWindowProc_A
+					766203F0 (8338800) - USER32.SetCapture
+					765FDD30 (8338804) - USER32.GetTopWindow
+					7132A2C0 (8338808) - apphelp.SE_GetProcAddressForCaller+620
+					7132A3B0 (833880C) - apphelp.SE_GetProcAddressForCaller+710
+					76612D90 (8338810) - USER32.GetWindowRect
+					766021A0 (8338814) - USER32.SendMessageA
+					766022B0 (8338818) - USER32.PtInRect
+					7661E450 (833881C) - USER32.LoadCursorA
+					76605430 (8338820) - USER32.CopyIcon
+					76618340 (8338824) - USER32.IsWindow
+					76605FF0 (8338828) - USER32.SetWindowLongA
+					7661EFF0 (833882C) - USER32.SetCursor
+					76607040 (8338830) - USER32.ReleaseCapture
+					7666ECD0 (8338834) - USER32.MessageBeep
+					7660B2A0 (8338838) - USER32.GetSysColor
+					7661DEE0 (833883C) - USER32.EnableWindow
+					76613010 (8338840) - USER32.GetClientRect
+					766011C0 (8338844) - USER32.FillRect
+					7660BD40 (8338848) - USER32.InflateRect
+			Import 4 : GDI32.dll
+				Characteristics/OriginalFirstThunk=CC94
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=D63E : GDI32.dll
+				FirstThunk=B024
+				imports:
+					71328670 (83383F4) - apphelp.SdbReadDWORDTag+CB0
+					713364B0 (83383F8) - apphelp.SdbFindNextStringIndexedTag+2F0
+					75BF7250 (83383FC) - GDI32.SetStretchBltMode
+					75BF7080 (8338400) - GDI32.StretchDIBits
+					75BF5180 (8338404) - GDI32.GetTextExtentPoint32A
+					75BF3E30 (8338408) - GDI32.GetObjectA
+					75BF4C10 (833840C) - GDI32.CreateFontIndirectA
+					713221D0 (8338410) - apphelp.dll+221D0
+					75BF5EA0 (8338414) - GDI32.GetStockObject
+			Import 5 : ADVAPI32.dll
+				Characteristics/OriginalFirstThunk=CC70
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=D6D2 : ADVAPI32.dll
+				FirstThunk=B000
+				imports:
+					75C4FDB0 (83383D0) - ADVAPI32.RegDeleteValueA
+					75C522E0 (83383D4) - ADVAPI32.RegEnumValueA
+					75C4E240 (83383D8) - ADVAPI32.RegQueryValueExA
+					75C4E840 (83383DC) - ADVAPI32.RegCreateKeyExA
+					75C4E400 (83383E0) - ADVAPI32.RegOpenKeyExA
+					75C41BB0 (83383E4) - ADVAPI32.RegQueryValueA
+					75C4E310 (83383E8) - ADVAPI32.RegCloseKey
+					75C4F9A0 (83383EC) - ADVAPI32.RegSetValueExA
+			Import 6 : SHELL32.dll
+				Characteristics/OriginalFirstThunk=D07C
+				TimeDateStamp=0 (0=not bound -1=bound, and timestamp)
+				Forwarder Chain=0 (-1 if no forwarders)
+				Name=D70C : SHELL32.dll
+				FirstThunk=B40C
+				imports:
+					773A64A0 (83387DC) - SHELL32.SHGetSpecialFolderPathA
+					773B1DE0 (83387E0) - SHELL32.FindExecutableA
+		0833E3D0 - 00011000 - 1A8 (Resource table)
+		0832D3D0 - 00000000 - 0 (Exception table)
+		0832D3D0 - 00000000 - 0 (Certificate table)
+		0833F3D0 - 00012000 - AB0 (Base-Relocation table)
+			Virtual address base: 00001000 (size=60 (96))
+				006 : 3
+				03B : 3
+				05D : 3
+				078 : 3
+				0AF : 3
+				0BD : 3
+				0CB : 3
+				13C : 3
+				1A2 : 3
+				1F1 : 3
+				231 : 3
+				4E1 : 3
+				51D : 3
+				59E : 3
+				5C1 : 3
+				735 : 3
+				790 : 3
+				7BD : 3
+				814 : 3
+				842 : 3
+				862 : 3
+				884 : 3
+				906 : 3
+				95D : 3
+				983 : 3
+				9DE : 3
+				9F9 : 3
+				A5D : 3
+				A6B : 3
+				AC7 : 3
+				ACD : 3
+				B4B : 3
+				BC0 : 3
+				C1B : 3
+				C34 : 3
+				C6B : 3
+				D8F : 3
+				DC6 : 3
+				E63 : 3
+				E81 : 3
+				EE7 : 3
+				F65 : 3
+				FF0 : 3
+				000 : 0
+			Virtual address base: 00002000 (size=80 (128))
+				01D : 3
+				040 : 3
+				1C3 : 3
+				20C : 3
+				21B : 3
+				232 : 3
+				247 : 3
+				25A : 3
+				26A : 3
+				2AC : 3
+				2D9 : 3
+				2EA : 3
+				2F4 : 3
+				32A : 3
+				363 : 3
+				38D : 3
+				3A0 : 3
+				3BB : 3
+				3D3 : 3
+				463 : 3
+				548 : 3
+				54D : 3
+				583 : 3
+				64A : 3
+				673 : 3
+				6D2 : 3
+				795 : 3
+				7B9 : 3
+				7E4 : 3
+				804 : 3
+				82C : 3
+				87C : 3
+				8C6 : 3
+				8E1 : 3
+				95C : 3
+				97D : 3
+				9A6 : 3
+				9D8 : 3
+				A8F : 3
+				AB6 : 3
+				AF4 : 3
+				B10 : 3
+				B37 : 3
+				B66 : 3
+				B91 : 3
+				BB0 : 3
+				BD0 : 3
+				C1B : 3
+				CC6 : 3
+				CF5 : 3
+				CFA : 3
+				D47 : 3
+				D56 : 3
+				DE4 : 3
+				DF2 : 3
+				EB6 : 3
+				F46 : 3
+				FBA : 3
+				FC7 : 3
+				FFF : 3
+			Virtual address base: 00003000 (size=88 (136))
+				016 : 3
+				0EB : 3
+				111 : 3
+				18C : 3
+				1D6 : 3
+				1DB : 3
+				205 : 3
+				537 : 3
+				5A5 : 3
+				678 : 3
+				700 : 3
+				732 : 3
+				78A : 3
+				791 : 3
+				807 : 3
+				819 : 3
+				887 : 3
+				89D : 3
+				91E : 3
+				954 : 3
+				95F : 3
+				969 : 3
+				972 : 3
+				97C : 3
+				988 : 3
+				9C0 : 3
+				9D0 : 3
+				9E0 : 3
+				9F0 : 3
+				A05 : 3
+				A1D : 3
+				A5B : 3
+				A9B : 3
+				AFC : 3
+				B3A : 3
+				BB8 : 3
+				BDA : 3
+				C85 : 3
+				CDD : 3
+				CEE : 3
+				D01 : 3
+				D10 : 3
+				D21 : 3
+				D34 : 3
+				D7D : 3
+				DD8 : 3
+				DDE : 3
+				DFD : 3
+				ECB : 3
+				ED8 : 3
+				EE1 : 3
+				EE6 : 3
+				EF1 : 3
+				EFB : 3
+				F08 : 3
+				F14 : 3
+				F30 : 3
+				F3D : 3
+				F46 : 3
+				F4B : 3
+				F55 : 3
+				F65 : 3
+				F73 : 3
+				FA0 : 3
+			Virtual address base: 00004000 (size=54 (84))
+				016 : 3
+				04F : 3
+				05C : 3
+				069 : 3
+				076 : 3
+				096 : 3
+				0F5 : 3
+				12C : 3
+				143 : 3
+				152 : 3
+				163 : 3
+				21E : 3
+				246 : 3
+				2A2 : 3
+				36D : 3
+				6C6 : 3
+				7F6 : 3
+				8FD : 3
+				987 : 3
+				A03 : 3
+				B66 : 3
+				B96 : 3
+				BE6 : 3
+				C73 : 3
+				C82 : 3
+				C94 : 3
+				CA5 : 3
+				D56 : 3
+				DA6 : 3
+				DD6 : 3
+				DDB : 3
+				DE0 : 3
+				E46 : 3
+				E75 : 3
+				F26 : 3
+				F60 : 3
+				F9C : 3
+				FE1 : 3
+			Virtual address base: 00005000 (size=74 (116))
+				018 : 3
+				066 : 3
+				146 : 3
+				257 : 3
+				2B8 : 3
+				33A : 3
+				387 : 3
+				39F : 3
+				401 : 3
+				514 : 3
+				522 : 3
+				53E : 3
+				56D : 3
+				588 : 3
+				5D3 : 3
+				5DA : 3
+				5E7 : 3
+				5EE : 3
+				60E : 3
+				615 : 3
+				622 : 3
+				629 : 3
+				6CF : 3
+				6DE : 3
+				749 : 3
+				762 : 3
+				775 : 3
+				7D0 : 3
+				7EA : 3
+				910 : 3
+				91A : 3
+				C4B : 3
+				C52 : 3
+				C98 : 3
+				C9F : 3
+				CAC : 3
+				CB3 : 3
+				CEE : 3
+				CF5 : 3
+				D11 : 3
+				D18 : 3
+				D25 : 3
+				D2C : 3
+				D6A : 3
+				D71 : 3
+				D7E : 3
+				D85 : 3
+				D9C : 3
+				DA3 : 3
+				DB0 : 3
+				DB7 : 3
+				DEE : 3
+				E6C : 3
+				EC0 : 3
+			Virtual address base: 00006000 (size=5C (92))
+				064 : 3
+				0AC : 3
+				0CD : 3
+				0E6 : 3
+				134 : 3
+				188 : 3
+				192 : 3
+				1A9 : 3
+				1B3 : 3
+				1C9 : 3
+				203 : 3
+				23A : 3
+				308 : 3
+				356 : 3
+				366 : 3
+				447 : 3
+				490 : 3
+				644 : 3
+				695 : 3
+				6AA : 3
+				6DF : 3
+				727 : 3
+				775 : 3
+				833 : 3
+				852 : 3
+				8E1 : 3
+				8FA : 3
+				AF3 : 3
+				B0C : 3
+				B37 : 3
+				C2B : 3
+				C6D : 3
+				CA9 : 3
+				CB6 : 3
+				CEC : 3
+				D82 : 3
+				D97 : 3
+				D9E : 3
+				DE7 : 3
+				DF3 : 3
+				E8D : 3
+				F7E : 3
+			Virtual address base: 00007000 (size=48 (72))
+				076 : 3
+				09D : 3
+				0B6 : 3
+				0DB : 3
+				0E4 : 3
+				18D : 3
+				285 : 3
+				2C0 : 3
+				2FE : 3
+				307 : 3
+				3DF : 3
+				443 : 3
+				44C : 3
+				584 : 3
+				639 : 3
+				692 : 3
+				6F8 : 3
+				726 : 3
+				770 : 3
+				7A5 : 3
+				9A7 : 3
+				AD6 : 3
+				B16 : 3
+				C46 : 3
+				CF6 : 3
+				D16 : 3
+				D42 : 3
+				DA6 : 3
+				E44 : 3
+				F76 : 3
+				F91 : 3
+				FD6 : 3
+			Virtual address base: 00008000 (size=3C (60))
+				0C4 : 3
+				1B6 : 3
+				1D1 : 3
+				64D : 3
+				666 : 3
+				72F : 3
+				77A : 3
+				80B : 3
+				832 : 3
+				856 : 3
+				87F : 3
+				894 : 3
+				94E : 3
+				A18 : 3
+				AA8 : 3
+				B26 : 3
+				B7B : 3
+				CBE : 3
+				D76 : 3
+				DA9 : 3
+				E11 : 3
+				E4F : 3
+				F6B : 3
+				FA1 : 3
+				FA6 : 3
+				FAB : 3
+			Virtual address base: 00009000 (size=1BC (444))
+				001 : 3
+				045 : 3
+				062 : 3
+				084 : 3
+				0D9 : 3
+				143 : 3
+				150 : 3
+				157 : 3
+				188 : 3
+				260 : 3
+				272 : 3
+				278 : 3
+				2C8 : 3
+				2E1 : 3
+				351 : 3
+				356 : 3
+				369 : 3
+				49A : 3
+				776 : 3
+				7F6 : 3
+				803 : 3
+				812 : 3
+				818 : 3
+				81E : 3
+				824 : 3
+				82A : 3
+				830 : 3
+				836 : 3
+				83C : 3
+				842 : 3
+				848 : 3
+				84E : 3
+				854 : 3
+				85A : 3
+				860 : 3
+				866 : 3
+				86C : 3
+				872 : 3
+				878 : 3
+				87E : 3
+				884 : 3
+				88A : 3
+				890 : 3
+				896 : 3
+				89C : 3
+				8A2 : 3
+				8A8 : 3
+				8AE : 3
+				8B4 : 3
+				8BA : 3
+				8C0 : 3
+				8C6 : 3
+				8CC : 3
+				8D2 : 3
+				8D8 : 3
+				8DE : 3
+				8E4 : 3
+				8EA : 3
+				8F0 : 3
+				8F6 : 3
+				8FC : 3
+				902 : 3
+				908 : 3
+				90E : 3
+				914 : 3
+				91A : 3
+				920 : 3
+				926 : 3
+				92C : 3
+				932 : 3
+				938 : 3
+				93E : 3
+				944 : 3
+				94A : 3
+				950 : 3
+				956 : 3
+				95C : 3
+				962 : 3
+				968 : 3
+				96E : 3
+				974 : 3
+				97A : 3
+				980 : 3
+				986 : 3
+				98C : 3
+				992 : 3
+				998 : 3
+				99E : 3
+				9A4 : 3
+				9AA : 3
+				9B0 : 3
+				9B6 : 3
+				9BC : 3
+				9C2 : 3
+				9C8 : 3
+				9CE : 3
+				9D4 : 3
+				9DA : 3
+				9E0 : 3
+				9E6 : 3
+				9EC : 3
+				9F2 : 3
+				9F8 : 3
+				9FE : 3
+				A04 : 3
+				A0A : 3
+				A10 : 3
+				A16 : 3
+				A1C : 3
+				A22 : 3
+				A28 : 3
+				A2E : 3
+				A34 : 3
+				A3A : 3
+				A40 : 3
+				A46 : 3
+				A4C : 3
+				A52 : 3
+				A58 : 3
+				A5E : 3
+				A64 : 3
+				A6A : 3
+				A70 : 3
+				A76 : 3
+				A7C : 3
+				A82 : 3
+				A88 : 3
+				A8E : 3
+				A94 : 3
+				A9A : 3
+				AA0 : 3
+				AA6 : 3
+				AAC : 3
+				AB2 : 3
+				AB8 : 3
+				ABE : 3
+				AC4 : 3
+				ACA : 3
+				AD0 : 3
+				AD6 : 3
+				ADC : 3
+				AE2 : 3
+				AE8 : 3
+				AEE : 3
+				AF4 : 3
+				AFA : 3
+				B00 : 3
+				B06 : 3
+				B0C : 3
+				B12 : 3
+				B18 : 3
+				B1E : 3
+				B24 : 3
+				B2A : 3
+				B30 : 3
+				B36 : 3
+				B3C : 3
+				B42 : 3
+				B48 : 3
+				B4E : 3
+				B54 : 3
+				B5A : 3
+				B60 : 3
+				B66 : 3
+				B6C : 3
+				B72 : 3
+				B78 : 3
+				B7E : 3
+				B84 : 3
+				B8A : 3
+				B90 : 3
+				B96 : 3
+				B9C : 3
+				BA2 : 3
+				BA8 : 3
+				BAE : 3
+				BB4 : 3
+				BC3 : 3
+				BD3 : 3
+				BE2 : 3
+				C0B : 3
+				C17 : 3
+				C21 : 3
+				C2D : 3
+				C66 : 3
+				C8E : 3
+				CCD : 3
+				D15 : 3
+				D4F : 3
+				D61 : 3
+				DA2 : 3
+				DAE : 3
+				DB8 : 3
+				DE6 : 3
+				E12 : 3
+				E17 : 3
+				E92 : 3
+				E97 : 3
+				F02 : 3
+				F08 : 3
+				F0E : 3
+				F14 : 3
+				F21 : 3
+				F28 : 3
+				F2D : 3
+				F52 : 3
+				F92 : 3
+				FA0 : 3
+				FA8 : 3
+				FAE : 3
+				FB9 : 3
+				FC6 : 3
+				FCE : 3
+				FDC : 3
+				FE1 : 3
+				FE6 : 3
+				FEB : 3
+				FF6 : 3
+			Virtual address base: 0000A000 (size=D0 (208))
+				003 : 3
+				00D : 3
+				022 : 3
+				02E : 3
+				034 : 3
+				056 : 3
+				068 : 3
+				0C4 : 3
+				102 : 3
+				108 : 3
+				10E : 3
+				114 : 3
+				11A : 3
+				122 : 3
+				128 : 3
+				12E : 3
+				134 : 3
+				13A : 3
+				140 : 3
+				146 : 3
+				14C : 3
+				152 : 3
+				158 : 3
+				15E : 3
+				164 : 3
+				16A : 3
+				170 : 3
+				176 : 3
+				17C : 3
+				1AA : 3
+				1BD : 3
+				1D0 : 3
+				1E3 : 3
+				1F6 : 3
+				209 : 3
+				24E : 3
+				285 : 3
+				298 : 3
+				2AB : 3
+				2BE : 3
+				2D1 : 3
+				338 : 3
+				35A : 3
+				3AA : 3
+				40A : 3
+				433 : 3
+				46E : 3
+				481 : 3
+				53E : 3
+				56E : 3
+				59C : 3
+				5AF : 3
+				5CB : 3
+				5DE : 3
+				621 : 3
+				634 : 3
+				667 : 3
+				67A : 3
+				69A : 3
+				6C2 : 3
+				6F1 : 3
+				70A : 3
+				72A : 3
+				77C : 3
+				79A : 3
+				7C4 : 3
+				7F2 : 3
+				80A : 3
+				81E : 3
+				831 : 3
+				844 : 3
+				85A : 3
+				8DF : 3
+				929 : 3
+				96E : 3
+				9AA : 3
+				9C6 : 3
+				9FD : 3
+				A2B : 3
+				A70 : 3
+				B8E : 3
+				BA1 : 3
+				BB4 : 3
+				BC7 : 3
+				C37 : 3
+				C57 : 3
+				C6A : 3
+				C8A : 3
+				CAA : 3
+				CCA : 3
+				CEA : 3
+				D0A : 3
+				D3C : 3
+				D63 : 3
+				DB4 : 3
+				DF9 : 3
+				E92 : 3
+				EAA : 3
+				EBD : 3
+				000 : 0
+			Virtual address base: 0000B000 (size=338 (824))
+				480 : 3
+				484 : 3
+				49C : 3
+				4B4 : 3
+				4CC : 3
+				4E8 : 3
+				4EC : 3
+				4F0 : 3
+				4F4 : 3
+				4F8 : 3
+				4FC : 3
+				500 : 3
+				504 : 3
+				508 : 3
+				50C : 3
+				510 : 3
+				514 : 3
+				518 : 3
+				51C : 3
+				520 : 3
+				524 : 3
+				528 : 3
+				52C : 3
+				530 : 3
+				534 : 3
+				538 : 3
+				53C : 3
+				540 : 3
+				544 : 3
+				548 : 3
+				54C : 3
+				550 : 3
+				554 : 3
+				558 : 3
+				55C : 3
+				560 : 3
+				564 : 3
+				568 : 3
+				56C : 3
+				570 : 3
+				574 : 3
+				578 : 3
+				57C : 3
+				580 : 3
+				584 : 3
+				588 : 3
+				58C : 3
+				590 : 3
+				594 : 3
+				598 : 3
+				59C : 3
+				5A0 : 3
+				5A4 : 3
+				5A8 : 3
+				5AC : 3
+				5B0 : 3
+				5B4 : 3
+				5B8 : 3
+				5BC : 3
+				5C0 : 3
+				5C4 : 3
+				5C8 : 3
+				5CC : 3
+				5D0 : 3
+				5D4 : 3
+				5D8 : 3
+				5DC : 3
+				5E0 : 3
+				5E4 : 3
+				5E8 : 3
+				5EC : 3
+				5F0 : 3
+				5F4 : 3
+				5F8 : 3
+				5FC : 3
+				600 : 3
+				604 : 3
+				608 : 3
+				60C : 3
+				610 : 3
+				614 : 3
+				618 : 3
+				61C : 3
+				620 : 3
+				624 : 3
+				628 : 3
+				62C : 3
+				630 : 3
+				634 : 3
+				638 : 3
+				63C : 3
+				640 : 3
+				644 : 3
+				648 : 3
+				64C : 3
+				650 : 3
+				654 : 3
+				658 : 3
+				65C : 3
+				660 : 3
+				664 : 3
+				668 : 3
+				66C : 3
+				684 : 3
+				69C : 3
+				6B4 : 3
+				6CC : 3
+				6E8 : 3
+				6EC : 3
+				6F0 : 3
+				6F4 : 3
+				6F8 : 3
+				6FC : 3
+				700 : 3
+				704 : 3
+				708 : 3
+				70C : 3
+				710 : 3
+				714 : 3
+				718 : 3
+				71C : 3
+				720 : 3
+				724 : 3
+				728 : 3
+				72C : 3
+				730 : 3
+				734 : 3
+				738 : 3
+				73C : 3
+				740 : 3
+				744 : 3
+				748 : 3
+				74C : 3
+				750 : 3
+				754 : 3
+				758 : 3
+				75C : 3
+				760 : 3
+				764 : 3
+				768 : 3
+				76C : 3
+				770 : 3
+				774 : 3
+				778 : 3
+				77C : 3
+				780 : 3
+				784 : 3
+				788 : 3
+				78C : 3
+				790 : 3
+				794 : 3
+				798 : 3
+				79C : 3
+				7A0 : 3
+				7A4 : 3
+				7A8 : 3
+				7AC : 3
+				7B0 : 3
+				7B4 : 3
+				7B8 : 3
+				7BC : 3
+				7C0 : 3
+				7C4 : 3
+				7C8 : 3
+				7CC : 3
+				7D0 : 3
+				7D4 : 3
+				7D8 : 3
+				7DC : 3
+				7E0 : 3
+				7E8 : 3
+				7EC : 3
+				804 : 3
+				820 : 3
+				824 : 3
+				828 : 3
+				82C : 3
+				830 : 3
+				834 : 3
+				838 : 3
+				83C : 3
+				840 : 3
+				844 : 3
+				848 : 3
+				84C : 3
+				850 : 3
+				854 : 3
+				858 : 3
+				85C : 3
+				860 : 3
+				864 : 3
+				868 : 3
+				86C : 3
+				870 : 3
+				874 : 3
+				878 : 3
+				87C : 3
+				880 : 3
+				884 : 3
+				888 : 3
+				88C : 3
+				890 : 3
+				894 : 3
+				898 : 3
+				89C : 3
+				8A0 : 3
+				8A4 : 3
+				8A8 : 3
+				8AC : 3
+				8B0 : 3
+				8B4 : 3
+				8B8 : 3
+				8BC : 3
+				8C0 : 3
+				8C4 : 3
+				8C8 : 3
+				8CC : 3
+				8D0 : 3
+				8D4 : 3
+				8D8 : 3
+				8DC : 3
+				8E0 : 3
+				8E4 : 3
+				8E8 : 3
+				8EC : 3
+				8F0 : 3
+				8F4 : 3
+				910 : 3
+				914 : 3
+				918 : 3
+				91C : 3
+				920 : 3
+				924 : 3
+				928 : 3
+				92C : 3
+				930 : 3
+				934 : 3
+				938 : 3
+				93C : 3
+				940 : 3
+				944 : 3
+				948 : 3
+				94C : 3
+				950 : 3
+				954 : 3
+				958 : 3
+				95C : 3
+				960 : 3
+				964 : 3
+				968 : 3
+				96C : 3
+				970 : 3
+				974 : 3
+				978 : 3
+				97C : 3
+				980 : 3
+				984 : 3
+				988 : 3
+				98C : 3
+				990 : 3
+				994 : 3
+				998 : 3
+				99C : 3
+				9A0 : 3
+				9A4 : 3
+				9A8 : 3
+				9AC : 3
+				9B0 : 3
+				9B8 : 3
+				9C8 : 3
+				9D0 : 3
+				9D4 : 3
+				9D8 : 3
+				9DC : 3
+				9E0 : 3
+				9E4 : 3
+				9E8 : 3
+				9EC : 3
+				9F0 : 3
+				9F4 : 3
+				9F8 : 3
+				9FC : 3
+				A00 : 3
+				A04 : 3
+				A08 : 3
+				A0C : 3
+				A10 : 3
+				A14 : 3
+				A18 : 3
+				A1C : 3
+				A20 : 3
+				A24 : 3
+				A28 : 3
+				A2C : 3
+				A30 : 3
+				A34 : 3
+				A38 : 3
+				A3C : 3
+				A40 : 3
+				A44 : 3
+				A48 : 3
+				A4C : 3
+				A50 : 3
+				A54 : 3
+				A60 : 3
+				A6C : 3
+				A70 : 3
+				A78 : 3
+				A90 : 3
+				AA8 : 3
+				AC0 : 3
+				AC4 : 3
+				AC8 : 3
+				ADC : 3
+				AEC : 3
+				AF0 : 3
+				AF8 : 3
+				B10 : 3
+				B24 : 3
+				B34 : 3
+				B38 : 3
+				B48 : 3
+				B64 : 3
+				B70 : 3
+				B8C : 3
+				B98 : 3
+				BA0 : 3
+				BBC : 3
+				BD8 : 3
+				BE4 : 3
+				BEC : 3
+				BF8 : 3
+				C14 : 3
+				C20 : 3
+				C3C : 3
+				C48 : 3
+				C64 : 3
+				C70 : 3
+				C8C : 3
+				C94 : 3
+				C9C : 3
+				CA4 : 3
+				CB0 : 3
+				CCC : 3
+				CD4 : 3
+				CDC : 3
+				CE4 : 3
+				CF0 : 3
+				D0C : 3
+				D18 : 3
+				D34 : 3
+				D40 : 3
+				D5C : 3
+				D68 : 3
+				D84 : 3
+				D90 : 3
+				DAC : 3
+				DB4 : 3
+				DBC : 3
+				DC4 : 3
+				DCC : 3
+				DD4 : 3
+				DDC : 3
+				DE4 : 3
+				DEC : 3
+				DF4 : 3
+				E00 : 3
+				E1C : 3
+				E28 : 3
+				E44 : 3
+				E4C : 3
+				E54 : 3
+				E5C : 3
+				E64 : 3
+				E70 : 3
+				E8C : 3
+				E94 : 3
+				E9C : 3
+				EA4 : 3
+				EB0 : 3
+				ECC : 3
+				ED4 : 3
+				EDC : 3
+				EE8 : 3
+				F04 : 3
+				F0C : 3
+				F14 : 3
+				F1C : 3
+				F24 : 3
+				F2C : 3
+				F38 : 3
+				F54 : 3
+				F60 : 3
+				F7C : 3
+				F84 : 3
+				F8C : 3
+				F94 : 3
+				F9C : 3
+				FA4 : 3
+				FAC : 3
+				FB4 : 3
+				FBC : 3
+				FC4 : 3
+				FCC : 3
+				FD4 : 3
+				FDC : 3
+				FE4 : 3
+				FF0 : 3
+			Virtual address base: 0000C000 (size=1C0 (448))
+				00C : 3
+				014 : 3
+				020 : 3
+				03C : 3
+				044 : 3
+				04C : 3
+				054 : 3
+				060 : 3
+				07C : 3
+				088 : 3
+				0A4 : 3
+				0AC : 3
+				0B8 : 3
+				0D4 : 3
+				0E0 : 3
+				0FC : 3
+				104 : 3
+				10C : 3
+				114 : 3
+				11C : 3
+				128 : 3
+				144 : 3
+				150 : 3
+				16C : 3
+				174 : 3
+				17C : 3
+				188 : 3
+				1A4 : 3
+				1B0 : 3
+				1CC : 3
+				1D8 : 3
+				1F4 : 3
+				200 : 3
+				21C : 3
+				224 : 3
+				230 : 3
+				24C : 3
+				258 : 3
+				274 : 3
+				280 : 3
+				29C : 3
+				2A4 : 3
+				2AC : 3
+				2B4 : 3
+				2BC : 3
+				2C8 : 3
+				2E4 : 3
+				2F0 : 3
+				30C : 3
+				314 : 3
+				320 : 3
+				33C : 3
+				344 : 3
+				34C : 3
+				354 : 3
+				360 : 3
+				37C : 3
+				388 : 3
+				3A4 : 3
+				3B0 : 3
+				3B8 : 3
+				3CC : 3
+				3F0 : 3
+				3FC : 3
+				404 : 3
+				410 : 3
+				42C : 3
+				438 : 3
+				454 : 3
+				460 : 3
+				47C : 3
+				484 : 3
+				48C : 3
+				494 : 3
+				49C : 3
+				4A4 : 3
+				4AC : 3
+				4B4 : 3
+				4BC : 3
+				4C4 : 3
+				4D0 : 3
+				4EC : 3
+				4F4 : 3
+				4FC : 3
+				504 : 3
+				510 : 3
+				52C : 3
+				534 : 3
+				53C : 3
+				544 : 3
+				54C : 3
+				558 : 3
+				574 : 3
+				57C : 3
+				584 : 3
+				58C : 3
+				598 : 3
+				5B4 : 3
+				5BC : 3
+				5C8 : 3
+				5E4 : 3
+				5EC : 3
+				5F4 : 3
+				5FC : 3
+				604 : 3
+				60C : 3
+				618 : 3
+				634 : 3
+				63C : 3
+				644 : 3
+				64C : 3
+				658 : 3
+				674 : 3
+				67C : 3
+				684 : 3
+				68C : 3
+				694 : 3
+				69C : 3
+				6A8 : 3
+				6C4 : 3
+				6CC : 3
+				6D4 : 3
+				6DC : 3
+				6E4 : 3
+				6EC : 3
+				6F4 : 3
+				6FC : 3
+				704 : 3
+				70C : 3
+				714 : 3
+				71C : 3
+				724 : 3
+				72C : 3
+				734 : 3
+				73C : 3
+				744 : 3
+				74C : 3
+				754 : 3
+				75C : 3
+				764 : 3
+				76C : 3
+				774 : 3
+				77C : 3
+				784 : 3
+				78C : 3
+				794 : 3
+				79C : 3
+				7A4 : 3
+				7AC : 3
+				7B8 : 3
+				7D4 : 3
+				7E0 : 3
+				7FC : 3
+				808 : 3
+				824 : 3
+				830 : 3
+				84C : 3
+				854 : 3
+				85C : 3
+				864 : 3
+				86C : 3
+				874 : 3
+				87C : 3
+				884 : 3
+				88C : 3
+				898 : 3
+				8B4 : 3
+				8BC : 3
+				8C8 : 3
+				8E4 : 3
+				8F0 : 3
+				90C : 3
+				918 : 3
+				934 : 3
+				940 : 3
+				95C : 3
+				968 : 3
+				984 : 3
+				990 : 3
+				9AC : 3
+				9B8 : 3
+				9D4 : 3
+				9DC : 3
+				9E4 : 3
+				9F0 : 3
+				A0C : 3
+				A14 : 3
+				A20 : 3
+				A3C : 3
+				A44 : 3
+				A4C : 3
+				A54 : 3
+				A5C : 3
+				A68 : 3
+				A84 : 3
+				A8C : 3
+				A94 : 3
+				A9C : 3
+				AA8 : 3
+				AC4 : 3
+				ACC : 3
+				AD4 : 3
+				ADC : 3
+				AE4 : 3
+				AEC : 3
+				AF4 : 3
+				AFC : 3
+				B04 : 3
+				B0C : 3
+				B14 : 3
+				B1C : 3
+				B24 : 3
+				B44 : 3
+				B64 : 3
+				B68 : 3
+				B7C : 3
+				B88 : 3
+				BA4 : 3
+				BB0 : 3
+				BCC : 3
+			Virtual address base: 0000F000 (size=1C (28))
+				004 : 3
+				008 : 3
+				020 : 3
+				2A8 : 3
+				2B8 : 3
+				2C8 : 3
+				2D0 : 3
+				2F0 : 3
+				310 : 3
+				340 : 3
+		0832D3D0 - 00000000 - 0 (Debugging info table)
+		0832D3D0 - 00000000 - 0 (Architecture-Specific table)
+		0832D3D0 - 00000000 - 0 (Global pointer table)
+		0832D3D0 - 00000000 - 0 (TLS table)
+		0832D3D0 - 00000000 - 0 (Load config table)
+		0832D3D0 - 00000000 - 0 (Bound import table)
+		083383D0 - 0000B000 - 480 (import address table)
+		0832D3D0 - 00000000 - 0 (Delay import descriptor table)
+		0832D3D0 - 00000000 - 0 (CLR Runtime table)
+		0832D3D0 - 00000000 - 0 (reserved)
+	-----sections-----
+	.text
+		Virtual Size=9EC6
+		Virtual Address=1000
+		size of raw data=A000
+		Pointer to raw data=1000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=60000020 (Executable code, executable memory, readable memory)
+	.rdata
+		Virtual Size=3BBA
+		Virtual Address=B000
+		size of raw data=4000
+		Pointer to raw data=B000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=40000040 (Initialized data, readable memory)
+	.data
+		Virtual Size=156C
+		Virtual Address=F000
+		size of raw data=1000
+		Pointer to raw data=F000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=C0000040 (Initialized data, readable memory, writable memory)
+	.rsrc
+		Virtual Size=1A8
+		Virtual Address=11000
+		size of raw data=1000
+		Pointer to raw data=10000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=40000040 (Initialized data, readable memory)
+	.reloc
+		Virtual Size=D56
+		Virtual Address=12000
+		size of raw data=1000
+		Pointer to raw data=11000
+		Pointer to relocations=0
+		Pointer to line numbers=0
+		number of relocations=0
+		number of line numbers=0
+		characterisitics=42000040 (Initialized data, discardable, readable memory)
+
+
+---Imports---
+MFC42.DLL
+6C37E1DC (B0B4) - MFC42.Ordinal613
+6C37E185 (B0B8) - MFC42.Ordinal289
+6C373876 (B0BC) - MFC42.Ordinal825
+6C378F78 (B0C0) - MFC42.Ordinal2860
+6C375036 (B0C4) - MFC42.Ordinal3402
+6C372303 (B0C8) - MFC42.Ordinal567
+6C3C63EB (B0CC) - MFC42.Ordinal809
+6C37191C (B0D0) - MFC42.Ordinal800
+6C3749FA (B0D4) - MFC42.Ordinal2614
+6C3C635D (B0D8) - MFC42.Ordinal556
+6C37198E (B0DC) - MFC42.Ordinal540
+6C374691 (B0E0) - MFC42.Ordinal2414
+6C37FEF4 (B0E4) - MFC42.Ordinal5875
+6C3C657A (B0E8) - MFC42.Ordinal1088
+6C3C6396 (B0EC) - MFC42.Ordinal2122
+6C374961 (B0F0) - MFC42.Ordinal6199
+6C37369E (B0F4) - MFC42.Ordinal3874
+6C372325 (B0F8) - MFC42.Ordinal3797
+6C3C678F (B0FC) - MFC42.Ordinal6358
+6C37403B (B100) - MFC42.Ordinal858
+6C373EB0 (B104) - MFC42.Ordinal535
+6C3745D6 (B108) - MFC42.Ordinal6197
+6C374750 (B10C) - MFC42.Ordinal6880
+6C37413F (B110) - MFC42.Ordinal941
+6C372476 (B114) - MFC42.Ordinal5572
+6C372400 (B118) - MFC42.Ordinal2915
+6C379C01 (B11C) - MFC42.Ordinal1200
+6C37A07D (B120) - MFC42.Ordinal939
+6C3CBCA7 (B124) - MFC42.Ordinal926
+6C382060 (B128) - MFC42.Ordinal2763
+6C38A37E (B12C) - MFC42.Ordinal924
+6C3E8228 (B130) - MFC42.Ordinal3619
+6C3E822E (B134) - MFC42.Ordinal3626
+6C3CA573 (B138) - MFC42.Ordinal3663
+6C37D815 (B13C) - MFC42.Ordinal1641
+6C374FA3 (B140) - MFC42.Ordinal2859
+6C371244 (B144) - MFC42.Ordinal2864
+6C3718DD (B148) - MFC42.Ordinal4865
+6C373941 (B14C) - MFC42.Ordinal537
+6C374444 (B150) - MFC42.Ordinal5277
+6C3CD8DA (B154) - MFC42.Ordinal4376
+6C38691A (B158) - MFC42.Ordinal4853
+6C37466E (B15C) - MFC42.Ordinal5894
+6C3CD6C7 (B160) - MFC42.Ordinal6052
+6C379789 (B164) - MFC42.Ordinal1775
+6C3868A4 (B168) - MFC42.Ordinal5280
+6C378FAA (B16C) - MFC42.Ordinal4425
+6C37967C (B170) - MFC42.Ordinal3597
+6C378D34 (B174) - MFC42.Ordinal641
+6C3738C4 (B178) - MFC42.Ordinal860
+6C378F3F (B17C) - MFC42.Ordinal324
+6C3863E5 (B180) - MFC42.Ordinal2370
+6C3D7028 (B184) - MFC42.Ordinal2301
+6C40FAE8 (B188) - MFC42.Ordinal4234
+6C378D71 (B18C) - MFC42.Ordinal6334
+6C386AB1 (B190) - MFC42.Ordinal2514
+6C3795B4 (B194) - MFC42.Ordinal4710
+6C371B5A (B198) - MFC42.Ordinal6467
+6C3C400C (B19C) - MFC42.Ordinal4278
+6C373F15 (B1A0) - MFC42.Ordinal922
+6C3C3BED (B1A4) - MFC42.Ordinal925
+6C3C3FE9 (B1A8) - MFC42.Ordinal4277
+6C3C422D (B1AC) - MFC42.Ordinal2764
+6C3CBDF8 (B1B0) - MFC42.Ordinal4203
+6C371904 (B1B4) - MFC42.Ordinal2841
+6C3CA6FC (B1B8) - MFC42.Ordinal353
+6C381800 (B1BC) - MFC42.Ordinal2818
+6C3875A1 (B1C0) - MFC42.Ordinal815
+6C3CEB8C (B1C4) - MFC42.Ordinal6375
+6C3DA217 (B1C8) - MFC42.Ordinal4486
+6C3751E8 (B1CC) - MFC42.Ordinal2554
+6C379C2B (B1D0) - MFC42.Ordinal2512
+6C3814F8 (B1D4) - MFC42.Ordinal5731
+6C37B5A5 (B1D8) - MFC42.Ordinal3922
+6C380CCA (B1DC) - MFC42.Ordinal1089
+6C3806C6 (B1E0) - MFC42.Ordinal5199
+6C380245 (B1E4) - MFC42.Ordinal2396
+6C3713B3 (B1E8) - MFC42.Ordinal3346
+6C3748DE (B1EC) - MFC42.Ordinal5300
+6C3CEBC3 (B1F0) - MFC42.Ordinal5302
+6C3711D4 (B1F4) - MFC42.Ordinal4079
+6C372583 (B1F8) - MFC42.Ordinal4698
+6C371194 (B1FC) - MFC42.Ordinal5307
+6C3713D0 (B200) - MFC42.Ordinal5289
+6C379144 (B204) - MFC42.Ordinal5714
+6C3CEB7A (B208) - MFC42.Ordinal3401
+6C3CE639 (B20C) - MFC42.Ordinal4622
+6C3E87C6 (B210) - MFC42.Ordinal3738
+6C37AFAF (B214) - MFC42.Ordinal561
+6C3CBDD2 (B218) - MFC42.Ordinal4204
+6C3C4519 (B21C) - MFC42.Ordinal6930
+6C3C45FF (B220) - MFC42.Ordinal6928
+6C3C3C4F (B224) - MFC42.Ordinal6648
+6C3C41DE (B228) - MFC42.Ordinal6222
+6C3C3ABB (B22C) - MFC42.Ordinal536
+6C40C4F0 (B230) - MFC42.Ordinal1871
+6C3DA609 (B234) - MFC42.Ordinal2461
+6C40548D (B238) - MFC42.Ordinal786
+6C3DA53E (B23C) - MFC42.Ordinal519
+6C3DA568 (B240) - MFC42.Ordinal5989
+6C37382D (B244) - MFC42.Ordinal823
+6C3E823A (B248) - MFC42.Ordinal3692
+6C38B29B (B24C) - MFC42.Ordinal3181
+6C38B1CC (B250) - MFC42.Ordinal2781
+6C3E6D90 (B254) - MFC42.Ordinal668
+6C38AFAB (B258) - MFC42.Ordinal2770
+6C38AF19 (B25C) - MFC42.Ordinal356
+6C38A2FF (B260) - MFC42.Ordinal5450
+6C38A0E4 (B264) - MFC42.Ordinal6394
+6C374208 (B268) - MFC42.Ordinal5440
+6C373F94 (B26C) - MFC42.Ordinal6383
+6C3C4732 (B270) - MFC42.Ordinal2448
+6C3C4703 (B274) - MFC42.Ordinal2044
+6C381813 (B278) - MFC42.Ordinal2827
+6C3E9A22 (B27C) - MFC42.Ordinal1116
+6C371738 (B280) - MFC42.Ordinal1176
+6C37B13F (B284) - MFC42.Ordinal1575
+6C371083 (B288) - MFC42.Ordinal1168
+6C3874D7 (B28C) - MFC42.Ordinal1577
+6C37B0FD (B290) - MFC42.Ordinal1182
+6C37B38F (B294) - MFC42.Ordinal342
+6C375FDA (B298) - MFC42.Ordinal1243
+6C3729DD (B29C) - MFC42.Ordinal1197
+6C3729E6 (B2A0) - MFC42.Ordinal1570
+6C387796 (B2A4) - MFC42.Ordinal1253
+6C380273 (B2A8) - MFC42.Ordinal1255
+6C371BD1 (B2AC) - MFC42.Ordinal1578
+6C387978 (B2B0) - MFC42.Ordinal600
+6C37654D (B2B4) - MFC42.Ordinal826
+6C37B44B (B2B8) - MFC42.Ordinal269
+6C376C18 (B2BC) - MFC42.Ordinal665
+6C3CA5C6 (B2C0) - MFC42.Ordinal2393
+6C40BAB8 (B2C4) - MFC42.Ordinal4275
+6C3844E5 (B2C8) - MFC42.Ordinal795
+6C3E7E54 (B2CC) - MFC42.Ordinal3721
+6C37223C (B2D0) - MFC42.Ordinal4424
+6C384481 (B2D4) - MFC42.Ordinal4627
+6C383F13 (B2D8) - MFC42.Ordinal4080
+6C377129 (B2DC) - MFC42.Ordinal3079
+6C3717E0 (B2E0) - MFC42.Ordinal3831
+6C3717E0 (B2E4) - MFC42.Ordinal3831
+6C3CE610 (B2E8) - MFC42.Ordinal3830
+6C3CE671 (B2EC) - MFC42.Ordinal2976
+6C3CE62D (B2F0) - MFC42.Ordinal3081
+6C3CE66B (B2F4) - MFC42.Ordinal2985
+6C386A75 (B2F8) - MFC42.Ordinal3262
+6C3CE633 (B2FC) - MFC42.Ordinal3136
+6C371A47 (B300) - MFC42.Ordinal1776
+6C377129 (B304) - MFC42.Ordinal3079
+6C377129 (B308) - MFC42.Ordinal3079
+6C377129 (B30C) - MFC42.Ordinal3079
+6C374444 (B310) - MFC42.Ordinal5277
+6C37C61A (B314) - MFC42.Ordinal2124
+6C375BF6 (B318) - MFC42.Ordinal2446
+6C37DDE8 (B31C) - MFC42.Ordinal5261
+6C37DFA8 (B320) - MFC42.Ordinal1727
+6C3CC2AE (B324) - MFC42.Ordinal5065
+6C377129 (B328) - MFC42.Ordinal3079
+6C3CC587 (B32C) - MFC42.Ordinal6376
+6C386913 (B330) - MFC42.Ordinal2055
+6C386956 (B334) - MFC42.Ordinal2648
+6C37291C (B338) - MFC42.Ordinal4441
+6C373290 (B33C) - MFC42.Ordinal4837
+6C374440 (B340) - MFC42.Ordinal3798
+6C3714EF (B344) - MFC42.Ordinal5290
+6C3CE06A (B348) - MFC42.Ordinal4353
+6C371CC8 (B34C) - MFC42.Ordinal6374
+6C371D0C (B350) - MFC42.Ordinal5163
+6C3720CE (B354) - MFC42.Ordinal2385
+6C374444 (B358) - MFC42.Ordinal5277
+6C37271D (B35C) - MFC42.Ordinal4407
+6C371A47 (B360) - MFC42.Ordinal1776
+6C3717E0 (B364) - MFC42.Ordinal3831
+6C373856 (B368) - MFC42.Ordinal2107
+6C377129 (B36C) - MFC42.Ordinal3079
+
+MSVCRT.dll
+75EE7130 (B374) - MSVCRT.strnicmp
+75E9AFB0 (B378) - MSVCRT._CxxFrameHandler3
+75EE9B70 (B37C) - MSVCRT.strncpy
+75E977A0 (B380) - MSVCRT.remove
+75EB92C0 (B384) - MSVCRT.splitpath
+75E96160 (B388) - MSVCRT.errno
+75E969C0 (B38C) - MSVCRT.mkdir
+75EBC650 (B390) - MSVCRT.rand
+75EBC680 (B394) - MSVCRT.srand
+75EEF130 (B398) - MSVCRT.time
+75EFDEF0 (B39C) - MSVCRT.floor
+75EFDD00 (B3A0) - MSVCRT.ceil
+75EFDE30 (B3A4) - MSVCRT.fabs
+75EFAC20 (B3A8) - MSVCRT.ftol
+75EE97F0 (B3AC) - MSVCRT.strlen
+75EE94D0 (B3B0) - MSVCRT.memset
+75EB04F0 (B3B4) - MSVCRT.mbscmp
+75EE9E10 (B3B8) - MSVCRT.strspn
+75E90450 (B3BC) - MSVCRT.atol
+75EE9AC0 (B3C0) - MSVCRT.strncmp
+75ED8860 (B3C4) - MSVCRT.fgets
+75ED85B0 (B3C8) - MSVCRT.fclose
+75ED3E40 (B3CC) - MSVCRT.fopen
+75ED8E30 (B3D0) - MSVCRT.fputs
+75EB0AF0 (B3D4) - MSVCRT.mbsicmp
+75EA7310 (B3D8) - MSVCRT.free
+75F16BE4 (B3DC) - MSVCRT.adjust_fdiv
+75EC6460 (B3E0) - MSVCRT.initterm
+75EB6DF0 (B3E4) - MSVCRT.onexit
+75EB6D10 (B3E8) - MSVCRT._dllonexit
+75E9A620 (B3EC) - MSVCRT.terminate
+75EB8124 (B3F0) - MSVCRT.except_handler3
+75EA0E80 (B3F4) - MSVCRT.type_info::~type_info
+75E9A6B0 (B3F8) - MSVCRT.CxxThrowException
+75EBBAB0 (B3FC) - MSVCRT.getenv
+75EA74F0 (B400) - MSVCRT.malloc
+75EE6A90 (B404) - MSVCRT.stricmp
+
+KERNEL32.dll
+75CC83C0 (B04C) - KERNEL32.lstrcpyA
+75CD1D50 (B050) - KERNEL32.GetWindowsDirectoryA
+75CD2EE0 (B054) - KERNEL32.CloseHandle
+75CE2D90 (B058) - KERNEL32.CreateProcessA
+75CCE010 (B05C) - KERNEL32.GetLastError
+75CC50A0 (B060) - KERNEL32.lclose
+75CD2F70 (B064) - KERNEL32.CreateMutexA
+75D0F4A0 (B068) - KERNEL32.lcreat
+75CCDFA0 (B06C) - KERNEL32.SetLastError
+75CD3410 (B070) - KERNEL32.GetTempPathA
+75CD3130 (B074) - KERNEL32.CreateFileA
+75CC8C30 (B078) - KERNEL32.FormatMessageA
+75CD0E30 (B07C) - KERNEL32.GetModuleFileNameA
+75CCF570 (B080) - KERNEL32.VirtualQuery
+75CD0AE0 (B084) - KERNEL32.FreeLibrary
+75CC0100 (B088) - KERNEL32.IsBadReadPtr
+75CCFFC0 (B08C) - KERNEL32.GlobalFree
+75CCE0D0 (B090) - KERNEL32.GlobalUnlock
+75CC7DE0 (B094) - KERNEL32.GlobalHandle
+75CCE180 (B098) - KERNEL32.GlobalLock
+75CD05F0 (B09C) - KERNEL32.GlobalAlloc
+75CD3310 (B0A0) - KERNEL32.GetFileAttributesA
+75CD0BD0 (B0A4) - KERNEL32.LoadLibraryA
+75CD0460 (B0A8) - KERNEL32.LocalAlloc
+75CCF530 (B0AC) - KERNEL32.LocalFree
+
+USER32.dll
+76615660 (B418) - USER32.GetParent
+7661A000 (B41C) - USER32.GetWindow
+71335C40 (B420) - apphelp.SE_ProcessDying+390
+7661FE50 (B424) - USER32.InvalidateRect
+76620730 (B428) - USER32.ShowCursor
+77906640 (B42C) - ntdll.NtdllDefWindowProc_A
+766203F0 (B430) - USER32.SetCapture
+765FDD30 (B434) - USER32.GetTopWindow
+7132A2C0 (B438) - apphelp.SE_GetProcAddressForCaller+620
+7132A3B0 (B43C) - apphelp.SE_GetProcAddressForCaller+710
+76612D90 (B440) - USER32.GetWindowRect
+766021A0 (B444) - USER32.SendMessageA
+766022B0 (B448) - USER32.PtInRect
+7661E450 (B44C) - USER32.LoadCursorA
+76605430 (B450) - USER32.CopyIcon
+76618340 (B454) - USER32.IsWindow
+76605FF0 (B458) - USER32.SetWindowLongA
+7661EFF0 (B45C) - USER32.SetCursor
+76607040 (B460) - USER32.ReleaseCapture
+7666ECD0 (B464) - USER32.MessageBeep
+7660B2A0 (B468) - USER32.GetSysColor
+7661DEE0 (B46C) - USER32.EnableWindow
+76613010 (B470) - USER32.GetClientRect
+766011C0 (B474) - USER32.FillRect
+7660BD40 (B478) - USER32.InflateRect
+
+GDI32.dll
+71328670 (B024) - apphelp.SdbReadDWORDTag+CB0
+713364B0 (B028) - apphelp.SdbFindNextStringIndexedTag+2F0
+75BF7250 (B02C) - GDI32.SetStretchBltMode
+75BF7080 (B030) - GDI32.StretchDIBits
+75BF5180 (B034) - GDI32.GetTextExtentPoint32A
+75BF3E30 (B038) - GDI32.GetObjectA
+75BF4C10 (B03C) - GDI32.CreateFontIndirectA
+713221D0 (B040) - apphelp.dll+221D0
+75BF5EA0 (B044) - GDI32.GetStockObject
+
+ADVAPI32.dll
+75C4FDB0 (B000) - ADVAPI32.RegDeleteValueA
+75C522E0 (B004) - ADVAPI32.RegEnumValueA
+75C4E240 (B008) - ADVAPI32.RegQueryValueExA
+75C4E840 (B00C) - ADVAPI32.RegCreateKeyExA
+75C4E400 (B010) - ADVAPI32.RegOpenKeyExA
+75C41BB0 (B014) - ADVAPI32.RegQueryValueA
+75C4E310 (B018) - ADVAPI32.RegCloseKey
+75C4F9A0 (B01C) - ADVAPI32.RegSetValueExA
+
+SHELL32.dll
+773A64A0 (B40C) - SHELL32.SHGetSpecialFolderPathA
+773B1DE0 (B410) - SHELL32.FindExecutableA
+
+
+---Exports---
+RELEASE_Common.dll:
+1000 - ??0CDIBStatic@@QAE@XZ
+552A - ??0CDib@@QAE@XZ
+1900 - ??0CHyperLink@@QAE@XZ
+612E - ??0INIFILE@@QAE@PBDH@Z
+60E0 - ??0INIFILE@@QAE@XZ
+4F20 - ??0STRING@@QAE@PAUHWND__@@@Z
+1057 - ??1CDIBStatic@@UAE@XZ
+5567 - ??1CDib@@UAE@XZ
+19D8 - ??1CHyperLink@@UAE@XZ
+757E - ??1INIFILE@@QAE@XZ
+B6E8 - ??_7CHyperLink@@6B@
+3AA6 - ?AddressToHinst@@YAPAUHINSTANCE__@@PBX@Z
+3DA6 - ?AlreadyRunning@@YAHPBD@Z
+90D3 - ?AppData@REG@@SA?AVCString@@XZ
+3B5A - ?CallersHinst@@YAPAUHINSTANCE__@@XZ
+5399 - ?Center@STRING@@QAEAAU1@I@Z
+119C - ?ClearDib@CDIBStatic@@IAEXXZ
+5DE8 - ?CopyToHandle@CDib@@QBEPAXXZ
+3B82 - ?CountBits@@YAEK@Z
+576F - ?CreatePalette@CDib@@IAEHXZ
+1AEA - ?CtlColor@CHyperLink@@IAEPAUHBRUSH__@@PAVCDC@@I@Z
+682D - ?DeleteSection@INIFILE@@QAEXPBD@Z
+3010 - ?DisplayWarning@@YAXPBD00@Z
+361C - ?ExtractDirectory@@YA?AVCString@@PBD@Z
+36A4 - ?ExtractFileExt@@YA?AVCString@@PBD@Z
+3531 - ?ExtractFileName@@YA?AVCString@@PBD@Z
+3DF7 - ?FindDriver@@YA_NPBD@Z
+3BB2 - ?FindTopLevelWindow@@YAPAUHWND__@@VCString@@PAU1@@Z
+55B8 - ?Free@CDib@@IAEXXZ
+8700 - ?Get@REG@@QAE_NPBDAAK@Z
+87DC - ?Get@REG@@QAE_NPBDAAVCString@@@Z
+8799 - ?Get@REG@@QAE_NPBDAA_N@Z
+75C9 - ?Get@SECTION@INIFILE@@QAE?AUSTRING@@PBD@Z
+7633 - ?Get@SECTION@INIFILE@@QAE_NPBDAAK@Z
+3C71 - ?GetAllTopLevelWindows@@YAXAAV?$LIST@PAUHWND__@@@@PAUHWND__@@@Z
+2006 - ?GetAutoSize@CHyperLink@@QBEHXZ
+415D - ?GetDriverVersion_UAG@@YAKPBD@Z
+429C - ?GetDriverVersion_UAP@@YAXPBDK@Z
+79C9 - ?GetFirstSection@INIFILE@@QBEPAU__POSITION@@XZ
+1EBB - ?GetHoverColour@CHyperLink@@QBEKXZ
+1E99 - ?GetLinkColour@CHyperLink@@QBEKXZ
+1F37 - ?GetLinkCursor@CHyperLink@@QBEPAUHICON__@@XZ
+1A63 - ?GetMessageMap@CHyperLink@@MBEPBUAFX_MSGMAP@@XZ
+3D41 - ?GetModuleFileNameA@@YA?AVCString@@PAUHINSTANCE__@@@Z
+7A12 - ?GetNextSection@INIFILE@@QAE?AVSECTION@1@AAPAU__POSITION@@@Z
+8EDD - ?GetPut@REG@@QAE_NPBDAAKK@Z
+8E97 - ?GetPut@REG@@QAE_NPBDAAVCString@@0@Z
+8F21 - ?GetPut@REG@@QAE_NPBDAA_N_N@Z
+228B - ?GetRegKey@CHyperLink@@QAEJPAUHKEY__@@PBDPAD@Z
+676F - ?GetSection@INIFILE@@QBE?AUSTRING@@PBD@Z
+888E - ?GetStrList@REG@@QAE_NPBDAAV?$LIST@VCString@@@@@Z
+3186 - ?GetTempFileNameA@@YA?AVCString@@PBD@Z
+1E0F - ?GetURL@CHyperLink@@QBE?AVCString@@XZ
+1FC4 - ?GetUnderline@CHyperLink@@QBEHXZ
+6CE6 - ?GetValue@INIFILE@@QBE?AUSTRING@@PBD0@Z
+1EFF - ?GetVisited@CHyperLink@@QBEHXZ
+1EAA - ?GetVisitedColour@CHyperLink@@QBEKXZ
+2324 - ?GotoURL@CHyperLink@@QAEHPBDH@Z
+5958 - ?Height@CDib@@QBEKXZ
+30E5 - ?IsRelativePath@@YA_NABVCString@@@Z
+776A - ?LoadAllInifiles@INIFILE@@SA?AV?$LIST@PAVINIFILE@@@@PBDPAD@Z
+1157 - ?LoadDib@CDIBStatic@@QAEHAAVCFile@@@Z
+10C5 - ?LoadDib@CDIBStatic@@QAEHPBD@Z
+372C - ?MakeDirectory@@YAHPBD@Z
+7996 - ?NullSection@INIFILE@@QAE?AVSECTION@1@XZ
+59A2 - ?NumColors@CDib@@QBEGXZ
+1A9B - ?OnClicked@CHyperLink@@IAEXXZ
+1B55 - ?OnMouseMove@CHyperLink@@IAEXIVCPoint@@@Z
+1C02 - ?OnSetCursor@CHyperLink@@IAEHPAVCWnd@@II@Z
+5687 - ?Paint@CDib@@QBEHPAUHDC__@@PAUtagRECT@@1@Z
+122B - ?PaintDib@CDIBStatic@@IAEXH@Z
+5979 - ?PaletteSize@CDib@@IBEGXZ
+2017 - ?PositionWindow@CHyperLink@@QAEXXZ
+1C2E - ?PreSubclassWindow@CHyperLink@@MAEXXZ
+1A73 - ?PreTranslateMessage@CHyperLink@@UAEHPAUtagMSG@@@Z
+8DCF - ?Put@REG@@QAE_NPBD0@Z
+8D47 - ?Put@REG@@QAE_NPBDK@Z
+8E75 - ?Put@REG@@QAE_NPBD_N@Z
+7608 - ?Put@SECTION@INIFILE@@QAEXPBD0@Z
+76F2 - ?Put@SECTION@INIFILE@@QAEXPBDAAK@Z
+68DB - ?PutSection@INIFILE@@QAEXPBD0@Z
+8AA2 - ?PutStrList@REG@@QAE_NPBDABV?$LIST@VCString@@@@@Z
+6E87 - ?PutValue@INIFILE@@QAEXPBD00@Z
+394C - ?RandomProb@@YANXZ
+5BF2 - ?Read@CDib@@QAEKAAVCFile@@@Z
+5EBA - ?ReadFromHandle@CDib@@QAEKPAX@Z
+2301 - ?ReportError@CHyperLink@@QAEXH@Z
+8F65 - ?RootDir@REG@@SA?AVCString@@XZ
+5A18 - ?Save@CDib@@QBEKAAVCFile@@@Z
+5F3E - ?Serialize@CDib@@UAEXAAVCArchive@@@Z
+1FD5 - ?SetAutoSize@CHyperLink@@QAEXH@Z
+1E40 - ?SetColours@CHyperLink@@QAEXKKK@Z
+21BD - ?SetDefaultCursor@CHyperLink@@QAEXXZ
+1F10 - ?SetLinkCursor@CHyperLink@@QAEXPAUHICON__@@@Z
+1D89 - ?SetURL@CHyperLink@@QAEXVCString@@@Z
+1F48 - ?SetUnderline@CHyperLink@@QAEXH@Z
+1ECC - ?SetVisited@CHyperLink@@QAEXH@Z
+3CC6 - ?ShowMouse@@YAX_N@Z
+14B2 - ?UpdateDib@CDIBStatic@@QAEXXZ
+5937 - ?Width@CDib@@QBEKXZ
+3A7D - ?Win32ErrorDesc@@YAPBDK@Z
+1A59 - ?_GetBaseMessageMap@CHyperLink@@KGPBUAFX_MSGMAP@@XZ
+B670 - ?_messageEntries@CHyperLink@@0QBUAFX_MSGMAP_ENTRY@@B
+5044 - ?atol@STRING@@QBEHXZ
+2C70 - ?contains@STRING@@QBE_ND@Z
+4FBA - ?contains_only@STRING@@QBE_NPBD@Z
+534D - ?equi@STRING@@QBE_NPBD@Z
+38F0 - ?exists@@YA_NPBD@Z
+3A2D - ?fcomp@@YAHNNN@Z
+50ED - ?first@STRING@@QBEDXZ
+6AED - ?flush@INIFILE@@QAEXXZ
+5208 - ?headequ@STRING@@QBE_NPBD@Z
+5269 - ?headequi@STRING@@QBE_NPBD@Z
+5002 - ?isblank@STRING@@QBE_NXZ
+50B8 - ?last@STRING@@QBEDXZ
+B668 - ?messageMap@CHyperLink@@1UAFX_MSGMAP@@B
+3993 - ?round@@YAHN@Z
+5140 - ?strtok@STRING@@QAE?AU1@PBDW4DIRECTION@1@@Z
+52CA - ?tailequ@STRING@@QBE_NPBD@Z
+5087 - ?terminate@STRING@@QAEAAU1@PBD@Z
+5071 - ?toupper@STRING@@QAEAAU1@XZ
+5118 - ?trim@STRING@@QAEAAU1@PBD@Z
+
+
+---Relocs---
+1006 : 3
+103B : 3
+105D : 3
+1078 : 3
+10AF : 3
+10BD : 3
+10CB : 3
+113C : 3
+11A2 : 3
+11F1 : 3
+1231 : 3
+14E1 : 3
+151D : 3
+159E : 3
+15C1 : 3
+1735 : 3
+1790 : 3
+17BD : 3
+1814 : 3
+1842 : 3
+1862 : 3
+1884 : 3
+1906 : 3
+195D : 3
+1983 : 3
+19DE : 3
+19F9 : 3
+1A5D : 3
+1A6B : 3
+1AC7 : 3
+1ACD : 3
+1B4B : 3
+1BC0 : 3
+1C1B : 3
+1C34 : 3
+1C6B : 3
+1D8F : 3
+1DC6 : 3
+1E63 : 3
+1E81 : 3
+1EE7 : 3
+1F65 : 3
+1FF0 : 3
+1000 : 0
+201D : 3
+2040 : 3
+21C3 : 3
+220C : 3
+221B : 3
+2232 : 3
+2247 : 3
+225A : 3
+226A : 3
+22AC : 3
+22D9 : 3
+22EA : 3
+22F4 : 3
+232A : 3
+2363 : 3
+238D : 3
+23A0 : 3
+23BB : 3
+23D3 : 3
+2463 : 3
+2548 : 3
+254D : 3
+2583 : 3
+264A : 3
+2673 : 3
+26D2 : 3
+2795 : 3
+27B9 : 3
+27E4 : 3
+2804 : 3
+282C : 3
+287C : 3
+28C6 : 3
+28E1 : 3
+295C : 3
+297D : 3
+29A6 : 3
+29D8 : 3
+2A8F : 3
+2AB6 : 3
+2AF4 : 3
+2B10 : 3
+2B37 : 3
+2B66 : 3
+2B91 : 3
+2BB0 : 3
+2BD0 : 3
+2C1B : 3
+2CC6 : 3
+2CF5 : 3
+2CFA : 3
+2D47 : 3
+2D56 : 3
+2DE4 : 3
+2DF2 : 3
+2EB6 : 3
+2F46 : 3
+2FBA : 3
+2FC7 : 3
+2FFF : 3
+3016 : 3
+30EB : 3
+3111 : 3
+318C : 3
+31D6 : 3
+31DB : 3
+3205 : 3
+3537 : 3
+35A5 : 3
+3678 : 3
+3700 : 3
+3732 : 3
+378A : 3
+3791 : 3
+3807 : 3
+3819 : 3
+3887 : 3
+389D : 3
+391E : 3
+3954 : 3
+395F : 3
+3969 : 3
+3972 : 3
+397C : 3
+3988 : 3
+39C0 : 3
+39D0 : 3
+39E0 : 3
+39F0 : 3
+3A05 : 3
+3A1D : 3
+3A5B : 3
+3A9B : 3
+3AFC : 3
+3B3A : 3
+3BB8 : 3
+3BDA : 3
+3C85 : 3
+3CDD : 3
+3CEE : 3
+3D01 : 3
+3D10 : 3
+3D21 : 3
+3D34 : 3
+3D7D : 3
+3DD8 : 3
+3DDE : 3
+3DFD : 3
+3ECB : 3
+3ED8 : 3
+3EE1 : 3
+3EE6 : 3
+3EF1 : 3
+3EFB : 3
+3F08 : 3
+3F14 : 3
+3F30 : 3
+3F3D : 3
+3F46 : 3
+3F4B : 3
+3F55 : 3
+3F65 : 3
+3F73 : 3
+3FA0 : 3
+4016 : 3
+404F : 3
+405C : 3
+4069 : 3
+4076 : 3
+4096 : 3
+40F5 : 3
+412C : 3
+4143 : 3
+4152 : 3
+4163 : 3
+421E : 3
+4246 : 3
+42A2 : 3
+436D : 3
+46C6 : 3
+47F6 : 3
+48FD : 3
+4987 : 3
+4A03 : 3
+4B66 : 3
+4B96 : 3
+4BE6 : 3
+4C73 : 3
+4C82 : 3
+4C94 : 3
+4CA5 : 3
+4D56 : 3
+4DA6 : 3
+4DD6 : 3
+4DDB : 3
+4DE0 : 3
+4E46 : 3
+4E75 : 3
+4F26 : 3
+4F60 : 3
+4F9C : 3
+4FE1 : 3
+5018 : 3
+5066 : 3
+5146 : 3
+5257 : 3
+52B8 : 3
+533A : 3
+5387 : 3
+539F : 3
+5401 : 3
+5514 : 3
+5522 : 3
+553E : 3
+556D : 3
+5588 : 3
+55D3 : 3
+55DA : 3
+55E7 : 3
+55EE : 3
+560E : 3
+5615 : 3
+5622 : 3
+5629 : 3
+56CF : 3
+56DE : 3
+5749 : 3
+5762 : 3
+5775 : 3
+57D0 : 3
+57EA : 3
+5910 : 3
+591A : 3
+5C4B : 3
+5C52 : 3
+5C98 : 3
+5C9F : 3
+5CAC : 3
+5CB3 : 3
+5CEE : 3
+5CF5 : 3
+5D11 : 3
+5D18 : 3
+5D25 : 3
+5D2C : 3
+5D6A : 3
+5D71 : 3
+5D7E : 3
+5D85 : 3
+5D9C : 3
+5DA3 : 3
+5DB0 : 3
+5DB7 : 3
+5DEE : 3
+5E6C : 3
+5EC0 : 3
+6064 : 3
+60AC : 3
+60CD : 3
+60E6 : 3
+6134 : 3
+6188 : 3
+6192 : 3
+61A9 : 3
+61B3 : 3
+61C9 : 3
+6203 : 3
+623A : 3
+6308 : 3
+6356 : 3
+6366 : 3
+6447 : 3
+6490 : 3
+6644 : 3
+6695 : 3
+66AA : 3
+66DF : 3
+6727 : 3
+6775 : 3
+6833 : 3
+6852 : 3
+68E1 : 3
+68FA : 3
+6AF3 : 3
+6B0C : 3
+6B37 : 3
+6C2B : 3
+6C6D : 3
+6CA9 : 3
+6CB6 : 3
+6CEC : 3
+6D82 : 3
+6D97 : 3
+6D9E : 3
+6DE7 : 3
+6DF3 : 3
+6E8D : 3
+6F7E : 3
+7076 : 3
+709D : 3
+70B6 : 3
+70DB : 3
+70E4 : 3
+718D : 3
+7285 : 3
+72C0 : 3
+72FE : 3
+7307 : 3
+73DF : 3
+7443 : 3
+744C : 3
+7584 : 3
+7639 : 3
+7692 : 3
+76F8 : 3
+7726 : 3
+7770 : 3
+77A5 : 3
+79A7 : 3
+7AD6 : 3
+7B16 : 3
+7C46 : 3
+7CF6 : 3
+7D16 : 3
+7D42 : 3
+7DA6 : 3
+7E44 : 3
+7F76 : 3
+7F91 : 3
+7FD6 : 3
+80C4 : 3
+81B6 : 3
+81D1 : 3
+864D : 3
+8666 : 3
+872F : 3
+877A : 3
+880B : 3
+8832 : 3
+8856 : 3
+887F : 3
+8894 : 3
+894E : 3
+8A18 : 3
+8AA8 : 3
+8B26 : 3
+8B7B : 3
+8CBE : 3
+8D76 : 3
+8DA9 : 3
+8E11 : 3
+8E4F : 3
+8F6B : 3
+8FA1 : 3
+8FA6 : 3
+8FAB : 3
+9001 : 3
+9045 : 3
+9062 : 3
+9084 : 3
+90D9 : 3
+9143 : 3
+9150 : 3
+9157 : 3
+9188 : 3
+9260 : 3
+9272 : 3
+9278 : 3
+92C8 : 3
+92E1 : 3
+9351 : 3
+9356 : 3
+9369 : 3
+949A : 3
+9776 : 3
+97F6 : 3
+9803 : 3
+9812 : 3
+9818 : 3
+981E : 3
+9824 : 3
+982A : 3
+9830 : 3
+9836 : 3
+983C : 3
+9842 : 3
+9848 : 3
+984E : 3
+9854 : 3
+985A : 3
+9860 : 3
+9866 : 3
+986C : 3
+9872 : 3
+9878 : 3
+987E : 3
+9884 : 3
+988A : 3
+9890 : 3
+9896 : 3
+989C : 3
+98A2 : 3
+98A8 : 3
+98AE : 3
+98B4 : 3
+98BA : 3
+98C0 : 3
+98C6 : 3
+98CC : 3
+98D2 : 3
+98D8 : 3
+98DE : 3
+98E4 : 3
+98EA : 3
+98F0 : 3
+98F6 : 3
+98FC : 3
+9902 : 3
+9908 : 3
+990E : 3
+9914 : 3
+991A : 3
+9920 : 3
+9926 : 3
+992C : 3
+9932 : 3
+9938 : 3
+993E : 3
+9944 : 3
+994A : 3
+9950 : 3
+9956 : 3
+995C : 3
+9962 : 3
+9968 : 3
+996E : 3
+9974 : 3
+997A : 3
+9980 : 3
+9986 : 3
+998C : 3
+9992 : 3
+9998 : 3
+999E : 3
+99A4 : 3
+99AA : 3
+99B0 : 3
+99B6 : 3
+99BC : 3
+99C2 : 3
+99C8 : 3
+99CE : 3
+99D4 : 3
+99DA : 3
+99E0 : 3
+99E6 : 3
+99EC : 3
+99F2 : 3
+99F8 : 3
+99FE : 3
+9A04 : 3
+9A0A : 3
+9A10 : 3
+9A16 : 3
+9A1C : 3
+9A22 : 3
+9A28 : 3
+9A2E : 3
+9A34 : 3
+9A3A : 3
+9A40 : 3
+9A46 : 3
+9A4C : 3
+9A52 : 3
+9A58 : 3
+9A5E : 3
+9A64 : 3
+9A6A : 3
+9A70 : 3
+9A76 : 3
+9A7C : 3
+9A82 : 3
+9A88 : 3
+9A8E : 3
+9A94 : 3
+9A9A : 3
+9AA0 : 3
+9AA6 : 3
+9AAC : 3
+9AB2 : 3
+9AB8 : 3
+9ABE : 3
+9AC4 : 3
+9ACA : 3
+9AD0 : 3
+9AD6 : 3
+9ADC : 3
+9AE2 : 3
+9AE8 : 3
+9AEE : 3
+9AF4 : 3
+9AFA : 3
+9B00 : 3
+9B06 : 3
+9B0C : 3
+9B12 : 3
+9B18 : 3
+9B1E : 3
+9B24 : 3
+9B2A : 3
+9B30 : 3
+9B36 : 3
+9B3C : 3
+9B42 : 3
+9B48 : 3
+9B4E : 3
+9B54 : 3
+9B5A : 3
+9B60 : 3
+9B66 : 3
+9B6C : 3
+9B72 : 3
+9B78 : 3
+9B7E : 3
+9B84 : 3
+9B8A : 3
+9B90 : 3
+9B96 : 3
+9B9C : 3
+9BA2 : 3
+9BA8 : 3
+9BAE : 3
+9BB4 : 3
+9BC3 : 3
+9BD3 : 3
+9BE2 : 3
+9C0B : 3
+9C17 : 3
+9C21 : 3
+9C2D : 3
+9C66 : 3
+9C8E : 3
+9CCD : 3
+9D15 : 3
+9D4F : 3
+9D61 : 3
+9DA2 : 3
+9DAE : 3
+9DB8 : 3
+9DE6 : 3
+9E12 : 3
+9E17 : 3
+9E92 : 3
+9E97 : 3
+9F02 : 3
+9F08 : 3
+9F0E : 3
+9F14 : 3
+9F21 : 3
+9F28 : 3
+9F2D : 3
+9F52 : 3
+9F92 : 3
+9FA0 : 3
+9FA8 : 3
+9FAE : 3
+9FB9 : 3
+9FC6 : 3
+9FCE : 3
+9FDC : 3
+9FE1 : 3
+9FE6 : 3
+9FEB : 3
+9FF6 : 3
+A003 : 3
+A00D : 3
+A022 : 3
+A02E : 3
+A034 : 3
+A056 : 3
+A068 : 3
+A0C4 : 3
+A102 : 3
+A108 : 3
+A10E : 3
+A114 : 3
+A11A : 3
+A122 : 3
+A128 : 3
+A12E : 3
+A134 : 3
+A13A : 3
+A140 : 3
+A146 : 3
+A14C : 3
+A152 : 3
+A158 : 3
+A15E : 3
+A164 : 3
+A16A : 3
+A170 : 3
+A176 : 3
+A17C : 3
+A1AA : 3
+A1BD : 3
+A1D0 : 3
+A1E3 : 3
+A1F6 : 3
+A209 : 3
+A24E : 3
+A285 : 3
+A298 : 3
+A2AB : 3
+A2BE : 3
+A2D1 : 3
+A338 : 3
+A35A : 3
+A3AA : 3
+A40A : 3
+A433 : 3
+A46E : 3
+A481 : 3
+A53E : 3
+A56E : 3
+A59C : 3
+A5AF : 3
+A5CB : 3
+A5DE : 3
+A621 : 3
+A634 : 3
+A667 : 3
+A67A : 3
+A69A : 3
+A6C2 : 3
+A6F1 : 3
+A70A : 3
+A72A : 3
+A77C : 3
+A79A : 3
+A7C4 : 3
+A7F2 : 3
+A80A : 3
+A81E : 3
+A831 : 3
+A844 : 3
+A85A : 3
+A8DF : 3
+A929 : 3
+A96E : 3
+A9AA : 3
+A9C6 : 3
+A9FD : 3
+AA2B : 3
+AA70 : 3
+AB8E : 3
+ABA1 : 3
+ABB4 : 3
+ABC7 : 3
+AC37 : 3
+AC57 : 3
+AC6A : 3
+AC8A : 3
+ACAA : 3
+ACCA : 3
+ACEA : 3
+AD0A : 3
+AD3C : 3
+AD63 : 3
+ADB4 : 3
+ADF9 : 3
+AE92 : 3
+AEAA : 3
+AEBD : 3
+A000 : 0
+B480 : 3
+B484 : 3
+B49C : 3
+B4B4 : 3
+B4CC : 3
+B4E8 : 3
+B4EC : 3
+B4F0 : 3
+B4F4 : 3
+B4F8 : 3
+B4FC : 3
+B500 : 3
+B504 : 3
+B508 : 3
+B50C : 3
+B510 : 3
+B514 : 3
+B518 : 3
+B51C : 3
+B520 : 3
+B524 : 3
+B528 : 3
+B52C : 3
+B530 : 3
+B534 : 3
+B538 : 3
+B53C : 3
+B540 : 3
+B544 : 3
+B548 : 3
+B54C : 3
+B550 : 3
+B554 : 3
+B558 : 3
+B55C : 3
+B560 : 3
+B564 : 3
+B568 : 3
+B56C : 3
+B570 : 3
+B574 : 3
+B578 : 3
+B57C : 3
+B580 : 3
+B584 : 3
+B588 : 3
+B58C : 3
+B590 : 3
+B594 : 3
+B598 : 3
+B59C : 3
+B5A0 : 3
+B5A4 : 3
+B5A8 : 3
+B5AC : 3
+B5B0 : 3
+B5B4 : 3
+B5B8 : 3
+B5BC : 3
+B5C0 : 3
+B5C4 : 3
+B5C8 : 3
+B5CC : 3
+B5D0 : 3
+B5D4 : 3
+B5D8 : 3
+B5DC : 3
+B5E0 : 3
+B5E4 : 3
+B5E8 : 3
+B5EC : 3
+B5F0 : 3
+B5F4 : 3
+B5F8 : 3
+B5FC : 3
+B600 : 3
+B604 : 3
+B608 : 3
+B60C : 3
+B610 : 3
+B614 : 3
+B618 : 3
+B61C : 3
+B620 : 3
+B624 : 3
+B628 : 3
+B62C : 3
+B630 : 3
+B634 : 3
+B638 : 3
+B63C : 3
+B640 : 3
+B644 : 3
+B648 : 3
+B64C : 3
+B650 : 3
+B654 : 3
+B658 : 3
+B65C : 3
+B660 : 3
+B664 : 3
+B668 : 3
+B66C : 3
+B684 : 3
+B69C : 3
+B6B4 : 3
+B6CC : 3
+B6E8 : 3
+B6EC : 3
+B6F0 : 3
+B6F4 : 3
+B6F8 : 3
+B6FC : 3
+B700 : 3
+B704 : 3
+B708 : 3
+B70C : 3
+B710 : 3
+B714 : 3
+B718 : 3
+B71C : 3
+B720 : 3
+B724 : 3
+B728 : 3
+B72C : 3
+B730 : 3
+B734 : 3
+B738 : 3
+B73C : 3
+B740 : 3
+B744 : 3
+B748 : 3
+B74C : 3
+B750 : 3
+B754 : 3
+B758 : 3
+B75C : 3
+B760 : 3
+B764 : 3
+B768 : 3
+B76C : 3
+B770 : 3
+B774 : 3
+B778 : 3
+B77C : 3
+B780 : 3
+B784 : 3
+B788 : 3
+B78C : 3
+B790 : 3
+B794 : 3
+B798 : 3
+B79C : 3
+B7A0 : 3
+B7A4 : 3
+B7A8 : 3
+B7AC : 3
+B7B0 : 3
+B7B4 : 3
+B7B8 : 3
+B7BC : 3
+B7C0 : 3
+B7C4 : 3
+B7C8 : 3
+B7CC : 3
+B7D0 : 3
+B7D4 : 3
+B7D8 : 3
+B7DC : 3
+B7E0 : 3
+B7E8 : 3
+B7EC : 3
+B804 : 3
+B820 : 3
+B824 : 3
+B828 : 3
+B82C : 3
+B830 : 3
+B834 : 3
+B838 : 3
+B83C : 3
+B840 : 3
+B844 : 3
+B848 : 3
+B84C : 3
+B850 : 3
+B854 : 3
+B858 : 3
+B85C : 3
+B860 : 3
+B864 : 3
+B868 : 3
+B86C : 3
+B870 : 3
+B874 : 3
+B878 : 3
+B87C : 3
+B880 : 3
+B884 : 3
+B888 : 3
+B88C : 3
+B890 : 3
+B894 : 3
+B898 : 3
+B89C : 3
+B8A0 : 3
+B8A4 : 3
+B8A8 : 3
+B8AC : 3
+B8B0 : 3
+B8B4 : 3
+B8B8 : 3
+B8BC : 3
+B8C0 : 3
+B8C4 : 3
+B8C8 : 3
+B8CC : 3
+B8D0 : 3
+B8D4 : 3
+B8D8 : 3
+B8DC : 3
+B8E0 : 3
+B8E4 : 3
+B8E8 : 3
+B8EC : 3
+B8F0 : 3
+B8F4 : 3
+B910 : 3
+B914 : 3
+B918 : 3
+B91C : 3
+B920 : 3
+B924 : 3
+B928 : 3
+B92C : 3
+B930 : 3
+B934 : 3
+B938 : 3
+B93C : 3
+B940 : 3
+B944 : 3
+B948 : 3
+B94C : 3
+B950 : 3
+B954 : 3
+B958 : 3
+B95C : 3
+B960 : 3
+B964 : 3
+B968 : 3
+B96C : 3
+B970 : 3
+B974 : 3
+B978 : 3
+B97C : 3
+B980 : 3
+B984 : 3
+B988 : 3
+B98C : 3
+B990 : 3
+B994 : 3
+B998 : 3
+B99C : 3
+B9A0 : 3
+B9A4 : 3
+B9A8 : 3
+B9AC : 3
+B9B0 : 3
+B9B8 : 3
+B9C8 : 3
+B9D0 : 3
+B9D4 : 3
+B9D8 : 3
+B9DC : 3
+B9E0 : 3
+B9E4 : 3
+B9E8 : 3
+B9EC : 3
+B9F0 : 3
+B9F4 : 3
+B9F8 : 3
+B9FC : 3
+BA00 : 3
+BA04 : 3
+BA08 : 3
+BA0C : 3
+BA10 : 3
+BA14 : 3
+BA18 : 3
+BA1C : 3
+BA20 : 3
+BA24 : 3
+BA28 : 3
+BA2C : 3
+BA30 : 3
+BA34 : 3
+BA38 : 3
+BA3C : 3
+BA40 : 3
+BA44 : 3
+BA48 : 3
+BA4C : 3
+BA50 : 3
+BA54 : 3
+BA60 : 3
+BA6C : 3
+BA70 : 3
+BA78 : 3
+BA90 : 3
+BAA8 : 3
+BAC0 : 3
+BAC4 : 3
+BAC8 : 3
+BADC : 3
+BAEC : 3
+BAF0 : 3
+BAF8 : 3
+BB10 : 3
+BB24 : 3
+BB34 : 3
+BB38 : 3
+BB48 : 3
+BB64 : 3
+BB70 : 3
+BB8C : 3
+BB98 : 3
+BBA0 : 3
+BBBC : 3
+BBD8 : 3
+BBE4 : 3
+BBEC : 3
+BBF8 : 3
+BC14 : 3
+BC20 : 3
+BC3C : 3
+BC48 : 3
+BC64 : 3
+BC70 : 3
+BC8C : 3
+BC94 : 3
+BC9C : 3
+BCA4 : 3
+BCB0 : 3
+BCCC : 3
+BCD4 : 3
+BCDC : 3
+BCE4 : 3
+BCF0 : 3
+BD0C : 3
+BD18 : 3
+BD34 : 3
+BD40 : 3
+BD5C : 3
+BD68 : 3
+BD84 : 3
+BD90 : 3
+BDAC : 3
+BDB4 : 3
+BDBC : 3
+BDC4 : 3
+BDCC : 3
+BDD4 : 3
+BDDC : 3
+BDE4 : 3
+BDEC : 3
+BDF4 : 3
+BE00 : 3
+BE1C : 3
+BE28 : 3
+BE44 : 3
+BE4C : 3
+BE54 : 3
+BE5C : 3
+BE64 : 3
+BE70 : 3
+BE8C : 3
+BE94 : 3
+BE9C : 3
+BEA4 : 3
+BEB0 : 3
+BECC : 3
+BED4 : 3
+BEDC : 3
+BEE8 : 3
+BF04 : 3
+BF0C : 3
+BF14 : 3
+BF1C : 3
+BF24 : 3
+BF2C : 3
+BF38 : 3
+BF54 : 3
+BF60 : 3
+BF7C : 3
+BF84 : 3
+BF8C : 3
+BF94 : 3
+BF9C : 3
+BFA4 : 3
+BFAC : 3
+BFB4 : 3
+BFBC : 3
+BFC4 : 3
+BFCC : 3
+BFD4 : 3
+BFDC : 3
+BFE4 : 3
+BFF0 : 3
+C00C : 3
+C014 : 3
+C020 : 3
+C03C : 3
+C044 : 3
+C04C : 3
+C054 : 3
+C060 : 3
+C07C : 3
+C088 : 3
+C0A4 : 3
+C0AC : 3
+C0B8 : 3
+C0D4 : 3
+C0E0 : 3
+C0FC : 3
+C104 : 3
+C10C : 3
+C114 : 3
+C11C : 3
+C128 : 3
+C144 : 3
+C150 : 3
+C16C : 3
+C174 : 3
+C17C : 3
+C188 : 3
+C1A4 : 3
+C1B0 : 3
+C1CC : 3
+C1D8 : 3
+C1F4 : 3
+C200 : 3
+C21C : 3
+C224 : 3
+C230 : 3
+C24C : 3
+C258 : 3
+C274 : 3
+C280 : 3
+C29C : 3
+C2A4 : 3
+C2AC : 3
+C2B4 : 3
+C2BC : 3
+C2C8 : 3
+C2E4 : 3
+C2F0 : 3
+C30C : 3
+C314 : 3
+C320 : 3
+C33C : 3
+C344 : 3
+C34C : 3
+C354 : 3
+C360 : 3
+C37C : 3
+C388 : 3
+C3A4 : 3
+C3B0 : 3
+C3B8 : 3
+C3CC : 3
+C3F0 : 3
+C3FC : 3
+C404 : 3
+C410 : 3
+C42C : 3
+C438 : 3
+C454 : 3
+C460 : 3
+C47C : 3
+C484 : 3
+C48C : 3
+C494 : 3
+C49C : 3
+C4A4 : 3
+C4AC : 3
+C4B4 : 3
+C4BC : 3
+C4C4 : 3
+C4D0 : 3
+C4EC : 3
+C4F4 : 3
+C4FC : 3
+C504 : 3
+C510 : 3
+C52C : 3
+C534 : 3
+C53C : 3
+C544 : 3
+C54C : 3
+C558 : 3
+C574 : 3
+C57C : 3
+C584 : 3
+C58C : 3
+C598 : 3
+C5B4 : 3
+C5BC : 3
+C5C8 : 3
+C5E4 : 3
+C5EC : 3
+C5F4 : 3
+C5FC : 3
+C604 : 3
+C60C : 3
+C618 : 3
+C634 : 3
+C63C : 3
+C644 : 3
+C64C : 3
+C658 : 3
+C674 : 3
+C67C : 3
+C684 : 3
+C68C : 3
+C694 : 3
+C69C : 3
+C6A8 : 3
+C6C4 : 3
+C6CC : 3
+C6D4 : 3
+C6DC : 3
+C6E4 : 3
+C6EC : 3
+C6F4 : 3
+C6FC : 3
+C704 : 3
+C70C : 3
+C714 : 3
+C71C : 3
+C724 : 3
+C72C : 3
+C734 : 3
+C73C : 3
+C744 : 3
+C74C : 3
+C754 : 3
+C75C : 3
+C764 : 3
+C76C : 3
+C774 : 3
+C77C : 3
+C784 : 3
+C78C : 3
+C794 : 3
+C79C : 3
+C7A4 : 3
+C7AC : 3
+C7B8 : 3
+C7D4 : 3
+C7E0 : 3
+C7FC : 3
+C808 : 3
+C824 : 3
+C830 : 3
+C84C : 3
+C854 : 3
+C85C : 3
+C864 : 3
+C86C : 3
+C874 : 3
+C87C : 3
+C884 : 3
+C88C : 3
+C898 : 3
+C8B4 : 3
+C8BC : 3
+C8C8 : 3
+C8E4 : 3
+C8F0 : 3
+C90C : 3
+C918 : 3
+C934 : 3
+C940 : 3
+C95C : 3
+C968 : 3
+C984 : 3
+C990 : 3
+C9AC : 3
+C9B8 : 3
+C9D4 : 3
+C9DC : 3
+C9E4 : 3
+C9F0 : 3
+CA0C : 3
+CA14 : 3
+CA20 : 3
+CA3C : 3
+CA44 : 3
+CA4C : 3
+CA54 : 3
+CA5C : 3
+CA68 : 3
+CA84 : 3
+CA8C : 3
+CA94 : 3
+CA9C : 3
+CAA8 : 3
+CAC4 : 3
+CACC : 3
+CAD4 : 3
+CADC : 3
+CAE4 : 3
+CAEC : 3
+CAF4 : 3
+CAFC : 3
+CB04 : 3
+CB0C : 3
+CB14 : 3
+CB1C : 3
+CB24 : 3
+CB44 : 3
+CB64 : 3
+CB68 : 3
+CB7C : 3
+CB88 : 3
+CBA4 : 3
+CBB0 : 3
+CBCC : 3
+F004 : 3
+F008 : 3
+F020 : 3
+F2A8 : 3
+F2B8 : 3
+F2C8 : 3
+F2D0 : 3
+F2F0 : 3
+F310 : 3
+F340 : 3
